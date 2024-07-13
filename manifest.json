@@ -1,0 +1,19 @@
+
+{
+    "name": "Aquaria AP Tracker",
+    "game_name": "Aquaria",
+    "package_version": "0.0.1",
+    "package_uid": "aquaria_ap",
+    "author": "palex00 & Magnus' Builder Script",
+    "variants": {
+        "Map Tracker": {
+            "display_name": "Map Tracker",
+            "flags": ["ap"]
+        },
+        "Items Only": {
+            "display_name": "Items Only",
+            "flags": ["ap"]
+        }
+    }
+    // "versions_url": "https://raw.githubusercontent.com/StripesOO7/alttp-ap-poptracker-pack/versions/versions.json"
+}

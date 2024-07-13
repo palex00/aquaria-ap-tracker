@@ -1,0 +1,3159 @@
+[
+                    {
+                        "name": "Aquaria",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+                        "children": [
+                    
+                    {
+                        "name": "openwater_tl",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Open Water top left area, bulb under the rock in the right path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water top left area, bulb under the rock in the left path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water top left area, bulb to the right of the save crystal",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2325,
+                                    "y": 1199,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "openwater_tr",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Open Water top right area, bulb in the small path before Mithalas",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water top right area, bulb in the path from the left entrance",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water top right area, bulb in the clearing close to the bottom exit",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water top right area, bulb in the big clearing close to the save crystal",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water top right area, bulb in the big clearing to the top exit",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water top right area, first urn in the Mithalas exit",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water top right area, second urn in the Mithalas exit",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water top right area, third urn in the Mithalas exit",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1629,
+                                    "y": 1338,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "openwater_tr_turtle",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Open Water top right area, bulb in the turtle room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water top right area, Transturtle",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 357,
+                                    "y": 1350,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "openwater_bl",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Open Water bottom left area, bulb behind the chomper fish",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water bottom left area, bulb inside the lowest fish pass",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1483,
+                                    "y": 125,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "skeleton_path",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Open Water skeleton path, bulb close to the right exit",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Open Water skeleton path, bulb behind the chomper fish",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 920,
+                                    "y": 140,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "skeleton_path_sc",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Open Water skeleton path, King Skull",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 855,
+                                    "y": 1230,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "arnassi",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Arnassi Ruins, bulb in the right part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Arnassi Ruins, bulb in the left part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Arnassi Ruins, bulb in the center part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Arnassi Ruins, Song Plant Spore",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Arnassi Ruins, Arnassi Armor",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 284,
+                                    "y": 1441,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "arnassi_path",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Arnassi Ruins, Arnassi Statue",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Arnassi Ruins, Transturtle",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1744,
+                                    "y": 1007,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "arnassi_crab_boss",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Arnassi Ruins, Crab Armor",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1304,
+                                    "y": 180,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "sun_temple_l",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Sun Temple, bulb in the top left part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sun Temple, bulb in the top right part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sun Temple, bulb at the top of the high dark room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sun Temple, Golden Gear",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1627,
+                                    "y": 387,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "sun_temple_r",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Sun Temple, first bulb of the temple",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sun Temple, bulb on the left part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sun Temple, bulb in the hidden room of the right part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sun Temple, Sun Key",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 331,
+                                    "y": 72,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "sun_temple_boss_path",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Sun Worm path, first path bulb",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sun Worm path, second path bulb",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sun Worm path, first cliff bulb",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sun Worm path, second cliff bulb",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 311,
+                                    "y": 1451,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "sun_temple_boss",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Sun Temple boss area, beating Sun God",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2111,
+                                    "y": 1042,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "verse_cave_r",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Verse Cave, bulb in the skeleton room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Verse Cave, bulb in the path left of the skeleton room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Verse Cave right area, Big Seed",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1208,
+                                    "y": 738,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "verse_cave_l",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Verse Cave, the Naija hint about the shield ability",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Verse Cave left area, bulb in the center part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Verse Cave left area, bulb in the right part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Verse Cave left area, bulb under the rock at the end of the path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2355,
+                                    "y": 845,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "abyss_l",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Abyss left area, bulb in hidden path room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Abyss left area, bulb in the right part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Abyss left area, Glowing Seed",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Abyss left area, Glowing Plant",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 315,
+                                    "y": 1471,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "abyss_lb",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Abyss left area, bulb in the bottom fish pass",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2093,
+                                    "y": 687,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "abyss_r",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Abyss right area, bulb behind the rock in the whale room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Abyss right area, bulb in the middle path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Abyss right area, bulb behind the rock in the middle path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Abyss right area, bulb in the left green room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Abyss right area, Transturtle",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 434,
+                                    "y": 679,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "energy_temple_1",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Energy Temple first area, beating the Energy Statue",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Energy Temple first area, bulb in the bottom room blocked by a rock",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 858,
+                                    "y": 1019,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "energy_temple_2",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Energy Temple second area, bulb under the rock",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1072,
+                                    "y": 334,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "energy_temple_3",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Energy Temple third area, bulb in the bottom path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1349,
+                                    "y": 982,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "energy_temple_boss",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Energy Temple boss area, Fallen God Tooth",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 673,
+                                    "y": 675,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "energy_temple_blaster_room",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Energy Temple blaster room, Blaster Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1010,
+                                    "y": 952,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "energy_temple_altar",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Energy Temple bottom entrance, Krotite Armor",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 50,
+                                    "y": 543,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "energy_temple_idol",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Energy Temple first area, Energy Idol",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 356,
+                                    "y": 542,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "mithalas_city",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Mithalas City, first bulb in the left city part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, second bulb in the left city part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, bulb in the right part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, bulb at the top of the city",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, first bulb in a broken home",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, second bulb in a broken home",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, bulb in the bottom left part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, first bulb in one of the homes",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, second bulb in one of the homes",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, first urn in one of the homes",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, second urn in one of the homes",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, first urn in the city reserve",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, second urn in the city reserve",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, third urn in the city reserve",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1972,
+                                    "y": 759,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "mithalas_city_top_path",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Mithalas City, first bulb at the end of the top path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, second bulb at the end of the top path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, bulb in the top path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, Mithalas Pot",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, urn in the Castle flower tube entrance",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1589,
+                                    "y": 83,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "mithalas_city_fishpass",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Mithalas City, Doll",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City, urn inside a home fish pass",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 875,
+                                    "y": 455,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "cathedral_l",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Mithalas City Castle, bulb in the flesh hole",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City Castle, Blue banner",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City Castle, urn in the bedroom",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City Castle, first urn of the single lamp path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City Castle, second urn of the single lamp path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City Castle, urn in the bottom room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City Castle, first urn on the entrance path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas City Castle, second urn on the entrance path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1481,
+                                    "y": 482,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "cathedral_l_tube",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Mithalas City Castle, beating the Priests",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2489,
+                                    "y": 721,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "cathedral_l_sc",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Mithalas City Castle, Trident Head",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2009,
+                                    "y": 898,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "cathedral_r",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Mithalas Cathedral, third urn in the top right room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, second urn in the top right room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, urn in the flesh room with fleas",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, first urn in the bottom right path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, first urn in the top right room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, second urn in the bottom right path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, urn behind the flesh vein",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, urn in the top left eyes boss room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, first urn in the path behind the flesh vein",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, second urn in the path behind the flesh vein",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, third urn in the path behind the flesh vein",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, fourth urn in the top right room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral, Mithalan Dress",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Mithalas Cathedral right area, urn below the left entrance",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2425,
+                                    "y": 351,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "cathedral_underground",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Cathedral Underground, bulb in the center part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Cathedral Underground, first bulb in the top left part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Cathedral Underground, second bulb in the top left part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Cathedral Underground, third bulb in the top left part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Cathedral Underground, bulb close to the save crystal",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Cathedral Underground, bulb in the bottom right path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 997,
+                                    "y": 801,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "cathedral_boss",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Cathedral boss area, beating Mithalan God",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2243,
+                                    "y": 1182,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "forest_tl",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Kelp Forest top left area, bulb in the bottom left clearing",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest top left area, bulb in the path down from the top left clearing",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest top left area, bulb in the top left clearing",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest top left area, Jelly Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 936,
+                                    "y": 418,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "forest_tl_fp",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Kelp Forest top left area, bulb close to the Verse Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest top left area, Verse Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1670,
+                                    "y": 1498,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "forest_tr",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Kelp Forest top right area, bulb under the rock in the right path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest top right area, bulb at the left of the center clearing",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest top right area, bulb in the left path's big room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest top right area, bulb in the left path's small room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest top right area, bulb at the top of the center clearing",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest top right area, Black Pearl",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 542,
+                                    "y": 1320,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "forest_tr_fp",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Kelp Forest top right area, bulb in the top fish pass",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 680,
+                                    "y": 1010,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "forest_bl",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Kelp Forest bottom left area, bulb close to the spirit crystals",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest bottom left area, Walker baby",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest bottom left area, Transturtle",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1758,
+                                    "y": 1453,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "forest_br",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Kelp Forest bottom right area, Odd Container",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 103,
+                                    "y": 194,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "forest_boss",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Kelp Forest boss area, beating Drunian God",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2439,
+                                    "y": 1133,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "forest_boss_entrance",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Kelp Forest boss room, bulb at the bottom of the area",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1650,
+                                    "y": 1374,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "forest_sprite_cave",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Kelp Forest sprite cave, bulb inside the fish pass",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 953,
+                                    "y": 21,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "forest_sprite_cave_tube",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Kelp Forest sprite cave, bulb in the second room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Kelp Forest sprite cave, Seed Bag",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 556,
+                                    "y": 973,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "forest_fish_cave",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Kelp Forest bottom left area, Fish Cave puzzle",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 371,
+                                    "y": 691,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "home_water",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Home Water, bulb below the grouper fish",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Home Water, bulb in the path below Nautilus Prime",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Home Water, bulb in the little room above the grouper fish",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Home Water, bulb in the end of the left path from the Verse Cave",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Home Water, bulb in the top left path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Home Water, bulb in the bottom left room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Home Water, bulb close to Naija's Home",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Home Water, bulb under the rock in the left path from the Verse Cave",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2137,
+                                    "y": 511,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "home_water_transturtle",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Home Water, Transturtle",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2300,
+                                    "y": 654,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "home_water_nautilus",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Home Water, Nautilus Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 345,
+                                    "y": 913,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "body_l",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Body left area, first bulb in the top face room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Body left area, second bulb in the top face room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Body left area, bulb below the water stream",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Body left area, bulb in the top path to the top face room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Body left area, bulb in the bottom face room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 44,
+                                    "y": 882,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "body_rt",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Body right area, bulb in the top face room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1982,
+                                    "y": 910,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "body_rb",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Body right area, bulb in the top path to the bottom face room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Body right area, bulb in the bottom face room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1759,
+                                    "y": 1251,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "body_c",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Body center area, breaking Li's cage",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Body main area, bulb on the main path blocking tube",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 207,
+                                    "y": 1410,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "body_b",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Body bottom area, bulb in the Jelly Zap room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Body bottom area, bulb in the nautilus room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Body bottom area, Mutant Costume",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 510,
+                                    "y": 1323,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "final_boss_tube",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Final Boss area, first bulb in the turtle room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Final Boss area, second bulb in the turtle room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Final Boss area, third bulb in the turtle room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Final Boss area, Transturtle",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2384,
+                                    "y": 21,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "final_boss",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Final Boss area, bulb in the boss third form room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1868,
+                                    "y": 659,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "song_cave",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Song Cave, Erulian spirit",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Song Cave, bulb in the top left part",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Song Cave, bulb in the big anemone room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Song Cave, bulb in the path to the singing statues",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Song Cave, bulb under the rock in the path to the singing statues",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Song Cave, bulb under the rock close to the song door",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Song Cave, Verse Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Song Cave, Jelly Beacon",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Song Cave, Anemone Seed",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1686,
+                                    "y": 445,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "veil_tl",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Veil top left area, In Li's cave",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Veil top left area, bulb under the rock in the top right path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Veil top left area, bulb hidden behind the blocking rock",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Veil top left area, Transturtle",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1469,
+                                    "y": 205,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "veil_tl_fp",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Veil top left area, bulb inside the fish pass",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2267,
+                                    "y": 717,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "turtle_cave",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Turtle cave, Turtle Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1042,
+                                    "y": 638,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "turtle_cave_bubble",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Turtle cave, bulb in Bubble Cliff",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Turtle cave, Urchin Costume",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1710,
+                                    "y": 311,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "veil_tr_r",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Veil top right area, bulb in the middle of the wall jump cliff",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Veil top right area, Golden Starfish",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1159,
+                                    "y": 394,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "veil_tr_l",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Veil top right area, bulb at the top of the waterfall",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "The Veil top right area, Transturtle",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1833,
+                                    "y": 465,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "veil_bl",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Veil bottom area, bulb in the left path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1651,
+                                    "y": 1244,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "veil_b_sc",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Veil bottom area, bulb in the spirit path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1451,
+                                    "y": 409,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "veil_bl_fp",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Veil bottom area, Verse Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1254,
+                                    "y": 118,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "veil_br",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Veil bottom area, Stone Head",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2038,
+                                    "y": 557,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "ice_cave",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Ice Cave, bulb in the room to the right",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Ice Cave, first bulb in the top exit room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Ice Cave, second bulb in the top exit room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Ice Cave, third bulb in the top exit room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Ice Cave, bulb in the left room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1892,
+                                    "y": 560,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "king_jellyfish_cave",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "King Jellyfish Cave, bulb in the right path from King Jelly",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "King Jellyfish Cave, Jellyfish Costume",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1646,
+                                    "y": 771,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "bubble_cave",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Bubble Cave, bulb in the left cave wall",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Bubble Cave, bulb in the right cave wall (behind the ice crystal)",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1227,
+                                    "y": 1121,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "bubble_cave_boss",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Bubble Cave, Verse Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2221,
+                                    "y": 305,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "naija_home",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Naija's Home, bulb after the energy door",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Naija's Home, bulb under the rock at the right of the main path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1521,
+                                    "y": 589,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "mermog_cave",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Mermog cave, bulb in the left part of the cave",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2210,
+                                    "y": 840,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "mermog_boss",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Mermog cave, Piranha Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2481,
+                                    "y": 603,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "octo_cave_t",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Octopus Cave, Dumbo Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 441,
+                                    "y": 101,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "octo_cave_b",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Octopus Cave, bulb in the path below the Octopus Cave path",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1440,
+                                    "y": 723,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "sunken_city_l",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Sunken City left area, crate in the little pipe room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sunken City left area, crate close to the save crystal",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sunken City left area, crate before the bedroom",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 2355,
+                                    "y": 1351,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "sunken_city_r",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Sunken City right area, crate in the left bottom room",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Sunken City right area, crate close to the save crystal",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 909,
+                                    "y": 144,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "sunken_city_boss",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Sunken City, bulb on top of the boss area",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1100,
+                                    "y": 28,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "sunken_city_l_bedroom",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Sunken City left area, Girl Costume",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 189,
+                                    "y": 198,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "simon",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Simon Says area, beating Simon Says",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            },
+                        
+                            {
+                                "name": "Simon Says area, Transturtle",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 1578,
+                                    "y": 698,
+                                    "size": 6
+                                }
+                            ]
+                            },
+                    {
+                        "name": "whale",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "The Whale, Verse Egg",
+                                "item_count": 1,
+                                "access_rules": [""],
+                                "visibility_rules": [""]
+                            }
+                        
+                            ],
+                            "map_locations": [
+                                {
+                                    "map": "Aquaria",
+                                    "x": 99,
+                                    "y": 1440,
+                                    "size": 6
+                                }
+                            ]
+                            }
+                                ]}
+                                
+                            ]

@@ -1,0 +1,200 @@
+[
+                    {
+                        "name": "Hotsoupx2",
+                        "type": "toggle",
+                        "img": "/images/Items/Hotsoupx2.png",
+                        "codes": "Hotsoupx2"
+                    },
+                    
+                    {
+                        "name": "Hot Soup",
+                        "type": "toggle",
+                        "img": "/images/Items/Hotsoup.png",
+                        "codes": "Hotsoup"
+                    },
+                    
+                    {
+                        "name": "Leafpoultice",
+                        "type": "toggle",
+                        "img": "/images/Items/Leafpoultice.png",
+                        "codes": "Leafpoultice"
+                    },
+                    
+                    {
+                        "name": "Leafpoulticex3",
+                        "type": "toggle",
+                        "img": "/images/Items/Leafpoulticex3.png",
+                        "codes": "Leafpoulticex3"
+                    },
+                    
+                    {
+                        "name": "Bind Song",
+                        "type": "toggle",
+                        "img": "/images/Items/Bindsong.png",
+                        "codes": "Bindsong"
+                    },
+                    
+                    {
+                        "name": "Energy form",
+                        "type": "toggle",
+                        "img": "/images/Items/Energyform.png",
+                        "codes": "Energyform"
+                    },
+                    
+                    {
+                        "name": "LiandLi Song",
+                        "type": "toggle",
+                        "img": "/images/Items/LiandLisong.png",
+                        "codes": "LiandLisong"
+                    },
+                    
+                    {
+                        "name": "Fish form",
+                        "type": "toggle",
+                        "img": "/images/Items/Fishform.png",
+                        "codes": "Fishform"
+                    },
+                    
+                    {
+                        "name": "Spirit form",
+                        "type": "toggle",
+                        "img": "/images/Items/Spiritform.png",
+                        "codes": "Spiritform"
+                    },
+                    
+                    {
+                        "name": "Dual form",
+                        "type": "toggle",
+                        "img": "/images/Items/Dualform.png",
+                        "codes": "Dualform"
+                    },
+                    
+                    {
+                        "name": "Beast form",
+                        "type": "toggle",
+                        "img": "/images/Items/Beastform.png",
+                        "codes": "Beastform"
+                    },
+                    
+                    {
+                        "name": "Sun form",
+                        "type": "toggle",
+                        "img": "/images/Items/Sunform.png",
+                        "codes": "Sunform"
+                    },
+                    
+                    {
+                        "name": "Nature form",
+                        "type": "toggle",
+                        "img": "/images/Items/Natureform.png",
+                        "codes": "Natureform"
+                    },
+                    
+                    {
+                        "name": "Transturtle Veiltopleft",
+                        "type": "toggle",
+                        "img": "/images/Items/TransTurtle.png",
+                        "codes": "TransturtleVeiltopleft"
+                    },
+                    
+                    {
+                        "name": "Transturtle Veiltopright",
+                        "type": "toggle",
+                        "img": "/images/Items/TransTurtle.png",
+                        "codes": "TransturtleVeiltopright"
+                    },
+                    
+                    {
+                        "name": "Transturtle OpenWatertopright",
+                        "type": "toggle",
+                        "img": "/images/Items/TransTurtle.png",
+                        "codes": "TransturtleOpenWatertopright"
+                    },
+                    
+                    {
+                        "name": "Transturtle Forestbottomleft",
+                        "type": "toggle",
+                        "img": "/images/Items/TransTurtle.png",
+                        "codes": "TransturtleForestbottomleft"
+                    },
+                    
+                    {
+                        "name": "Transturtle HomeWater",
+                        "type": "toggle",
+                        "img": "/images/Items/TransTurtle.png",
+                        "codes": "TransturtleHomeWater"
+                    },
+                    
+                    {
+                        "name": "Transturtle Abyssright",
+                        "type": "toggle",
+                        "img": "/images/Items/TransTurtle.png",
+                        "codes": "TransturtleAbyssright"
+                    },
+                    
+                    {
+                        "name": "Transturtle FinalBoss",
+                        "type": "toggle",
+                        "img": "/images/Items/TransTurtle.png",
+                        "codes": "TransturtleFinalBoss"
+                    },
+                    
+                    {
+                        "name": "Transturtle SimonSays",
+                        "type": "toggle",
+                        "img": "/images/Items/TransTurtle.png",
+                        "codes": "TransturtleSimonSays"
+                    },
+                    
+                    {
+                        "name": "Transturtle ArnassiRuins",
+                        "type": "toggle",
+                        "img": "/images/Items/TransTurtle.png",
+                        "codes": "TransturtleArnassiRuins"
+                    },
+                    
+                    {
+                        "name": "Baby Dumbo",
+                        "type": "toggle",
+                        "img": "/images/Items/BabyDumbo.png",
+                        "codes": "BabyDumbo"
+                    },
+                    
+                    {
+                        "name": "Baby Nautilus",
+                        "type": "toggle",
+                        "img": "/images/Items/BabyNautilus.png",
+                        "codes": "BabyNautilus"
+                    },
+                    
+                    {
+                        "name": "Baby Piranha",
+                        "type": "toggle",
+                        "img": "/images/Items/BabyPiranha.png",
+                        "codes": "BabyPiranha"
+                    },
+                    
+                    {
+                        "name": "Baby Blaster",
+                        "type": "toggle",
+                        "img": "/images/Items/BabyBlaster.png",
+                        "codes": "BabyBlaster"
+                    },
+                    
+                    {
+                        "name": "Arnassi Statue",
+                        "type": "toggle",
+                        "img": "/images/Items/ArnassiStatue.png",
+                        "codes": "ArnassiStatue"
+                    },
+                    
+                    {
+                        "name": "Jelly Costume",
+                        "type": "toggle",
+                        "img": "/images/Items/JellyCostume.png",
+                        "codes": "JellyCostume"
+                    },
+                    
+            {
+            }
+        ]
