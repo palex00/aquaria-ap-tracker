@@ -1,11 +1,11 @@
-
-        ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/slot_data.lua")
 
 CUR_INDEX = -1
---SLOT_DATA = nil
-
 SLOT_DATA = {}
+LOCAL_ITEMS = {}
+GLOBAL_ITEMS = {}
 
 function has_value (t, val)
     for i, v in ipairs(t) do
@@ -36,8 +36,35 @@ end
 
 
 function onClear(slot_data)
-    --SLOT_DATA = slot_data
+	
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print("----------------------")
+        print("Contents of slot_data:")
+        for key, value in pairs(slot_data) do
+            print(key, value)
+        end
+        print("----------------------")
+    end
+	
+    SLOT_DATA = slot_data
     CUR_INDEX = -1
+	
+	-- reset settings
+	local reset_codes = {
+		"opt_goal", "opt_turtle", "opt_light", "opt_bindsong",
+		"opt_confined", "opt_excluded", "opt_miniboss", "opt_bigboss"
+	}
+	
+	for _, code in ipairs(reset_codes) do
+		local obj = Tracker:FindObjectForCode(code)
+		if obj then
+			obj.Active = false
+			if code == "opt_endgamecardreq" then
+				obj.AcquiredCount = 0
+			end
+		end
+	end
+
     -- reset locations
     for _, location_array in pairs(LOCATION_MAPPING) do
         for _, location in pairs(location_array) do
@@ -54,54 +81,29 @@ function onClear(slot_data)
         end
     end
     -- reset items
-    for _, item in pairs(ITEM_MAPPING) do
-        for _, item_code in pairs(item[1]) do
-            item_code, item_type = item
---            if item_code and item[2] then
-            local item_obj = Tracker:FindObjectForCode(item_code)
---            if item_obj then
---                if item_type == "toggle" then
---                    item_obj.Active = false
---                elseif item_type == "progressive" then
---                    item_obj.CurrentStage = 0
---                    item_obj.Active = false
---                elseif item_type == "consumable" then
---                    if item_obj.MinCount then
---                        item_obj.AcquiredCount = item_obj.MinCount
---                    else
---                        item_obj.AcquiredCount = 0
---                    end
---                elseif item_type == "progressive_toggle" then
---                    item_obj.CurrentStage = 0
---                    item_obj.Active = false
---                end
---            end
-            if item_obj then
-                if item_obj.Type == "toggle" then
-                    item_obj.Active = false
-                elseif item_obj.Type == "progressive" then
-                    item_obj.CurrentStage = 0
-                    item_obj.Active = false
-                elseif item_obj.Type == "consumable" then
-                    if item_obj.MinCount then
-                        item_obj.AcquiredCount = item_obj.MinCount
-                    else
-                        item_obj.AcquiredCount = 0
-                    end
-                elseif item_obj.Type == "progressive_toggle" then
-                    item_obj.CurrentStage = 0
-                    item_obj.Active = false
+    for _, v in pairs(ITEM_MAPPING) do
+        if v[1] and v[2] then
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            --    print(string.format("onClear: clearing item %s of type %s", v[1], v[2]))
+            end
+            local obj = Tracker:FindObjectForCode(v[1])
+            if obj then
+                if v[2] == "toggle" then
+                    obj.Active = false
+                elseif v[2] == "progressive" then
+                    obj.CurrentStage = 0
+                    obj.Active = false
+                elseif v[2] == "consumable" then
+                    obj.AcquiredCount = 0
+                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                    print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
                 end
+            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("onClear: could not find object for code %s", v[1]))
             end
         end
---        end
     end
-    PLAYER_ID = Archipelago.PlayerNumber or -1
-    TEAM_NUMBER = Archipelago.TeamNumber or 0
-    SLOT_DATA = slot_data
-    -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
-    --     autoFill(slot_data)
-    -- end
+	get_slot_options(slot_data)
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -190,47 +192,69 @@ function onLocation(location_id, location_name)
 end
 
 function onEvent(key, value, old_value)
-    updateEvents(value)
+    updateEvents(key, value)
 end
 
 function onEventsLaunch(key, value)
-    updateEvents(value)
+    updateEvents(key, value)
 end
 
--- function autoFill()
---     if SLOT_DATA == nil  then
---         print("its fucked")
---         return
---     end
---     -- print(dump_table(SLOT_DATA))
+function onBounce(json)
+    local data = json["data"]
+    if data ~= nil then
+            updateMap(data["Area"])
+    end
+end
 
---     mapToggle={[0]=0,[1]=1,[2]=1,[3]=1,[4]=1}
---     mapToggleReverse={[0]=1,[1]=0,[2]=0,[3]=0,[4]=0}
---     mapTripleReverse={[0]=2,[1]=1,[2]=0}
+function updateEvents(key, value)
+    if value ~= nil then
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("updateEvents: Key - %s, Value - %s", key, value))
+        end
+        
+        if value == 0 then
+            Tracker:FindObjectForCode(key).Active = false
+        elseif value == 1 then
+            Tracker:FindObjectForCode(key).Active = true
+        end
+    end
+end
 
---     slotCodes = {
---         map_name = {code="", mapping=mapToggle...}
---     }
---     -- print(dump_table(SLOT_DATA))
---     -- print(Tracker:FindObjectForCode("autofill_settings").Active)
---     if Tracker:FindObjectForCode("autofill_settings").Active == true then
---         for settings_name , settings_value in pairs(SLOT_DATA) do
---             -- print(k, v)
---             if slotCodes[settings_name] then
---                 item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
---                 if item.Type == "toggle" then
---                     item.Active = slotCodes[settings_name].mapping[settings_value]
---                 else 
---                     -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
---                     item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
---                 end
---             end
---         end
---     end
--- end
+function updateMap(area)
+    local areaMap = {
+        cathedralunderground = "Cathedral Underground",
+        energytemple = "Energy Temple",
+        homewater = "Home Water",
+        icecave = "Ice Cave",
+        kelpforest = "Kelp Forest",
+        mithalascathedral = "Mithalas Cathedral",
+        mithalascity = "Mithalas City",
+        mithalascitycastle = "Mithalas City Castle",
+        naijashome = "Naija's Home",
+        openwater = "Open Water",
+        songcave = "Song Cave",
+        suntemple = "Sun Temple",
+        sunkencity = "Sunken City",
+        thebody = "The Body",
+        theveil = "The Veil",
+        versecave = "Verse Cave"
+    }
+
+    local tabname = areaMap[area] or area  -- Convert area if it matches, otherwise keep original
+
+    if has("auto_tab_on") then
+        Tracker:UiHint("ActivateTab", Subareas)
+        Tracker:UiHint("ActivateTab", tabname)
+    end
+end
 
 
--- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
+
+
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", onEvent)
+Archipelago:AddRetrievedHandler("notify launch handler", onEventLaunch)
+Archipelago:AddBouncedHandler("bounce handler", onBounce)

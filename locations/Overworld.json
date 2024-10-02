@@ -1,1121 +1,1462 @@
 [
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/Items/close.png",
+        "chest_opened_img": "/images/Items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
             {
-                "name": "Overworld",
+                "name": "Open Water top left area",
                 "chest_unopened_img": "/images/Items/close.png",
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [" "],
-                "children": [
-                
-                                {
-                                    "name": "Aquaria",
-                                    "chest_unopened_img": "/images/Items/close.png",
-                                    "chest_opened_img": "/images/Items/open.png",
-                                    "overlay_background": "#000000",
-                                    "access_rules": [" "],
-                                    "sections": [
-                                    
-                                        {
-                                            "name": "openwater_tl - Open Water top left area, bulb under the rock in the right path",
-                                            "ref": "openwater_tl/Open Water top left area, bulb under the rock in the right path"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tl - Open Water top left area, bulb under the rock in the left path",
-                                            "ref": "openwater_tl/Open Water top left area, bulb under the rock in the left path"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tl - Open Water top left area, bulb to the right of the save crystal",
-                                            "ref": "openwater_tl/Open Water top left area, bulb to the right of the save crystal"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tr - Open Water top right area, bulb in the small path before Mithalas",
-                                            "ref": "openwater_tr/Open Water top right area, bulb in the small path before Mithalas"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tr - Open Water top right area, bulb in the path from the left entrance",
-                                            "ref": "openwater_tr/Open Water top right area, bulb in the path from the left entrance"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tr - Open Water top right area, bulb in the clearing close to the bottom exit",
-                                            "ref": "openwater_tr/Open Water top right area, bulb in the clearing close to the bottom exit"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tr - Open Water top right area, bulb in the big clearing close to the save crystal",
-                                            "ref": "openwater_tr/Open Water top right area, bulb in the big clearing close to the save crystal"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tr - Open Water top right area, bulb in the big clearing to the top exit",
-                                            "ref": "openwater_tr/Open Water top right area, bulb in the big clearing to the top exit"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tr - Open Water top right area, first urn in the Mithalas exit",
-                                            "ref": "openwater_tr/Open Water top right area, first urn in the Mithalas exit"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tr - Open Water top right area, second urn in the Mithalas exit",
-                                            "ref": "openwater_tr/Open Water top right area, second urn in the Mithalas exit"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tr - Open Water top right area, third urn in the Mithalas exit",
-                                            "ref": "openwater_tr/Open Water top right area, third urn in the Mithalas exit"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tr_turtle - Open Water top right area, bulb in the turtle room",
-                                            "ref": "openwater_tr_turtle/Open Water top right area, bulb in the turtle room"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_tr_turtle - Open Water top right area, Transturtle",
-                                            "ref": "openwater_tr_turtle/Open Water top right area, Transturtle"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_bl - Open Water bottom left area, bulb behind the chomper fish",
-                                            "ref": "openwater_bl/Open Water bottom left area, bulb behind the chomper fish"
-                                        },
-                                    
-                                        {
-                                            "name": "openwater_bl - Open Water bottom left area, bulb inside the lowest fish pass",
-                                            "ref": "openwater_bl/Open Water bottom left area, bulb inside the lowest fish pass"
-                                        },
-                                    
-                                        {
-                                            "name": "skeleton_path - Open Water skeleton path, bulb close to the right exit",
-                                            "ref": "skeleton_path/Open Water skeleton path, bulb close to the right exit"
-                                        },
-                                    
-                                        {
-                                            "name": "skeleton_path - Open Water skeleton path, bulb behind the chomper fish",
-                                            "ref": "skeleton_path/Open Water skeleton path, bulb behind the chomper fish"
-                                        },
-                                    
-                                        {
-                                            "name": "skeleton_path_sc - Open Water skeleton path, King Skull",
-                                            "ref": "skeleton_path_sc/Open Water skeleton path, King Skull"
-                                        },
-                                    
-                                        {
-                                            "name": "arnassi - Arnassi Ruins, bulb in the right part",
-                                            "ref": "arnassi/Arnassi Ruins, bulb in the right part"
-                                        },
-                                    
-                                        {
-                                            "name": "arnassi - Arnassi Ruins, bulb in the left part",
-                                            "ref": "arnassi/Arnassi Ruins, bulb in the left part"
-                                        },
-                                    
-                                        {
-                                            "name": "arnassi - Arnassi Ruins, bulb in the center part",
-                                            "ref": "arnassi/Arnassi Ruins, bulb in the center part"
-                                        },
-                                    
-                                        {
-                                            "name": "arnassi - Arnassi Ruins, Song Plant Spore",
-                                            "ref": "arnassi/Arnassi Ruins, Song Plant Spore"
-                                        },
-                                    
-                                        {
-                                            "name": "arnassi - Arnassi Ruins, Arnassi Armor",
-                                            "ref": "arnassi/Arnassi Ruins, Arnassi Armor"
-                                        },
-                                    
-                                        {
-                                            "name": "arnassi_path - Arnassi Ruins, Arnassi Statue",
-                                            "ref": "arnassi_path/Arnassi Ruins, Arnassi Statue"
-                                        },
-                                    
-                                        {
-                                            "name": "arnassi_path - Arnassi Ruins, Transturtle",
-                                            "ref": "arnassi_path/Arnassi Ruins, Transturtle"
-                                        },
-                                    
-                                        {
-                                            "name": "arnassi_crab_boss - Arnassi Ruins, Crab Armor",
-                                            "ref": "arnassi_crab_boss/Arnassi Ruins, Crab Armor"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_l - Sun Temple, bulb in the top left part",
-                                            "ref": "sun_temple_l/Sun Temple, bulb in the top left part"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_l - Sun Temple, bulb in the top right part",
-                                            "ref": "sun_temple_l/Sun Temple, bulb in the top right part"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_l - Sun Temple, bulb at the top of the high dark room",
-                                            "ref": "sun_temple_l/Sun Temple, bulb at the top of the high dark room"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_l - Sun Temple, Golden Gear",
-                                            "ref": "sun_temple_l/Sun Temple, Golden Gear"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_r - Sun Temple, first bulb of the temple",
-                                            "ref": "sun_temple_r/Sun Temple, first bulb of the temple"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_r - Sun Temple, bulb on the left part",
-                                            "ref": "sun_temple_r/Sun Temple, bulb on the left part"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_r - Sun Temple, bulb in the hidden room of the right part",
-                                            "ref": "sun_temple_r/Sun Temple, bulb in the hidden room of the right part"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_r - Sun Temple, Sun Key",
-                                            "ref": "sun_temple_r/Sun Temple, Sun Key"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_boss_path - Sun Worm path, first path bulb",
-                                            "ref": "sun_temple_boss_path/Sun Worm path, first path bulb"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_boss_path - Sun Worm path, second path bulb",
-                                            "ref": "sun_temple_boss_path/Sun Worm path, second path bulb"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_boss_path - Sun Worm path, first cliff bulb",
-                                            "ref": "sun_temple_boss_path/Sun Worm path, first cliff bulb"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_boss_path - Sun Worm path, second cliff bulb",
-                                            "ref": "sun_temple_boss_path/Sun Worm path, second cliff bulb"
-                                        },
-                                    
-                                        {
-                                            "name": "sun_temple_boss - Sun Temple boss area, beating Sun God",
-                                            "ref": "sun_temple_boss/Sun Temple boss area, beating Sun God"
-                                        },
-                                    
-                                        {
-                                            "name": "verse_cave_r - Verse Cave, bulb in the skeleton room",
-                                            "ref": "verse_cave_r/Verse Cave, bulb in the skeleton room"
-                                        },
-                                    
-                                        {
-                                            "name": "verse_cave_r - Verse Cave, bulb in the path left of the skeleton room",
-                                            "ref": "verse_cave_r/Verse Cave, bulb in the path left of the skeleton room"
-                                        },
-                                    
-                                        {
-                                            "name": "verse_cave_r - Verse Cave right area, Big Seed",
-                                            "ref": "verse_cave_r/Verse Cave right area, Big Seed"
-                                        },
-                                    
-                                        {
-                                            "name": "verse_cave_l - Verse Cave, the Naija hint about the shield ability",
-                                            "ref": "verse_cave_l/Verse Cave, the Naija hint about the shield ability"
-                                        },
-                                    
-                                        {
-                                            "name": "verse_cave_l - Verse Cave left area, bulb in the center part",
-                                            "ref": "verse_cave_l/Verse Cave left area, bulb in the center part"
-                                        },
-                                    
-                                        {
-                                            "name": "verse_cave_l - Verse Cave left area, bulb in the right part",
-                                            "ref": "verse_cave_l/Verse Cave left area, bulb in the right part"
-                                        },
-                                    
-                                        {
-                                            "name": "verse_cave_l - Verse Cave left area, bulb under the rock at the end of the path",
-                                            "ref": "verse_cave_l/Verse Cave left area, bulb under the rock at the end of the path"
-                                        },
-                                    
-                                        {
-                                            "name": "abyss_l - Abyss left area, bulb in hidden path room",
-                                            "ref": "abyss_l/Abyss left area, bulb in hidden path room"
-                                        },
-                                    
-                                        {
-                                            "name": "abyss_l - Abyss left area, bulb in the right part",
-                                            "ref": "abyss_l/Abyss left area, bulb in the right part"
-                                        },
-                                    
-                                        {
-                                            "name": "abyss_l - Abyss left area, Glowing Seed",
-                                            "ref": "abyss_l/Abyss left area, Glowing Seed"
-                                        },
-                                    
-                                        {
-                                            "name": "abyss_l - Abyss left area, Glowing Plant",
-                                            "ref": "abyss_l/Abyss left area, Glowing Plant"
-                                        },
-                                    
-                                        {
-                                            "name": "abyss_lb - Abyss left area, bulb in the bottom fish pass",
-                                            "ref": "abyss_lb/Abyss left area, bulb in the bottom fish pass"
-                                        },
-                                    
-                                        {
-                                            "name": "abyss_r - Abyss right area, bulb behind the rock in the whale room",
-                                            "ref": "abyss_r/Abyss right area, bulb behind the rock in the whale room"
-                                        },
-                                    
-                                        {
-                                            "name": "abyss_r - Abyss right area, bulb in the middle path",
-                                            "ref": "abyss_r/Abyss right area, bulb in the middle path"
-                                        },
-                                    
-                                        {
-                                            "name": "abyss_r - Abyss right area, bulb behind the rock in the middle path",
-                                            "ref": "abyss_r/Abyss right area, bulb behind the rock in the middle path"
-                                        },
-                                    
-                                        {
-                                            "name": "abyss_r - Abyss right area, bulb in the left green room",
-                                            "ref": "abyss_r/Abyss right area, bulb in the left green room"
-                                        },
-                                    
-                                        {
-                                            "name": "abyss_r - Abyss right area, Transturtle",
-                                            "ref": "abyss_r/Abyss right area, Transturtle"
-                                        },
-                                    
-                                        {
-                                            "name": "energy_temple_1 - Energy Temple first area, beating the Energy Statue",
-                                            "ref": "energy_temple_1/Energy Temple first area, beating the Energy Statue"
-                                        },
-                                    
-                                        {
-                                            "name": "energy_temple_1 - Energy Temple first area, bulb in the bottom room blocked by a rock",
-                                            "ref": "energy_temple_1/Energy Temple first area, bulb in the bottom room blocked by a rock"
-                                        },
-                                    
-                                        {
-                                            "name": "energy_temple_2 - Energy Temple second area, bulb under the rock",
-                                            "ref": "energy_temple_2/Energy Temple second area, bulb under the rock"
-                                        },
-                                    
-                                        {
-                                            "name": "energy_temple_3 - Energy Temple third area, bulb in the bottom path",
-                                            "ref": "energy_temple_3/Energy Temple third area, bulb in the bottom path"
-                                        },
-                                    
-                                        {
-                                            "name": "energy_temple_boss - Energy Temple boss area, Fallen God Tooth",
-                                            "ref": "energy_temple_boss/Energy Temple boss area, Fallen God Tooth"
-                                        },
-                                    
-                                        {
-                                            "name": "energy_temple_blaster_room - Energy Temple blaster room, Blaster Egg",
-                                            "ref": "energy_temple_blaster_room/Energy Temple blaster room, Blaster Egg"
-                                        },
-                                    
-                                        {
-                                            "name": "energy_temple_altar - Energy Temple bottom entrance, Krotite Armor",
-                                            "ref": "energy_temple_altar/Energy Temple bottom entrance, Krotite Armor"
-                                        },
-                                    
-                                        {
-                                            "name": "energy_temple_idol - Energy Temple first area, Energy Idol",
-                                            "ref": "energy_temple_idol/Energy Temple first area, Energy Idol"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, first bulb in the left city part",
-                                            "ref": "mithalas_city/Mithalas City, first bulb in the left city part"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, second bulb in the left city part",
-                                            "ref": "mithalas_city/Mithalas City, second bulb in the left city part"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, bulb in the right part",
-                                            "ref": "mithalas_city/Mithalas City, bulb in the right part"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, bulb at the top of the city",
-                                            "ref": "mithalas_city/Mithalas City, bulb at the top of the city"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, first bulb in a broken home",
-                                            "ref": "mithalas_city/Mithalas City, first bulb in a broken home"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, second bulb in a broken home",
-                                            "ref": "mithalas_city/Mithalas City, second bulb in a broken home"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, bulb in the bottom left part",
-                                            "ref": "mithalas_city/Mithalas City, bulb in the bottom left part"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, first bulb in one of the homes",
-                                            "ref": "mithalas_city/Mithalas City, first bulb in one of the homes"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, second bulb in one of the homes",
-                                            "ref": "mithalas_city/Mithalas City, second bulb in one of the homes"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, first urn in one of the homes",
-                                            "ref": "mithalas_city/Mithalas City, first urn in one of the homes"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, second urn in one of the homes",
-                                            "ref": "mithalas_city/Mithalas City, second urn in one of the homes"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, first urn in the city reserve",
-                                            "ref": "mithalas_city/Mithalas City, first urn in the city reserve"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, second urn in the city reserve",
-                                            "ref": "mithalas_city/Mithalas City, second urn in the city reserve"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city - Mithalas City, third urn in the city reserve",
-                                            "ref": "mithalas_city/Mithalas City, third urn in the city reserve"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city_top_path - Mithalas City, first bulb at the end of the top path",
-                                            "ref": "mithalas_city_top_path/Mithalas City, first bulb at the end of the top path"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city_top_path - Mithalas City, second bulb at the end of the top path",
-                                            "ref": "mithalas_city_top_path/Mithalas City, second bulb at the end of the top path"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city_top_path - Mithalas City, bulb in the top path",
-                                            "ref": "mithalas_city_top_path/Mithalas City, bulb in the top path"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city_top_path - Mithalas City, Mithalas Pot",
-                                            "ref": "mithalas_city_top_path/Mithalas City, Mithalas Pot"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city_top_path - Mithalas City, urn in the Castle flower tube entrance",
-                                            "ref": "mithalas_city_top_path/Mithalas City, urn in the Castle flower tube entrance"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city_fishpass - Mithalas City, Doll",
-                                            "ref": "mithalas_city_fishpass/Mithalas City, Doll"
-                                        },
-                                    
-                                        {
-                                            "name": "mithalas_city_fishpass - Mithalas City, urn inside a home fish pass",
-                                            "ref": "mithalas_city_fishpass/Mithalas City, urn inside a home fish pass"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_l - Mithalas City Castle, bulb in the flesh hole",
-                                            "ref": "cathedral_l/Mithalas City Castle, bulb in the flesh hole"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_l - Mithalas City Castle, Blue banner",
-                                            "ref": "cathedral_l/Mithalas City Castle, Blue banner"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_l - Mithalas City Castle, urn in the bedroom",
-                                            "ref": "cathedral_l/Mithalas City Castle, urn in the bedroom"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_l - Mithalas City Castle, first urn of the single lamp path",
-                                            "ref": "cathedral_l/Mithalas City Castle, first urn of the single lamp path"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_l - Mithalas City Castle, second urn of the single lamp path",
-                                            "ref": "cathedral_l/Mithalas City Castle, second urn of the single lamp path"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_l - Mithalas City Castle, urn in the bottom room",
-                                            "ref": "cathedral_l/Mithalas City Castle, urn in the bottom room"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_l - Mithalas City Castle, first urn on the entrance path",
-                                            "ref": "cathedral_l/Mithalas City Castle, first urn on the entrance path"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_l - Mithalas City Castle, second urn on the entrance path",
-                                            "ref": "cathedral_l/Mithalas City Castle, second urn on the entrance path"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_l_tube - Mithalas City Castle, beating the Priests",
-                                            "ref": "cathedral_l_tube/Mithalas City Castle, beating the Priests"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_l_sc - Mithalas City Castle, Trident Head",
-                                            "ref": "cathedral_l_sc/Mithalas City Castle, Trident Head"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, third urn in the top right room",
-                                            "ref": "cathedral_r/Mithalas Cathedral, third urn in the top right room"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, second urn in the top right room",
-                                            "ref": "cathedral_r/Mithalas Cathedral, second urn in the top right room"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, urn in the flesh room with fleas",
-                                            "ref": "cathedral_r/Mithalas Cathedral, urn in the flesh room with fleas"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, first urn in the bottom right path",
-                                            "ref": "cathedral_r/Mithalas Cathedral, first urn in the bottom right path"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, first urn in the top right room",
-                                            "ref": "cathedral_r/Mithalas Cathedral, first urn in the top right room"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, second urn in the bottom right path",
-                                            "ref": "cathedral_r/Mithalas Cathedral, second urn in the bottom right path"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, urn behind the flesh vein",
-                                            "ref": "cathedral_r/Mithalas Cathedral, urn behind the flesh vein"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, urn in the top left eyes boss room",
-                                            "ref": "cathedral_r/Mithalas Cathedral, urn in the top left eyes boss room"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, first urn in the path behind the flesh vein",
-                                            "ref": "cathedral_r/Mithalas Cathedral, first urn in the path behind the flesh vein"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, second urn in the path behind the flesh vein",
-                                            "ref": "cathedral_r/Mithalas Cathedral, second urn in the path behind the flesh vein"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, third urn in the path behind the flesh vein",
-                                            "ref": "cathedral_r/Mithalas Cathedral, third urn in the path behind the flesh vein"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, fourth urn in the top right room",
-                                            "ref": "cathedral_r/Mithalas Cathedral, fourth urn in the top right room"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral, Mithalan Dress",
-                                            "ref": "cathedral_r/Mithalas Cathedral, Mithalan Dress"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_r - Mithalas Cathedral right area, urn below the left entrance",
-                                            "ref": "cathedral_r/Mithalas Cathedral right area, urn below the left entrance"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_underground - Cathedral Underground, bulb in the center part",
-                                            "ref": "cathedral_underground/Cathedral Underground, bulb in the center part"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_underground - Cathedral Underground, first bulb in the top left part",
-                                            "ref": "cathedral_underground/Cathedral Underground, first bulb in the top left part"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_underground - Cathedral Underground, second bulb in the top left part",
-                                            "ref": "cathedral_underground/Cathedral Underground, second bulb in the top left part"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_underground - Cathedral Underground, third bulb in the top left part",
-                                            "ref": "cathedral_underground/Cathedral Underground, third bulb in the top left part"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_underground - Cathedral Underground, bulb close to the save crystal",
-                                            "ref": "cathedral_underground/Cathedral Underground, bulb close to the save crystal"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_underground - Cathedral Underground, bulb in the bottom right path",
-                                            "ref": "cathedral_underground/Cathedral Underground, bulb in the bottom right path"
-                                        },
-                                    
-                                        {
-                                            "name": "cathedral_boss - Cathedral boss area, beating Mithalan God",
-                                            "ref": "cathedral_boss/Cathedral boss area, beating Mithalan God"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tl - Kelp Forest top left area, bulb in the bottom left clearing",
-                                            "ref": "forest_tl/Kelp Forest top left area, bulb in the bottom left clearing"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tl - Kelp Forest top left area, bulb in the path down from the top left clearing",
-                                            "ref": "forest_tl/Kelp Forest top left area, bulb in the path down from the top left clearing"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tl - Kelp Forest top left area, bulb in the top left clearing",
-                                            "ref": "forest_tl/Kelp Forest top left area, bulb in the top left clearing"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tl - Kelp Forest top left area, Jelly Egg",
-                                            "ref": "forest_tl/Kelp Forest top left area, Jelly Egg"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tl_fp - Kelp Forest top left area, bulb close to the Verse Egg",
-                                            "ref": "forest_tl_fp/Kelp Forest top left area, bulb close to the Verse Egg"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tl_fp - Kelp Forest top left area, Verse Egg",
-                                            "ref": "forest_tl_fp/Kelp Forest top left area, Verse Egg"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tr - Kelp Forest top right area, bulb under the rock in the right path",
-                                            "ref": "forest_tr/Kelp Forest top right area, bulb under the rock in the right path"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tr - Kelp Forest top right area, bulb at the left of the center clearing",
-                                            "ref": "forest_tr/Kelp Forest top right area, bulb at the left of the center clearing"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tr - Kelp Forest top right area, bulb in the left path's big room",
-                                            "ref": "forest_tr/Kelp Forest top right area, bulb in the left path's big room"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tr - Kelp Forest top right area, bulb in the left path's small room",
-                                            "ref": "forest_tr/Kelp Forest top right area, bulb in the left path's small room"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tr - Kelp Forest top right area, bulb at the top of the center clearing",
-                                            "ref": "forest_tr/Kelp Forest top right area, bulb at the top of the center clearing"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tr - Kelp Forest top right area, Black Pearl",
-                                            "ref": "forest_tr/Kelp Forest top right area, Black Pearl"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_tr_fp - Kelp Forest top right area, bulb in the top fish pass",
-                                            "ref": "forest_tr_fp/Kelp Forest top right area, bulb in the top fish pass"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_bl - Kelp Forest bottom left area, bulb close to the spirit crystals",
-                                            "ref": "forest_bl/Kelp Forest bottom left area, bulb close to the spirit crystals"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_bl - Kelp Forest bottom left area, Walker baby",
-                                            "ref": "forest_bl/Kelp Forest bottom left area, Walker baby"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_bl - Kelp Forest bottom left area, Transturtle",
-                                            "ref": "forest_bl/Kelp Forest bottom left area, Transturtle"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_br - Kelp Forest bottom right area, Odd Container",
-                                            "ref": "forest_br/Kelp Forest bottom right area, Odd Container"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_boss - Kelp Forest boss area, beating Drunian God",
-                                            "ref": "forest_boss/Kelp Forest boss area, beating Drunian God"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_boss_entrance - Kelp Forest boss room, bulb at the bottom of the area",
-                                            "ref": "forest_boss_entrance/Kelp Forest boss room, bulb at the bottom of the area"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_sprite_cave - Kelp Forest sprite cave, bulb inside the fish pass",
-                                            "ref": "forest_sprite_cave/Kelp Forest sprite cave, bulb inside the fish pass"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_sprite_cave_tube - Kelp Forest sprite cave, bulb in the second room",
-                                            "ref": "forest_sprite_cave_tube/Kelp Forest sprite cave, bulb in the second room"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_sprite_cave_tube - Kelp Forest sprite cave, Seed Bag",
-                                            "ref": "forest_sprite_cave_tube/Kelp Forest sprite cave, Seed Bag"
-                                        },
-                                    
-                                        {
-                                            "name": "forest_fish_cave - Kelp Forest bottom left area, Fish Cave puzzle",
-                                            "ref": "forest_fish_cave/Kelp Forest bottom left area, Fish Cave puzzle"
-                                        },
-                                    
-                                        {
-                                            "name": "home_water - Home Water, bulb below the grouper fish",
-                                            "ref": "home_water/Home Water, bulb below the grouper fish"
-                                        },
-                                    
-                                        {
-                                            "name": "home_water - Home Water, bulb in the path below Nautilus Prime",
-                                            "ref": "home_water/Home Water, bulb in the path below Nautilus Prime"
-                                        },
-                                    
-                                        {
-                                            "name": "home_water - Home Water, bulb in the little room above the grouper fish",
-                                            "ref": "home_water/Home Water, bulb in the little room above the grouper fish"
-                                        },
-                                    
-                                        {
-                                            "name": "home_water - Home Water, bulb in the end of the left path from the Verse Cave",
-                                            "ref": "home_water/Home Water, bulb in the end of the left path from the Verse Cave"
-                                        },
-                                    
-                                        {
-                                            "name": "home_water - Home Water, bulb in the top left path",
-                                            "ref": "home_water/Home Water, bulb in the top left path"
-                                        },
-                                    
-                                        {
-                                            "name": "home_water - Home Water, bulb in the bottom left room",
-                                            "ref": "home_water/Home Water, bulb in the bottom left room"
-                                        },
-                                    
-                                        {
-                                            "name": "home_water - Home Water, bulb close to Naija's Home",
-                                            "ref": "home_water/Home Water, bulb close to Naija's Home"
-                                        },
-                                    
-                                        {
-                                            "name": "home_water - Home Water, bulb under the rock in the left path from the Verse Cave",
-                                            "ref": "home_water/Home Water, bulb under the rock in the left path from the Verse Cave"
-                                        },
-                                    
-                                        {
-                                            "name": "home_water_transturtle - Home Water, Transturtle",
-                                            "ref": "home_water_transturtle/Home Water, Transturtle"
-                                        },
-                                    
-                                        {
-                                            "name": "home_water_nautilus - Home Water, Nautilus Egg",
-                                            "ref": "home_water_nautilus/Home Water, Nautilus Egg"
-                                        },
-                                    
-                                        {
-                                            "name": "body_l - The Body left area, first bulb in the top face room",
-                                            "ref": "body_l/The Body left area, first bulb in the top face room"
-                                        },
-                                    
-                                        {
-                                            "name": "body_l - The Body left area, second bulb in the top face room",
-                                            "ref": "body_l/The Body left area, second bulb in the top face room"
-                                        },
-                                    
-                                        {
-                                            "name": "body_l - The Body left area, bulb below the water stream",
-                                            "ref": "body_l/The Body left area, bulb below the water stream"
-                                        },
-                                    
-                                        {
-                                            "name": "body_l - The Body left area, bulb in the top path to the top face room",
-                                            "ref": "body_l/The Body left area, bulb in the top path to the top face room"
-                                        },
-                                    
-                                        {
-                                            "name": "body_l - The Body left area, bulb in the bottom face room",
-                                            "ref": "body_l/The Body left area, bulb in the bottom face room"
-                                        },
-                                    
-                                        {
-                                            "name": "body_rt - The Body right area, bulb in the top face room",
-                                            "ref": "body_rt/The Body right area, bulb in the top face room"
-                                        },
-                                    
-                                        {
-                                            "name": "body_rb - The Body right area, bulb in the top path to the bottom face room",
-                                            "ref": "body_rb/The Body right area, bulb in the top path to the bottom face room"
-                                        },
-                                    
-                                        {
-                                            "name": "body_rb - The Body right area, bulb in the bottom face room",
-                                            "ref": "body_rb/The Body right area, bulb in the bottom face room"
-                                        },
-                                    
-                                        {
-                                            "name": "body_c - The Body center area, breaking Li's cage",
-                                            "ref": "body_c/The Body center area, breaking Li's cage"
-                                        },
-                                    
-                                        {
-                                            "name": "body_c - The Body main area, bulb on the main path blocking tube",
-                                            "ref": "body_c/The Body main area, bulb on the main path blocking tube"
-                                        },
-                                    
-                                        {
-                                            "name": "body_b - The Body bottom area, bulb in the Jelly Zap room",
-                                            "ref": "body_b/The Body bottom area, bulb in the Jelly Zap room"
-                                        },
-                                    
-                                        {
-                                            "name": "body_b - The Body bottom area, bulb in the nautilus room",
-                                            "ref": "body_b/The Body bottom area, bulb in the nautilus room"
-                                        },
-                                    
-                                        {
-                                            "name": "body_b - The Body bottom area, Mutant Costume",
-                                            "ref": "body_b/The Body bottom area, Mutant Costume"
-                                        },
-                                    
-                                        {
-                                            "name": "final_boss_tube - Final Boss area, first bulb in the turtle room",
-                                            "ref": "final_boss_tube/Final Boss area, first bulb in the turtle room"
-                                        },
-                                    
-                                        {
-                                            "name": "final_boss_tube - Final Boss area, second bulb in the turtle room",
-                                            "ref": "final_boss_tube/Final Boss area, second bulb in the turtle room"
-                                        },
-                                    
-                                        {
-                                            "name": "final_boss_tube - Final Boss area, third bulb in the turtle room",
-                                            "ref": "final_boss_tube/Final Boss area, third bulb in the turtle room"
-                                        },
-                                    
-                                        {
-                                            "name": "final_boss_tube - Final Boss area, Transturtle",
-                                            "ref": "final_boss_tube/Final Boss area, Transturtle"
-                                        },
-                                    
-                                        {
-                                            "name": "final_boss - Final Boss area, bulb in the boss third form room",
-                                            "ref": "final_boss/Final Boss area, bulb in the boss third form room"
-                                        },
-                                    
-                                        {
-                                            "name": "song_cave - Song Cave, Erulian spirit",
-                                            "ref": "song_cave/Song Cave, Erulian spirit"
-                                        },
-                                    
-                                        {
-                                            "name": "song_cave - Song Cave, bulb in the top left part",
-                                            "ref": "song_cave/Song Cave, bulb in the top left part"
-                                        },
-                                    
-                                        {
-                                            "name": "song_cave - Song Cave, bulb in the big anemone room",
-                                            "ref": "song_cave/Song Cave, bulb in the big anemone room"
-                                        },
-                                    
-                                        {
-                                            "name": "song_cave - Song Cave, bulb in the path to the singing statues",
-                                            "ref": "song_cave/Song Cave, bulb in the path to the singing statues"
-                                        },
-                                    
-                                        {
-                                            "name": "song_cave - Song Cave, bulb under the rock in the path to the singing statues",
-                                            "ref": "song_cave/Song Cave, bulb under the rock in the path to the singing statues"
-                                        },
-                                    
-                                        {
-                                            "name": "song_cave - Song Cave, bulb under the rock close to the song door",
-                                            "ref": "song_cave/Song Cave, bulb under the rock close to the song door"
-                                        },
-                                    
-                                        {
-                                            "name": "song_cave - Song Cave, Verse Egg",
-                                            "ref": "song_cave/Song Cave, Verse Egg"
-                                        },
-                                    
-                                        {
-                                            "name": "song_cave - Song Cave, Jelly Beacon",
-                                            "ref": "song_cave/Song Cave, Jelly Beacon"
-                                        },
-                                    
-                                        {
-                                            "name": "song_cave - Song Cave, Anemone Seed",
-                                            "ref": "song_cave/Song Cave, Anemone Seed"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_tl - The Veil top left area, In Li's cave",
-                                            "ref": "veil_tl/The Veil top left area, In Li's cave"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_tl - The Veil top left area, bulb under the rock in the top right path",
-                                            "ref": "veil_tl/The Veil top left area, bulb under the rock in the top right path"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_tl - The Veil top left area, bulb hidden behind the blocking rock",
-                                            "ref": "veil_tl/The Veil top left area, bulb hidden behind the blocking rock"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_tl - The Veil top left area, Transturtle",
-                                            "ref": "veil_tl/The Veil top left area, Transturtle"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_tl_fp - The Veil top left area, bulb inside the fish pass",
-                                            "ref": "veil_tl_fp/The Veil top left area, bulb inside the fish pass"
-                                        },
-                                    
-                                        {
-                                            "name": "turtle_cave - Turtle cave, Turtle Egg",
-                                            "ref": "turtle_cave/Turtle cave, Turtle Egg"
-                                        },
-                                    
-                                        {
-                                            "name": "turtle_cave_bubble - Turtle cave, bulb in Bubble Cliff",
-                                            "ref": "turtle_cave_bubble/Turtle cave, bulb in Bubble Cliff"
-                                        },
-                                    
-                                        {
-                                            "name": "turtle_cave_bubble - Turtle cave, Urchin Costume",
-                                            "ref": "turtle_cave_bubble/Turtle cave, Urchin Costume"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_tr_r - The Veil top right area, bulb in the middle of the wall jump cliff",
-                                            "ref": "veil_tr_r/The Veil top right area, bulb in the middle of the wall jump cliff"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_tr_r - The Veil top right area, Golden Starfish",
-                                            "ref": "veil_tr_r/The Veil top right area, Golden Starfish"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_tr_l - The Veil top right area, bulb at the top of the waterfall",
-                                            "ref": "veil_tr_l/The Veil top right area, bulb at the top of the waterfall"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_tr_l - The Veil top right area, Transturtle",
-                                            "ref": "veil_tr_l/The Veil top right area, Transturtle"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_bl - The Veil bottom area, bulb in the left path",
-                                            "ref": "veil_bl/The Veil bottom area, bulb in the left path"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_b_sc - The Veil bottom area, bulb in the spirit path",
-                                            "ref": "veil_b_sc/The Veil bottom area, bulb in the spirit path"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_bl_fp - The Veil bottom area, Verse Egg",
-                                            "ref": "veil_bl_fp/The Veil bottom area, Verse Egg"
-                                        },
-                                    
-                                        {
-                                            "name": "veil_br - The Veil bottom area, Stone Head",
-                                            "ref": "veil_br/The Veil bottom area, Stone Head"
-                                        },
-                                    
-                                        {
-                                            "name": "ice_cave - Ice Cave, bulb in the room to the right",
-                                            "ref": "ice_cave/Ice Cave, bulb in the room to the right"
-                                        },
-                                    
-                                        {
-                                            "name": "ice_cave - Ice Cave, first bulb in the top exit room",
-                                            "ref": "ice_cave/Ice Cave, first bulb in the top exit room"
-                                        },
-                                    
-                                        {
-                                            "name": "ice_cave - Ice Cave, second bulb in the top exit room",
-                                            "ref": "ice_cave/Ice Cave, second bulb in the top exit room"
-                                        },
-                                    
-                                        {
-                                            "name": "ice_cave - Ice Cave, third bulb in the top exit room",
-                                            "ref": "ice_cave/Ice Cave, third bulb in the top exit room"
-                                        },
-                                    
-                                        {
-                                            "name": "ice_cave - Ice Cave, bulb in the left room",
-                                            "ref": "ice_cave/Ice Cave, bulb in the left room"
-                                        },
-                                    
-                                        {
-                                            "name": "king_jellyfish_cave - King Jellyfish Cave, bulb in the right path from King Jelly",
-                                            "ref": "king_jellyfish_cave/King Jellyfish Cave, bulb in the right path from King Jelly"
-                                        },
-                                    
-                                        {
-                                            "name": "king_jellyfish_cave - King Jellyfish Cave, Jellyfish Costume",
-                                            "ref": "king_jellyfish_cave/King Jellyfish Cave, Jellyfish Costume"
-                                        },
-                                    
-                                        {
-                                            "name": "bubble_cave - Bubble Cave, bulb in the left cave wall",
-                                            "ref": "bubble_cave/Bubble Cave, bulb in the left cave wall"
-                                        },
-                                    
-                                        {
-                                            "name": "bubble_cave - Bubble Cave, bulb in the right cave wall (behind the ice crystal)",
-                                            "ref": "bubble_cave/Bubble Cave, bulb in the right cave wall (behind the ice crystal)"
-                                        },
-                                    
-                                        {
-                                            "name": "bubble_cave_boss - Bubble Cave, Verse Egg",
-                                            "ref": "bubble_cave_boss/Bubble Cave, Verse Egg"
-                                        },
-                                    
-                                        {
-                                            "name": "naija_home - Naija's Home, bulb after the energy door",
-                                            "ref": "naija_home/Naija's Home, bulb after the energy door"
-                                        },
-                                    
-                                        {
-                                            "name": "naija_home - Naija's Home, bulb under the rock at the right of the main path",
-                                            "ref": "naija_home/Naija's Home, bulb under the rock at the right of the main path"
-                                        },
-                                    
-                                        {
-                                            "name": "mermog_cave - Mermog cave, bulb in the left part of the cave",
-                                            "ref": "mermog_cave/Mermog cave, bulb in the left part of the cave"
-                                        },
-                                    
-                                        {
-                                            "name": "mermog_boss - Mermog cave, Piranha Egg",
-                                            "ref": "mermog_boss/Mermog cave, Piranha Egg"
-                                        },
-                                    
-                                        {
-                                            "name": "octo_cave_t - Octopus Cave, Dumbo Egg",
-                                            "ref": "octo_cave_t/Octopus Cave, Dumbo Egg"
-                                        },
-                                    
-                                        {
-                                            "name": "octo_cave_b - Octopus Cave, bulb in the path below the Octopus Cave path",
-                                            "ref": "octo_cave_b/Octopus Cave, bulb in the path below the Octopus Cave path"
-                                        },
-                                    
-                                        {
-                                            "name": "sunken_city_l - Sunken City left area, crate in the little pipe room",
-                                            "ref": "sunken_city_l/Sunken City left area, crate in the little pipe room"
-                                        },
-                                    
-                                        {
-                                            "name": "sunken_city_l - Sunken City left area, crate close to the save crystal",
-                                            "ref": "sunken_city_l/Sunken City left area, crate close to the save crystal"
-                                        },
-                                    
-                                        {
-                                            "name": "sunken_city_l - Sunken City left area, crate before the bedroom",
-                                            "ref": "sunken_city_l/Sunken City left area, crate before the bedroom"
-                                        },
-                                    
-                                        {
-                                            "name": "sunken_city_r - Sunken City right area, crate in the left bottom room",
-                                            "ref": "sunken_city_r/Sunken City right area, crate in the left bottom room"
-                                        },
-                                    
-                                        {
-                                            "name": "sunken_city_r - Sunken City right area, crate close to the save crystal",
-                                            "ref": "sunken_city_r/Sunken City right area, crate close to the save crystal"
-                                        },
-                                    
-                                        {
-                                            "name": "sunken_city_boss - Sunken City, bulb on top of the boss area",
-                                            "ref": "sunken_city_boss/Sunken City, bulb on top of the boss area"
-                                        },
-                                    
-                                        {
-                                            "name": "sunken_city_l_bedroom - Sunken City left area, Girl Costume",
-                                            "ref": "sunken_city_l_bedroom/Sunken City left area, Girl Costume"
-                                        },
-                                    
-                                        {
-                                            "name": "simon - Simon Says area, beating Simon Says",
-                                            "ref": "simon/Simon Says area, beating Simon Says"
-                                        },
-                                    
-                                        {
-                                            "name": "simon - Simon Says area, Transturtle",
-                                            "ref": "simon/Simon Says area, Transturtle"
-                                        },
-                                    
-                                        {
-                                            "name": "whale - The Whale, Verse Egg",
-                                            "ref": "whale/The Whale, Verse Egg"
-                                        },
-                                    
-                                    ],
-                                    "map_locations": [
-                                        {
-                                            "map": "Overworld",
-                                            "x": 1107,
-                                            "y": 1150,
-                                            "size": 6
-                                        }
-                                    ]
-                                    },
-                                    
-                                ]
-                }
+                "sections": [
+                    {
+                        "name": "Open Water top left area, bulb under the rock in the right path",
+                        "ref": "openwater_tl/Open Water top left area, bulb under the rock in the right path"
+                    },
+                    {
+                        "name": "Open Water top left area, bulb under the rock in the left path",
+                        "ref": "openwater_tl/Open Water top left area, bulb under the rock in the left path"
+                    },
+                    {
+                        "name": "Open Water top left area, bulb to the right of the save crystal",
+                        "ref": "openwater_tl/Open Water top left area, bulb to the right of the save crystal"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1716,
+                        "y": 1916
+                    }
+                ]
+			},
+            {
+                "name": "Open Water top right area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+									
+                    {
+                        "name": "Open Water top right area, bulb in the small path before Mithalas",
+                        "ref": "openwater_tr/Open Water top right area, bulb in the small path before Mithalas"
+                    },
+                    {
+                        "name": "Open Water top right area, bulb in the path from the left entrance",
+                        "ref": "openwater_tr/Open Water top right area, bulb in the path from the left entrance"
+                    },
+                    {
+                        "name": "Open Water top right area, bulb in the clearing close to the bottom exit",
+                        "ref": "openwater_tr/Open Water top right area, bulb in the clearing close to the bottom exit"
+                    },
+                    {
+                        "name": "Open Water top right area, bulb in the big clearing close to the save crystal",
+                        "ref": "openwater_tr/Open Water top right area, bulb in the big clearing close to the save crystal"
+                    },
+                    {
+                        "name": "Open Water top right area, bulb in the big clearing to the top exit",
+                        "ref": "openwater_tr/Open Water top right area, bulb in the big clearing to the top exit"
+                    },
+                    {
+                        "name": "Open Water top right area, first urn in the Mithalas exit",
+                        "ref": "openwater_tr/Open Water top right area, first urn in the Mithalas exit"
+                    },
+                    {
+                        "name": "Open Water top right area, second urn in the Mithalas exit",
+                        "ref": "openwater_tr/Open Water top right area, second urn in the Mithalas exit"
+                    },
+                    {
+                        "name": "Open Water top right area, third urn in the Mithalas exit",
+                        "ref": "openwater_tr/Open Water top right area, third urn in the Mithalas exit"
+                    },
+                    {
+                        "name": "Open Water top right area, bulb in the turtle room",
+                        "ref": "openwater_tr_turtle/Open Water top right area, bulb in the turtle room"
+                    },
+                    {
+                        "name": "Open Water top right area, Transturtle",
+                        "ref": "openwater_tr_turtle/Open Water top right area, Transturtle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2280,
+                        "y": 1916
+                    }
+                ]
+			},
+            {
+                "name": "Open Water bottom left area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+
+                    {
+                        "name": "Open Water bottom left area, bulb behind the chomper fish",
+                        "ref": "openwater_bl/Open Water bottom left area, bulb behind the chomper fish"
+                    },
+                    {
+                        "name": "Open Water bottom left area, bulb inside the lowest fish pass",
+                        "ref": "openwater_bl/Open Water bottom left area, bulb inside the lowest fish pass"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1716,
+                        "y": 2389
+                    }
+                ]
+			},
+            {
+                "name": "Skeleton Path",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Open Water skeleton path, bulb close to the right exit",
+                        "ref": "skeleton_path/Open Water skeleton path, bulb close to the right exit"
+                    },
+                    {
+                        "name": "Open Water skeleton path, bulb behind the chomper fish",
+                        "ref": "skeleton_path/Open Water skeleton path, bulb behind the chomper fish"
+                    },
+                    {
+                        "name": "Open Water skeleton path, King Skull",
+                        "ref": "skeleton_path_sc/Open Water skeleton path, King Skull"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1395,
+                        "y": 2388
+                    }
+                ]
+			},
+            {
+                "name": "Arnassi Ruins",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Arnassi Ruins, bulb in the right part",
+                        "ref": "arnassi/Arnassi Ruins, bulb in the right part"
+                    },
+                    {
+                        "name": "Arnassi Ruins, bulb in the left part",
+                        "ref": "arnassi/Arnassi Ruins, bulb in the left part"
+                    },
+                    {
+                        "name": "Arnassi Ruins, bulb in the center part",
+                        "ref": "arnassi/Arnassi Ruins, bulb in the center part"
+                    },
+                    {
+                        "name": "Arnassi Ruins, Song Plant Spore",
+                        "ref": "arnassi/Arnassi Ruins, Song Plant Spore"
+                    },
+                    {
+                        "name": "Arnassi Ruins, Arnassi Armor",
+                        "ref": "arnassi/Arnassi Ruins, Arnassi Armor"
+                    },
+                    {
+                        "name": "Arnassi Ruins, Arnassi Statue",
+                        "ref": "arnassi_path/Arnassi Ruins, Arnassi Statue"
+                    },
+                    {
+                        "name": "Arnassi Ruins, Transturtle",
+                        "ref": "arnassi_path/Arnassi Ruins, Transturtle"
+                    },
+                    {
+                        "name": "Arnassi Ruins, Crab Armor",
+                        "ref": "arnassi_crab_boss/Arnassi Ruins, Crab Armor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2394,
+                        "y": 2372
+                    }
+                ]
+			},
+            {
+                "name": "Sun Temple",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Sun Temple, bulb in the top left part",
+                        "ref": "sun_temple_l/Sun Temple, bulb in the top left part"
+                    },
+                    {
+                        "name": "Sun Temple, bulb in the top right part",
+                        "ref": "sun_temple_l/Sun Temple, bulb in the top right part"
+                    },
+                    {
+                        "name": "Sun Temple, bulb at the top of the high dark room",
+                        "ref": "sun_temple_l/Sun Temple, bulb at the top of the high dark room"
+                    },
+                    {
+                        "name": "Sun Temple, Golden Gear",
+                        "ref": "sun_temple_l/Sun Temple, Golden Gear"
+                    },
+                    {
+                        "name": "Sun Temple, first bulb of the temple",
+                        "ref": "sun_temple_r/Sun Temple, first bulb of the temple"
+                    },
+                    {
+                        "name": "Sun Temple, bulb on the left part",
+                        "ref": "sun_temple_r/Sun Temple, bulb on the left part"
+                    },
+                    {
+                        "name": "Sun Temple, bulb in the hidden room of the right part",
+                        "ref": "sun_temple_r/Sun Temple, bulb in the hidden room of the right part"
+                    },
+                    {
+                        "name": "Sun Temple, Sun Key",
+                        "ref": "sun_temple_r/Sun Temple, Sun Key"
+                    },
+                    {
+                        "name": "Sun Worm path, first path bulb",
+                        "ref": "sun_temple_boss_path/Sun Worm path, first path bulb"
+                    },
+                    {
+                        "name": "Sun Worm path, second path bulb",
+                        "ref": "sun_temple_boss_path/Sun Worm path, second path bulb"
+                    },
+                    {
+                        "name": "Sun Worm path, first cliff bulb",
+                        "ref": "sun_temple_boss_path/Sun Worm path, first cliff bulb"
+                    },
+                    {
+                        "name": "Sun Worm path, second cliff bulb",
+                        "ref": "sun_temple_boss_path/Sun Worm path, second cliff bulb"
+                    },
+                    {
+                        "name": "Sun Temple boss area, beating Sun God",
+                        "ref": "sun_temple_boss/Sun Temple boss area, beating Sun God"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2741,
+                        "y": 1067
+                    }
+                ]
+			},
+            {
+                "name": "Verse Cave",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+
+                    {
+                        "name": "Verse Cave, bulb in the skeleton room",
+                        "ref": "verse_cave_r/Verse Cave, bulb in the skeleton room"
+                    },
+                    {
+                        "name": "Verse Cave, bulb in the path left of the skeleton room",
+                        "ref": "verse_cave_r/Verse Cave, bulb in the path left of the skeleton room"
+                    },
+                    {
+                        "name": "Verse Cave right area, Big Seed",
+                        "ref": "verse_cave_r/Verse Cave right area, Big Seed"
+                    },
+                    {
+                        "name": "Verse Cave, the Naija hint about the shield ability",
+                        "ref": "verse_cave_l/Verse Cave, the Naija hint about the shield ability"
+                    },
+                    {
+                        "name": "Verse Cave left area, bulb in the center part",
+                        "ref": "verse_cave_l/Verse Cave left area, bulb in the center part"
+                    },
+                    {
+                        "name": "Verse Cave left area, bulb in the right part",
+                        "ref": "verse_cave_l/Verse Cave left area, bulb in the right part"
+                    },
+                    {
+                        "name": "Verse Cave left area, bulb under the rock at the end of the path",
+                        "ref": "verse_cave_l/Verse Cave left area, bulb under the rock at the end of the path"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1335,
+                        "y": 1575
+                    }
+                ]
+			},
+            {
+                "name": "Abyss Left Side",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Abyss left area, bulb in hidden path room",
+                        "ref": "abyss_l/Abyss left area, bulb in hidden path room"
+                    },
+                    {
+                        "name": "Abyss left area, bulb in the right part",
+                        "ref": "abyss_l/Abyss left area, bulb in the right part"
+                    },
+                    {
+                        "name": "Abyss left area, Glowing Seed",
+                        "ref": "abyss_l/Abyss left area, Glowing Seed"
+                    },
+                    {
+                        "name": "Abyss left area, Glowing Plant",
+                        "ref": "abyss_l/Abyss left area, Glowing Plant"
+                    },
+                    {
+                        "name": "Abyss left area, bulb in the bottom fish pass",
+                        "ref": "abyss_lb/Abyss left area, bulb in the bottom fish pass"
+                    },
+                    {
+                        "name": "King Jellyfish Cave, bulb in the right path from King Jelly",
+                        "ref": "king_jellyfish_cave/King Jellyfish Cave, bulb in the right path from King Jelly"
+                    },
+                    {
+                        "name": "King Jellyfish Cave, Jellyfish Costume",
+                        "ref": "king_jellyfish_cave/King Jellyfish Cave, Jellyfish Costume"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1727,
+                        "y": 2912
+                    }
+                ]
+			},
+            {
+                "name": "Abyss Right Side",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Abyss right area, bulb behind the rock in the whale room",
+                        "ref": "abyss_r/Abyss right area, bulb behind the rock in the whale room"
+                    },
+                    {
+                        "name": "Abyss right area, bulb in the middle path",
+                        "ref": "abyss_r/Abyss right area, bulb in the middle path"
+                    },
+                    {
+                        "name": "Abyss right area, bulb behind the rock in the middle path",
+                        "ref": "abyss_r/Abyss right area, bulb behind the rock in the middle path"
+                    },
+                    {
+                        "name": "Abyss right area, bulb in the left green room",
+                        "ref": "abyss_r/Abyss right area, bulb in the left green room"
+                    },
+                    {
+                        "name": "Abyss right area, Transturtle",
+                        "ref": "abyss_r/Abyss right area, Transturtle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2284,
+                        "y": 2912
+                    }
+                ]
+			},
+            {
+                "name": "Energy Temple",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Energy Temple first area, beating the Energy Statue",
+                        "ref": "energy_temple_1/Energy Temple first area, beating the Energy Statue"
+                    },
+                    {
+                        "name": "Energy Temple first area, bulb in the bottom room blocked by a rock",
+                        "ref": "energy_temple_1/Energy Temple first area, bulb in the bottom room blocked by a rock"
+                    },
+                    {
+                        "name": "Energy Temple second area, bulb under the rock",
+                        "ref": "energy_temple_2/Energy Temple second area, bulb under the rock"
+                    },
+                    {
+                        "name": "Energy Temple third area, bulb in the bottom path",
+                        "ref": "energy_temple_3/Energy Temple third area, bulb in the bottom path"
+                    },
+                    {
+                        "name": "Energy Temple boss area, Fallen God Tooth",
+                        "ref": "energy_temple_boss/Energy Temple boss area, Fallen God Tooth"
+                    },
+                    {
+                        "name": "Energy Temple blaster room, Blaster Egg",
+                        "ref": "energy_temple_blaster_room/Energy Temple blaster room, Blaster Egg"
+                    },
+                    {
+                        "name": "Energy Temple bottom entrance, Krotite Armor",
+                        "ref": "energy_temple_altar/Energy Temple bottom entrance, Krotite Armor"
+                    },
+                    {
+                        "name": "Energy Temple first area, Energy Idol",
+                        "ref": "energy_temple_idol/Energy Temple first area, Energy Idol"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 506,
+                        "y": 1986
+                    }
+                ]
+			},
+            {
+                "name": "Mithalas City",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Mithalas City, first bulb in the left city part",
+                        "ref": "mithalas_city/Mithalas City, first bulb in the left city part"
+                    },
+                    {
+                        "name": "Mithalas City, second bulb in the left city part",
+                        "ref": "mithalas_city/Mithalas City, second bulb in the left city part"
+                    },
+                    {
+                        "name": "Mithalas City, bulb in the right part",
+                        "ref": "mithalas_city/Mithalas City, bulb in the right part"
+                    },
+                    {
+                        "name": "Mithalas City, bulb at the top of the city",
+                        "ref": "mithalas_city/Mithalas City, bulb at the top of the city"
+                    },
+                    {
+                        "name": "Mithalas City, first bulb in a broken home",
+                        "ref": "mithalas_city/Mithalas City, first bulb in a broken home"
+                    },
+                    {
+                        "name": "Mithalas City, second bulb in a broken home",
+                        "ref": "mithalas_city/Mithalas City, second bulb in a broken home"
+                    },
+                    {
+                        "name": "Mithalas City, bulb in the bottom left part",
+                        "ref": "mithalas_city/Mithalas City, bulb in the bottom left part"
+                    },
+                    {
+                        "name": "Mithalas City, first bulb in one of the homes",
+                        "ref": "mithalas_city/Mithalas City, first bulb in one of the homes"
+                    },
+                    {
+                        "name": "Mithalas City, second bulb in one of the homes",
+                        "ref": "mithalas_city/Mithalas City, second bulb in one of the homes"
+                    },
+                    {
+                        "name": "Mithalas City, first urn in one of the homes",
+                        "ref": "mithalas_city/Mithalas City, first urn in one of the homes"
+                    },
+                    {
+                        "name": "Mithalas City, second urn in one of the homes",
+                        "ref": "mithalas_city/Mithalas City, second urn in one of the homes"
+                    },
+                    {
+                        "name": "Mithalas City, first urn in the city reserve",
+                        "ref": "mithalas_city/Mithalas City, first urn in the city reserve"
+                    },
+                    {
+                        "name": "Mithalas City, second urn in the city reserve",
+                        "ref": "mithalas_city/Mithalas City, second urn in the city reserve"
+                    },
+                    {
+                        "name": "Mithalas City, third urn in the city reserve",
+                        "ref": "mithalas_city/Mithalas City, third urn in the city reserve"
+                    },
+                    {
+                        "name": "Mithalas City, first bulb at the end of the top path",
+                        "ref": "mithalas_city_top_path/Mithalas City, first bulb at the end of the top path"
+                    },
+                    {
+                        "name": "Mithalas City, second bulb at the end of the top path",
+                        "ref": "mithalas_city_top_path/Mithalas City, second bulb at the end of the top path"
+                    },
+                    {
+                        "name": "Mithalas City, bulb in the top path",
+                        "ref": "mithalas_city_top_path/Mithalas City, bulb in the top path"
+                    },
+                    {
+                        "name": "Mithalas City, Mithalas Pot",
+                        "ref": "mithalas_city_top_path/Mithalas City, Mithalas Pot"
+                    },
+                    {
+                        "name": "Mithalas City, urn in the Castle flower tube entrance",
+                        "ref": "mithalas_city_top_path/Mithalas City, urn in the Castle flower tube entrance"
+                    },
+                    {
+                        "name": "Mithalas City, Doll",
+                        "ref": "mithalas_city_fishpass/Mithalas City, Doll"
+                    },
+                    {
+                        "name": "Mithalas City, urn inside a home fish pass",
+                        "ref": "mithalas_city_fishpass/Mithalas City, urn inside a home fish pass"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2755,
+                        "y": 1849
+                    }
+                ]
+			},
+            {
+                "name": "Mithalas Cathedral Left Side",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Mithalas City Castle, bulb in the flesh hole",
+                        "ref": "cathedral_l/Mithalas City Castle, bulb in the flesh hole"
+                    },
+                    {
+                        "name": "Mithalas City Castle, Blue banner",
+                        "ref": "cathedral_l/Mithalas City Castle, Blue banner"
+                    },
+                    {
+                        "name": "Mithalas City Castle, urn in the bedroom",
+                        "ref": "cathedral_l/Mithalas City Castle, urn in the bedroom"
+                    },
+                    {
+                        "name": "Mithalas City Castle, first urn of the single lamp path",
+                        "ref": "cathedral_l/Mithalas City Castle, first urn of the single lamp path"
+                    },
+                    {
+                        "name": "Mithalas City Castle, second urn of the single lamp path",
+                        "ref": "cathedral_l/Mithalas City Castle, second urn of the single lamp path"
+                    },
+                    {
+                        "name": "Mithalas City Castle, urn in the bottom room",
+                        "ref": "cathedral_l/Mithalas City Castle, urn in the bottom room"
+                    },
+                    {
+                        "name": "Mithalas City Castle, first urn on the entrance path",
+                        "ref": "cathedral_l/Mithalas City Castle, first urn on the entrance path"
+                    },
+                    {
+                        "name": "Mithalas City Castle, second urn on the entrance path",
+                        "ref": "cathedral_l/Mithalas City Castle, second urn on the entrance path"
+                    },
+                    {
+                        "name": "Mithalas City Castle, beating the Priests",
+                        "ref": "cathedral_l_tube/Mithalas City Castle, beating the Priests"
+                    },
+                    {
+                        "name": "Mithalas City Castle, Trident Head",
+                        "ref": "cathedral_l_sc/Mithalas City Castle, Trident Head"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 3179,
+                        "y": 1983
+                    }
+                ]
+			},
+            {
+                "name": "Mithalas Cathedral Right Side",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Mithalas Cathedral, third urn in the top right room",
+                        "ref": "cathedral_r/Mithalas Cathedral, third urn in the top right room"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, second urn in the top right room",
+                        "ref": "cathedral_r/Mithalas Cathedral, second urn in the top right room"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, urn in the flesh room with fleas",
+                        "ref": "cathedral_r/Mithalas Cathedral, urn in the flesh room with fleas"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, first urn in the bottom right path",
+                        "ref": "cathedral_r/Mithalas Cathedral, first urn in the bottom right path"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, first urn in the top right room",
+                        "ref": "cathedral_r/Mithalas Cathedral, first urn in the top right room"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, second urn in the bottom right path",
+                        "ref": "cathedral_r/Mithalas Cathedral, second urn in the bottom right path"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, urn behind the flesh vein",
+                        "ref": "cathedral_r/Mithalas Cathedral, urn behind the flesh vein"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, urn in the top left eyes boss room",
+                        "ref": "cathedral_r/Mithalas Cathedral, urn in the top left eyes boss room"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, first urn in the path behind the flesh vein",
+                        "ref": "cathedral_r/Mithalas Cathedral, first urn in the path behind the flesh vein"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, second urn in the path behind the flesh vein",
+                        "ref": "cathedral_r/Mithalas Cathedral, second urn in the path behind the flesh vein"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, third urn in the path behind the flesh vein",
+                        "ref": "cathedral_r/Mithalas Cathedral, third urn in the path behind the flesh vein"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, fourth urn in the top right room",
+                        "ref": "cathedral_r/Mithalas Cathedral, fourth urn in the top right room"
+                    },
+                    {
+                        "name": "Mithalas Cathedral, Mithalan Dress",
+                        "ref": "cathedral_r/Mithalas Cathedral, Mithalan Dress"
+                    },
+                    {
+                        "name": "Mithalas Cathedral right area, urn below the left entrance",
+                        "ref": "cathedral_r/Mithalas Cathedral right area, urn below the left entrance"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 3570,
+                        "y": 1984
+                    }
+                ]
+			},
+            {
+                "name": "Cathedral Underground",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Cathedral Underground, bulb in the center part",
+                        "ref": "cathedral_underground/Cathedral Underground, bulb in the center part"
+                    },
+                    {
+                        "name": "Cathedral Underground, first bulb in the top left part",
+                        "ref": "cathedral_underground/Cathedral Underground, first bulb in the top left part"
+                    },
+                    {
+                        "name": "Cathedral Underground, second bulb in the top left part",
+                        "ref": "cathedral_underground/Cathedral Underground, second bulb in the top left part"
+                    },
+                    {
+                        "name": "Cathedral Underground, third bulb in the top left part",
+                        "ref": "cathedral_underground/Cathedral Underground, third bulb in the top left part"
+                    },
+                    {
+                        "name": "Cathedral Underground, bulb close to the save crystal",
+                        "ref": "cathedral_underground/Cathedral Underground, bulb close to the save crystal"
+                    },
+                    {
+                        "name": "Cathedral Underground, bulb in the bottom right path",
+                        "ref": "cathedral_underground/Cathedral Underground, bulb in the bottom right path"
+                    },
+                    {
+                        "name": "Cathedral boss area, beating Mithalan God",
+                        "ref": "cathedral_boss/Cathedral boss area, beating Mithalan God"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 3652,
+                        "y": 2402
+                    }
+                ]
+			},
+            {
+                "name": "Kelp Forest Top Left Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Kelp Forest top left area, bulb in the bottom left clearing",
+                        "ref": "forest_tl/Kelp Forest top left area, bulb in the bottom left clearing"
+                    },
+                    {
+                        "name": "Kelp Forest top left area, bulb in the path down from the top left clearing",
+                        "ref": "forest_tl/Kelp Forest top left area, bulb in the path down from the top left clearing"
+                    },
+                    {
+                        "name": "Kelp Forest top left area, bulb in the top left clearing",
+                        "ref": "forest_tl/Kelp Forest top left area, bulb in the top left clearing"
+                    },
+                    {
+                        "name": "Kelp Forest top left area, Jelly Egg",
+                        "ref": "forest_tl/Kelp Forest top left area, Jelly Egg"
+                    },
+                    {
+                        "name": "Kelp Forest top left area, bulb close to the Verse Egg",
+                        "ref": "forest_tl_fp/Kelp Forest top left area, bulb close to the Verse Egg"
+                    },
+                    {
+                        "name": "Kelp Forest top left area, Verse Egg",
+                        "ref": "forest_tl_fp/Kelp Forest top left area, Verse Egg"
+                    },
+                    {
+                        "name": "Kelp Forest boss room, bulb at the bottom of the area",
+                        "ref": "forest_boss_entrance/Kelp Forest boss room, bulb at the bottom of the area"
+                    },
+                    {
+                        "name": "Kelp Forest boss area, beating Drunian God",
+                        "ref": "forest_boss/Kelp Forest boss area, beating Drunian God"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1220,
+                        "y": 821
+                    }
+                ]
+			},
+            {
+                "name": "Kelp Forest Top Right Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Kelp Forest top right area, bulb under the rock in the right path",
+                        "ref": "forest_tr/Kelp Forest top right area, bulb under the rock in the right path"
+                    },
+                    {
+                        "name": "Kelp Forest top right area, bulb at the left of the center clearing",
+                        "ref": "forest_tr/Kelp Forest top right area, bulb at the left of the center clearing"
+                    },
+                    {
+                        "name": "Kelp Forest top right area, bulb in the left path's big room",
+                        "ref": "forest_tr/Kelp Forest top right area, bulb in the left path's big room"
+                    },
+                    {
+                        "name": "Kelp Forest top right area, bulb in the left path's small room",
+                        "ref": "forest_tr/Kelp Forest top right area, bulb in the left path's small room"
+                    },
+                    {
+                        "name": "Kelp Forest top right area, bulb at the top of the center clearing",
+                        "ref": "forest_tr/Kelp Forest top right area, bulb at the top of the center clearing"
+                    },
+                    {
+                        "name": "Kelp Forest top right area, Black Pearl",
+                        "ref": "forest_tr/Kelp Forest top right area, Black Pearl"
+                    },
+                    {
+                        "name": "Kelp Forest top right area, bulb in the top fish pass",
+                        "ref": "forest_tr_fp/Kelp Forest top right area, bulb in the top fish pass"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1684,
+                        "y": 832
+                    }
+                ]
+			},
+            {
+                "name": "Sprite Cave",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Kelp Forest sprite cave, bulb inside the fish pass",
+                        "ref": "forest_sprite_cave/Kelp Forest sprite cave, bulb inside the fish pass"
+                    },
+                    {
+                        "name": "Kelp Forest sprite cave, bulb in the second room",
+                        "ref": "forest_sprite_cave_tube/Kelp Forest sprite cave, bulb in the second room"
+                    },
+                    {
+                        "name": "Kelp Forest sprite cave, Seed Bag",
+                        "ref": "forest_sprite_cave_tube/Kelp Forest sprite cave, Seed Bag"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1598,
+                        "y": 518
+                    }
+                ]
+			},
+            {
+                "name": "Kelp Forest Bottom Left Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Kelp Forest bottom left area, bulb close to the spirit crystals",
+                        "ref": "forest_bl/Kelp Forest bottom left area, bulb close to the spirit crystals"
+                    },
+                    {
+                        "name": "Kelp Forest bottom left area, Walker baby",
+                        "ref": "forest_bl/Kelp Forest bottom left area, Walker baby"
+                    },
+                    {
+                        "name": "Kelp Forest bottom left area, Transturtle",
+                        "ref": "forest_bl/Kelp Forest bottom left area, Transturtle"
+                    },
+                    {
+                        "name": "Kelp Forest bottom left area, Fish Cave puzzle",
+                        "ref": "forest_fish_cave/Kelp Forest bottom left area, Fish Cave puzzle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1270,
+                        "y": 1222
+                    }
+                ]
+			},
+            {
+                "name": "Kelp Forest Bottom Right Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Kelp Forest bottom right area, Odd Container",
+                        "ref": "forest_br/Kelp Forest bottom right area, Odd Container"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1724,
+                        "y": 1375
+                    }
+                ]
+			},
+            {
+                "name": "Home Water",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Home Water, bulb below the grouper fish",
+                        "ref": "home_water/Home Water, bulb below the grouper fish"
+                    },
+                    {
+                        "name": "Home Water, bulb in the path below Nautilus Prime",
+                        "ref": "home_water/Home Water, bulb in the path below Nautilus Prime"
+                    },
+                    {
+                        "name": "Home Water, bulb in the little room above the grouper fish",
+                        "ref": "home_water/Home Water, bulb in the little room above the grouper fish"
+                    },
+                    {
+                        "name": "Home Water, bulb in the end of the left path from the Verse Cave",
+                        "ref": "home_water/Home Water, bulb in the end of the left path from the Verse Cave"
+                    },
+                    {
+                        "name": "Home Water, bulb in the top left path",
+                        "ref": "home_water/Home Water, bulb in the top left path"
+                    },
+                    {
+                        "name": "Home Water, bulb in the bottom left room",
+                        "ref": "home_water/Home Water, bulb in the bottom left room"
+                    },
+                    {
+                        "name": "Home Water, bulb close to Naija's Home",
+                        "ref": "home_water/Home Water, bulb close to Naija's Home"
+                    },
+                    {
+                        "name": "Home Water, bulb under the rock in the left path from the Verse Cave",
+                        "ref": "home_water/Home Water, bulb under the rock in the left path from the Verse Cave"
+                    },
+                    {
+                        "name": "Home Water, Transturtle",
+                        "ref": "home_water_transturtle/Home Water, Transturtle"
+                    },
+                    {
+                        "name": "Home Water, Nautilus Egg",
+                        "ref": "home_water_nautilus/Home Water, Nautilus Egg"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 862,
+                        "y": 1896
+                    }
+                ]
+			},
+            {
+                "name": "The Body Left Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "The Body left area, first bulb in the top face room",
+                        "ref": "body_l/The Body left area, first bulb in the top face room"
+                    },
+                    {
+                        "name": "The Body left area, second bulb in the top face room",
+                        "ref": "body_l/The Body left area, second bulb in the top face room"
+                    },
+                    {
+                        "name": "The Body left area, bulb below the water stream",
+                        "ref": "body_l/The Body left area, bulb below the water stream"
+                    },
+                    {
+                        "name": "The Body left area, bulb in the top path to the top face room",
+                        "ref": "body_l/The Body left area, bulb in the top path to the top face room"
+                    },
+                    {
+                        "name": "The Body left area, bulb in the bottom face room",
+                        "ref": "body_l/The Body left area, bulb in the bottom face room"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1386,
+                        "y": 3408
+                    }
+                ]
+			},
+            {
+                "name": "The Body Right Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "The Body right area, bulb in the top face room",
+                        "ref": "body_rt/The Body right area, bulb in the top face room"
+                    },
+                    {
+                        "name": "The Body right area, bulb in the top path to the bottom face room",
+                        "ref": "body_rb/The Body right area, bulb in the top path to the bottom face room"
+                    },
+                    {
+                        "name": "The Body right area, bulb in the bottom face room",
+                        "ref": "body_rb/The Body right area, bulb in the bottom face room"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2349,
+                        "y": 3408
+                    }
+                ]
+			},
+            {
+                "name": "The Body Center Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "The Body center area, breaking Li's cage",
+                        "ref": "body_c/The Body center area, breaking Li's cage"
+                    },
+                    {
+                        "name": "The Body main area, bulb on the main path blocking tube",
+                        "ref": "body_c/The Body main area, bulb on the main path blocking tube"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1866,
+                        "y": 3408
+                    }
+                ]
+			},
+            {
+                "name": "The Body Bottom Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "The Body bottom area, bulb in the Jelly Zap room",
+                        "ref": "body_b/The Body bottom area, bulb in the Jelly Zap room"
+                    },
+                    {
+                        "name": "The Body bottom area, bulb in the nautilus room",
+                        "ref": "body_b/The Body bottom area, bulb in the nautilus room"
+                    },
+                    {
+                        "name": "The Body bottom area, Mutant Costume",
+                        "ref": "body_b/The Body bottom area, Mutant Costume"
+                    },
+                    {
+                        "name": "Final Boss area, first bulb in the turtle room",
+                        "ref": "final_boss_tube/Final Boss area, first bulb in the turtle room"
+                    },
+                    {
+                        "name": "Final Boss area, second bulb in the turtle room",
+                        "ref": "final_boss_tube/Final Boss area, second bulb in the turtle room"
+                    },
+                    {
+                        "name": "Final Boss area, third bulb in the turtle room",
+                        "ref": "final_boss_tube/Final Boss area, third bulb in the turtle room"
+                    },
+                    {
+                        "name": "Final Boss area, Transturtle",
+                        "ref": "final_boss_tube/Final Boss area, Transturtle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1866,
+                        "y": 3915
+                    }
+                ]
+			},
+            {
+                "name": "Song Cave",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Song Cave, Erulian spirit",
+                        "ref": "song_cave/Song Cave, Erulian spirit"
+                    },
+                    {
+                        "name": "Song Cave, bulb in the top left part",
+                        "ref": "song_cave/Song Cave, bulb in the top left part"
+                    },
+                    {
+                        "name": "Song Cave, bulb in the big anemone room",
+                        "ref": "song_cave/Song Cave, bulb in the big anemone room"
+                    },
+                    {
+                        "name": "Song Cave, bulb in the path to the singing statues",
+                        "ref": "song_cave/Song Cave, bulb in the path to the singing statues"
+                    },
+                    {
+                        "name": "Song Cave, bulb under the rock in the path to the singing statues",
+                        "ref": "song_cave/Song Cave, bulb under the rock in the path to the singing statues"
+                    },
+                    {
+                        "name": "Song Cave, bulb under the rock close to the song door",
+                        "ref": "song_cave/Song Cave, bulb under the rock close to the song door"
+                    },
+                    {
+                        "name": "Song Cave, Verse Egg",
+                        "ref": "song_cave/Song Cave, Verse Egg"
+                    },
+                    {
+                        "name": "Song Cave, Jelly Beacon",
+                        "ref": "song_cave/Song Cave, Jelly Beacon"
+                    },
+                    {
+                        "name": "Song Cave, Anemone Seed",
+                        "ref": "song_cave/Song Cave, Anemone Seed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1056,
+                        "y": 2115
+                    }
+                ]
+			},
+            {
+                "name": "The Veil Top Left Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "The Veil top left area, In Li's cave",
+                        "ref": "veil_tl/The Veil top left area, In Li's cave"
+                    },
+                    {
+                        "name": "The Veil top left area, bulb under the rock in the top right path",
+                        "ref": "veil_tl/The Veil top left area, bulb under the rock in the top right path"
+                    },
+                    {
+                        "name": "The Veil top left area, bulb hidden behind the blocking rock",
+                        "ref": "veil_tl/The Veil top left area, bulb hidden behind the blocking rock"
+                    },
+                    {
+                        "name": "The Veil top left area, Transturtle",
+                        "ref": "veil_tl/The Veil top left area, Transturtle"
+                    },
+                    {
+                        "name": "The Veil top left area, bulb inside the fish pass",
+                        "ref": "veil_tl_fp/The Veil top left area, bulb inside the fish pass"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2250,
+                        "y": 431
+                    }
+                ]
+			},
+            {
+                "name": "Turtle Cave",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Turtle cave, Turtle Egg",
+                        "ref": "turtle_cave/Turtle cave, Turtle Egg"
+                    },
+                    {
+                        "name": "Turtle cave, bulb in Bubble Cliff",
+                        "ref": "turtle_cave_bubble/Turtle cave, bulb in Bubble Cliff"
+                    },
+                    {
+                        "name": "Turtle cave, Urchin Costume",
+                        "ref": "turtle_cave_bubble/Turtle cave, Urchin Costume"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1864,
+                        "y": 450
+                    }
+                ]
+			},
+            {
+                "name": "The Veil Top Right Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "The Veil top right area, bulb in the middle of the wall jump cliff",
+                        "ref": "veil_tr_r/The Veil top right area, bulb in the middle of the wall jump cliff"
+                    },
+                    {
+                        "name": "The Veil top right area, Golden Starfish",
+                        "ref": "veil_tr_r/The Veil top right area, Golden Starfish"
+                    },
+                    {
+                        "name": "The Veil top right area, bulb at the top of the waterfall",
+                        "ref": "veil_tr_l/The Veil top right area, bulb at the top of the waterfall"
+                    },
+                    {
+                        "name": "The Veil top right area, Transturtle",
+                        "ref": "veil_tr_l/The Veil top right area, Transturtle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2911,
+                        "y": 429
+                    }
+                ]
+			},
+            {
+                "name": "The Veil Bottom Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "The Veil bottom area, bulb in the left path",
+                        "ref": "veil_bl/The Veil bottom area, bulb in the left path"
+                    },
+                    {
+                        "name": "The Veil bottom area, bulb in the spirit path",
+                        "ref": "veil_b_sc/The Veil bottom area, bulb in the spirit path"
+                    },
+                    {
+                        "name": "The Veil bottom area, Verse Egg",
+                        "ref": "veil_bl_fp/The Veil bottom area, Verse Egg"
+                    },
+                    {
+                        "name": "The Veil bottom area, Stone Head",
+                        "ref": "veil_br/The Veil bottom area, Stone Head"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2206,
+                        "y": 1016
+                    }
+                ]
+			},
+            {
+                "name": "Ice Cave",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Ice Cave, bulb in the room to the right",
+                        "ref": "ice_cave/Ice Cave, bulb in the room to the right"
+                    },
+                    {
+                        "name": "Ice Cave, first bulb in the top exit room",
+                        "ref": "ice_cave/Ice Cave, first bulb in the top exit room"
+                    },
+                    {
+                        "name": "Ice Cave, second bulb in the top exit room",
+                        "ref": "ice_cave/Ice Cave, second bulb in the top exit room"
+                    },
+                    {
+                        "name": "Ice Cave, third bulb in the top exit room",
+                        "ref": "ice_cave/Ice Cave, third bulb in the top exit room"
+                    },
+                    {
+                        "name": "Ice Cave, bulb in the left room",
+                        "ref": "ice_cave/Ice Cave, bulb in the left room"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 3489,
+                        "y": 646
+                    }
+                ]
+			},
+            {
+                "name": "Bubble Cave",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Bubble Cave, bulb in the left cave wall",
+                        "ref": "bubble_cave/Bubble Cave, bulb in the left cave wall"
+                    },
+                    {
+                        "name": "Bubble Cave, bulb in the right cave wall (behind the ice crystal)",
+                        "ref": "bubble_cave/Bubble Cave, bulb in the right cave wall (behind the ice crystal)"
+                    },
+                    {
+                        "name": "bubble_cave_boss - Bubble Cave, Verse Egg",
+                        "ref": "bubble_cave_boss/Bubble Cave, Verse Egg"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 3792,
+                        "y": 320
+                    }
+                ]
+			},
+            {
+                "name": "Naija's Home",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Naija's Home, bulb after the energy door",
+                        "ref": "naija_home/Naija's Home, bulb after the energy door"
+                    },
+                    {
+                        "name": "Naija's Home, bulb under the rock at the right of the main path",
+                        "ref": "naija_home/Naija's Home, bulb under the rock at the right of the main path"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 792,
+                        "y": 2261
+                    }
+                ]
+			},
+            {
+                "name": "Mermog Cave",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Mermog cave, bulb in the left part of the cave",
+                        "ref": "mermog_cave/Mermog cave, bulb in the left part of the cave"
+                    },
+                    {
+                        "name": "Mermog cave, Piranha Egg",
+                        "ref": "mermog_boss/Mermog cave, Piranha Egg"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1957,
+                        "y": 680
+                    }
+                ]
+			},
+            {
+                "name": "Octo Cave",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Octopus Cave, Dumbo Egg",
+                        "ref": "octo_cave_t/Octopus Cave, Dumbo Egg"
+                    },
+                    {
+                        "name": "Octopus Cave, bulb in the path below the Octopus Cave path",
+                        "ref": "octo_cave_b/Octopus Cave, bulb in the path below the Octopus Cave path"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2557,
+                        "y": 585
+                    }
+                ]
+			},
+            {
+                "name": "Sunken City",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Sunken City left area, crate in the little pipe room",
+                        "ref": "sunken_city_l/Sunken City left area, crate in the little pipe room"
+                    },
+                    {
+                        "name": "Sunken City left area, crate close to the save crystal",
+                        "ref": "sunken_city_l/Sunken City left area, crate close to the save crystal"
+                    },
+                    {
+                        "name": "Sunken City left area, crate before the bedroom",
+                        "ref": "sunken_city_l/Sunken City left area, crate before the bedroom"
+                    },
+                    {
+                        "name": "Sunken City right area, crate in the left bottom room",
+                        "ref": "sunken_city_r/Sunken City right area, crate in the left bottom room"
+                    },
+                    {
+                        "name": "Sunken City right area, crate close to the save crystal",
+                        "ref": "sunken_city_r/Sunken City right area, crate close to the save crystal"
+                    },
+                    {
+                        "name": "Sunken City, bulb on top of the boss area",
+                        "ref": "sunken_city_boss/Sunken City, bulb on top of the boss area"
+                    },
+                    {
+                        "name": "Sunken City left area, Girl Costume",
+                        "ref": "sunken_city_l_bedroom/Sunken City left area, Girl Costume"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 981,
+                        "y": 3333
+                    }
+                ]
+			},
+            {
+                "name": "Simon Says Area",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Simon Says area, beating Simon Says",
+                        "ref": "simon/Simon Says area, beating Simon Says"
+                    },
+                    {
+                        "name": "Simon Says area, Transturtle",
+                        "ref": "simon/Simon Says area, Transturtle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 1850,
+                        "y": 1272
+                    }
+                ]
+			},
+            {
+                "name": "The Whale",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "The Whale, Verse Egg",
+                        "ref": "whale/The Whale, Verse Egg"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2127,
+                        "y": 3179
+                    }
+                ]
+            },
+            {
+                "name": "Final Boss",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "name": "Final Boss area, bulb in the boss third form room",
+                        "ref": "final_boss/Final Boss area, bulb in the boss third form room"
+                    },
+                    {
+                        "name": "GOAL",
+                        "ref": "final_boss/GOAL"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aquaria",
+                        "x": 2421,
+                        "y": 4438
+                    }
+                ]
+            }
         ]
+    }
+]
