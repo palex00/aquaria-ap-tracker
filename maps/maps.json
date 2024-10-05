@@ -1,8 +1,8 @@
 [
     {
         "name": "Aquaria",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 100,
+        "location_border_thickness": 3,
         "img": "images/maps/Aquaria.png"
     },
     {

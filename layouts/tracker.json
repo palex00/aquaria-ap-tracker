@@ -1,9 +1,23 @@
 {
-    "settings_popup": {
-        "type": "array",
-        "margin": "5",
-        "content": []
-    },
+  "settings_popup": {
+    "type": "dock",
+    "content": {
+      "type": "array",
+      "orientation": "vertical",
+      "h_alignment": "left",
+      "content": [
+        {
+          "type": "group",
+          "header": "Settings",
+          "dock": "Settings",
+          "content": {
+            "type": "layout",
+            "key": "setting_grid"
+          }
+        }
+      ]
+    }
+  },
     "tracker_default": {
         "type": "container",
         "background": "#00000000",
@@ -18,252 +32,29 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
+                            "header": "Forms",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "shared_item_grid_vertical"
+                                "key": "vertical_forms"
                             }
                         },
                         {
                             "type": "group",
-                            "header": "Settings",
+                            "header": "Transturtles",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "setting_grid"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "array",
-                    "v_alignment": "stretch",
-                    "orientation": "horizontal",
-                    "margin": "0, 0",
-                    "content": [
-                        {
-                            "type": "tabbed",
-                            "dock": "top",
-                            "content": [
-                                {
-                                    "title": "Aquaria",
-                                    "type": "array",
-                                    "content": {
-                                        "type": "map",
-                                        "maps": [
-                                            "Aquaria"
-                                        ]
-                                    }
-                                },
-                                {
-                                    "title": "Subareas",
-                                    "type": "tabbed",
-                                    "tabs": [
-                                        {
-                                            "title": "Abyss",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "abyss"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Arnassi Ruins",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "arnassiruins"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Cathedral Underground",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "cathedralunderground"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Energy Temple",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "energytemple"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Home Water",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "homewater"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Ice Cave",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "icecave"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Kelp Forest",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "kelpforest"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Mithalas Cathedral",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "mithalascathedral"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Mithalas City",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "mithalascity"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Mithalas City Castle",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "mithalascitycastle"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Naija's Home",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "naijashome"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Open Water",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "openwater"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Song Cave",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "songcave"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Sun Temple",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "suntemple"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Sunken City",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "sunkencity"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "The Body",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "thebody"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "The Veil",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "theveil"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Verse Cave",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "versecave"
-                                                ]
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "tracker_horizontal": {
-        "type": "container",
-        "background": "#00000000",
-        "content": {
-            "type": "dock",
-            "dropshadow": true,
-            "content": [
-                {
-                    "type": "dock",
-                    "dock": "bottom",
-                    "content": [
-                        {
-                            "type": "group",
-                            "header": "Items",
-                            "dock": "left",
-                            "margin": "0,0,3,0",
-                            "content": {
-                                "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "shared_item_grid_horizontal"
+                                "key": "vertical_turtles"
                             }
                         },
                         {
                             "type": "group",
-                            "header": "Settings",
-                            "dock": "left",
-                            "margin": "0,0,3,0",
+                            "header": "Misc Items",
+                            "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "setting_grid"
+                                "key": "vertical_misc"
                             }
                         }
                     ]
@@ -463,4 +254,236 @@
             ]
         }
     }
+//	   ,"tracker_horizontal": {
+//        "type": "container",
+//        "background": "#00000000",
+//        "content": {
+//            "type": "dock",
+//            "dropshadow": true,
+//            "content": [
+//                {
+//                    "type": "dock",
+//                    "dock": "bottom",
+//                    "content": [
+//                        {
+//                            "type": "group",
+//                            "header": "Items",
+//                            "dock": "left",
+//                            "margin": "0,0,3,0",
+//                            "content": {
+//                                "type": "layout",
+//                                "h_alignment": "center",
+//                                "v_alignment": "center",
+//                                "key": "shared_item_grid_horizontal"
+//                            }
+//                        },
+//                        {
+//                            "type": "group",
+//                            "header": "Settings",
+//                            "dock": "left",
+//                            "margin": "0,0,3,0",
+//                            "content": {
+//                                "type": "layout",
+//                                "h_alignment": "center",
+//                                "v_alignment": "center",
+//                                "key": "setting_grid"
+//                            }
+//                        }
+//                    ]
+//                },
+//                {
+//                    "type": "array",
+//                    "v_alignment": "stretch",
+//                    "orientation": "horizontal",
+//                    "margin": "0, 0",
+//                    "content": [
+//                        {
+//                            "type": "tabbed",
+//                            "dock": "top",
+//                            "content": [
+//                                {
+//                                    "title": "Aquaria",
+//                                    "type": "array",
+//                                    "content": {
+//                                        "type": "map",
+//                                        "maps": [
+//                                            "Aquaria"
+//                                        ]
+//                                    }
+//                                },
+//                                {
+//                                    "title": "Subareas",
+//                                    "type": "tabbed",
+//                                    "tabs": [
+//                                        {
+//                                            "title": "Abyss",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "abyss"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Arnassi Ruins",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "arnassiruins"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Cathedral Underground",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "cathedralunderground"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Energy Temple",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "energytemple"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Home Water",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "homewater"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Ice Cave",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "icecave"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Kelp Forest",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "kelpforest"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Mithalas Cathedral",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "mithalascathedral"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Mithalas City",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "mithalascity"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Mithalas City Castle",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "mithalascitycastle"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Naija's Home",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "naijashome"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Open Water",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "openwater"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Song Cave",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "songcave"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Sun Temple",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "suntemple"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Sunken City",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "sunkencity"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "The Body",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "thebody"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "The Veil",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "theveil"
+//                                                ]
+//                                            }
+//                                        },
+//                                        {
+//                                            "title": "Verse Cave",
+//                                            "content": {
+//                                                "type": "map",
+//                                                "maps": [
+//                                                    "versecave"
+//                                                ]
+//                                            }
+//                                        }
+//                                    ]
+//                                }
+//                            ]
+//                        }
+//                    ]
+//                }
+//            ]
+//        }
+//    }
 }

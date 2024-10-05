@@ -1,8 +1,6 @@
 ITEM_MAPPING = {
-	[698105] = {"Hotsoupx2", "toggle"},
+	[698105] = {"Hotsoup", "toggle"}, -- Hotsoup x2
 	[698052] = {"Hotsoup", "toggle"},
-	[698055] = {"Leafpoultice", "toggle"},
-	[698107] = {"Leafpoulticex3", "toggle"},
 	[698121] = {"Bindsong", "toggle"},
 	[698120] = {"Energyform", "toggle"},
 	[698115] = {"LiandLisong", "toggle"},
@@ -27,4 +25,5 @@ ITEM_MAPPING = {
 	[698005] = {"BabyBlaster", "toggle"},
 	[698001] = {"ArnassiStatue", "toggle"},
 	[698014] = {"JellyCostume", "toggle"},
+	[698023] = {"ArnassiArmor", "toggle"},
 }

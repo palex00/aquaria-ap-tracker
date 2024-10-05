@@ -1,5 +1,4 @@
-
-        {
+{
     "shared_item_grid_horizontal": {
         "type": "array",
         "orientation": "vertical",
@@ -19,109 +18,171 @@
                         "item_height": 36,
                         "item_width": 36,
                         "rows": [
-[
-"Bindsong",
-"Energyform",
-"Spiritform",
-"Fishform",
-"Natureform"
-]
-,[
-"LiandLisong",
-"Dualform",
-"Beastform",
-"Sunform"
-]
-,[
-"TransturtleVeiltopleft",
-"TransturtleVeiltopright",
-"TransturtleOpenWatertopright",
-"TransturtleForestbottomleft",
-"TransturtleHomeWater"
-]
-,[
-"TransturtleAbyssright",
-"TransturtleFinalBoss",
-"TransturtleSimonSays",
-"TransturtleArnassiRuins"
-]
-,[
-"BabyDumbo",
-"BabyNautilus",
-"BabyPiranha",
-"BabyBlaster"
-]
-,[
-"ArnassiStatue",
-"JellyCostume",
-"Hotsoup",
-]
-]
-}
-]
-}
-]
-},
-            "shared_item_grid_vertical": {
+                            [
+                                "Bindsong",
+                                "Energyform",
+                                "Spiritform"
+                            ],
+                            [
+                                "Fishform",
+                                "Natureform",
+                                "LiandLisong"
+                            ],
+                            [
+                                "Dualform",
+                                "Beastform",
+                                "Sunform"
+                            ],
+                            [
+                                "TransturtleVeiltopleft",
+                                "TransturtleVeiltopright",
+                                "TransturtleOpenWatertopright"
+                            ],
+                            [
+                                "TransturtleForestbottomleft",
+                                "TransturtleHomeWater",
+                                "TransturtleAbyssright"
+                            ],
+                            [
+                                "TransturtleFinalBoss",
+                                "TransturtleSimonSays",
+                                "TransturtleArnassiRuins"
+                            ],
+                            [
+                                "BabyDumbo",
+                                "BabyNautilus",
+                                "BabyPiranha",
+                                "BabyBlaster"
+                            ],
+                            [
+                                "ArnassiStatue",
+                                "JellyCostume",
+                                "Hotsoup",
+                                "ArnassiArmor"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "vertical_forms": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
                 "type": "array",
                 "orientation": "vertical",
                 "margin": "0,0",
                 "content": [
                     {
-                        "type": "array",
-                        "orientation": "vertical",
-                        "margin": "0,0",
-                        "content": [
-                            {
-                                "type": "itemgrid",
-                                "item_margin": "2, 2",
-                                "h_alignment": "left",
-                                "item_h_alignment": "center",
-                                "item_v_alignment": "center",
-                                "item_height": 36,
-                                "item_width": 36,
-                                "rows": [
-[
-"Bindsong",
-"Energyform",
-"Spiritform",
-"Fishform",
-"Natureform"
-]
-,[
-"LiandLisong",
-"Dualform",
-"Beastform",
-"Sunform"
-]
-,[
-"TransturtleVeiltopleft",
-"TransturtleVeiltopright",
-"TransturtleOpenWatertopright",
-"TransturtleForestbottomleft",
-"TransturtleHomeWater"
-]
-,[
-"TransturtleAbyssright",
-"TransturtleFinalBoss",
-"TransturtleSimonSays",
-"TransturtleArnassiRuins"
-]
-,[
-"BabyDumbo",
-"BabyNautilus",
-"BabyPiranha",
-"BabyBlaster"
-]
-,[
-"ArnassiStatue",
-"JellyCostume",
-"Hotsoup",
-]
-]
-}
-]
-}
-]
-}
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 50,
+                        "item_width": 50,
+                        "rows": [
+                            [
+                                "Bindsong",
+                                "Energyform",
+                                "Spiritform"
+                            ],
+                            [
+                                "Fishform",
+                                "Natureform",
+                                "LiandLisong"
+                            ],
+                            [
+                                "Dualform",
+                                "Beastform",
+                                "Sunform"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "vertical_turtles": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 50,
+                        "item_width": 50,
+                        "rows": [
+                            [
+                                "TransturtleVeiltopleft",
+                                "TransturtleVeiltopright",
+                                "TransturtleOpenWatertopright"
+                            ],
+                            [
+                                "TransturtleForestbottomleft",
+                                "TransturtleHomeWater",
+                                "TransturtleAbyssright"
+                            ],
+                            [
+                                "TransturtleFinalBoss",
+                                "TransturtleSimonSays",
+                                "TransturtleArnassiRuins"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "vertical_misc": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 50,
+                        "item_width": 50,
+                        "rows": [
+                            [
+                                "BabyNautilus",
+                                "BabyPiranha",
+                                "BabyBlaster"
+                            ],
+                            [
+                                "JellyCostume",
+                                "BabyDumbo",
+                                "ArnassiArmor"
+                            ],
+                            [
+								"",
+                                "Hotsoup"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 }
