@@ -25,6 +25,7 @@ Tracker:AddLayouts("layouts/settings.json")
 -- Locations
 Tracker:AddLocations("locations/Aquaria.json")
 Tracker:AddLocations("locations/Overworld.json")
+Tracker:AddLocations("locations/Submaps.json")
 
 -- AutoTracking for Poptracker
 ScriptHost:LoadScript("scripts/autotracking.lua")

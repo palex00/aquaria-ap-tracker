@@ -1,72 +1,5 @@
 {
-    "shared_item_grid_horizontal": {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0,0",
-        "content": [
-            {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "2, 2",
-                        "h_alignment": "left",
-                        "item_h_alignment": "center",
-                        "item_v_alignment": "center",
-                        "item_height": 36,
-                        "item_width": 36,
-                        "rows": [
-                            [
-                                "Bindsong",
-                                "Energyform",
-                                "Spiritform"
-                            ],
-                            [
-                                "Fishform",
-                                "Natureform",
-                                "LiandLisong"
-                            ],
-                            [
-                                "Dualform",
-                                "Beastform",
-                                "Sunform"
-                            ],
-                            [
-                                "TransturtleVeiltopleft",
-                                "TransturtleVeiltopright",
-                                "TransturtleOpenWatertopright"
-                            ],
-                            [
-                                "TransturtleForestbottomleft",
-                                "TransturtleHomeWater",
-                                "TransturtleAbyssright"
-                            ],
-                            [
-                                "TransturtleFinalBoss",
-                                "TransturtleSimonSays",
-                                "TransturtleArnassiRuins"
-                            ],
-                            [
-                                "BabyDumbo",
-                                "BabyNautilus",
-                                "BabyPiranha",
-                                "BabyBlaster"
-                            ],
-                            [
-                                "ArnassiStatue",
-                                "JellyCostume",
-                                "Hotsoup",
-                                "ArnassiArmor"
-                            ]
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    "vertical_forms": {
+    "forms": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -106,7 +39,7 @@
             }
         ]
     },
-    "vertical_turtles": {
+    "turtles": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -146,7 +79,7 @@
             }
         ]
     },
-    "vertical_misc": {
+    "misc": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -176,7 +109,7 @@
                                 "ArnassiArmor"
                             ],
                             [
-								"",
+                                "",
                                 "Hotsoup"
                             ]
                         ]
