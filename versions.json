@@ -2,6 +2,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.8.1",
+			"download_url": "",
+			"sha256": "",
+			"changelog": ["Second Initial Release"]
+		},
+		{
 			"package_version": "0.8.0",
 			"download_url": "",
 			"sha256": "",
