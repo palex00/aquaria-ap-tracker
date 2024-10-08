@@ -34,7 +34,7 @@ function bindbulb()
 		return AccessibilityLevel.Normal
 	elseif Tracker:FindObjectForCode("opt_bindsong").CurrentStage == 1 and has("Bindsong") then
 		return AccessibilityLevel.Normal
-	elseif Tracker:FindObjectForCode("opt_bindsong").CurrentStage == 1 then
+	elseif Tracker:FindObjectForCode("opt_bindsong").CurrentStage == 1 and Tracker:FindObjectForCode("opt_logic").CurrentStage == 0 then
 		return AccessibilityLevel.SequenceBreak
 	else
 		return AccessibilityLevel.None
@@ -77,7 +77,7 @@ function optlight()
 		return AccessibilityLevel.Normal
 	elseif Tracker:FindObjectForCode("opt_light").CurrentStage == 1 and (has("Sunform") or has("BabyDumbo")) then
 		return AccessibilityLevel.Normal
-	elseif Tracker:FindObjectForCode("opt_light").CurrentStage == 1 then
+	elseif Tracker:FindObjectForCode("opt_light").CurrentStage == 1 and Tracker:FindObjectForCode("opt_logic").CurrentStage == 0 then
 		return AccessibilityLevel.SequenceBreak
 	else
 		return AccessibilityLevel.None

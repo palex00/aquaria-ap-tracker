@@ -1,15 +1,185 @@
 {
-    "tabbed_maps_horizontal": {
+    "tabs": {
         "type": "tabbed",
-        "tabs": [
+        "dock": "top",
+        "content": [
             {
                 "title": "Aquaria",
+                "type": "array",
                 "content": {
                     "type": "map",
                     "maps": [
                         "Aquaria"
                     ]
                 }
+            },
+            {
+                "title": "Subareas",
+                "type": "tabbed",
+                "tabs": [
+                    {
+                        "title": "Abyss",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "abyss"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Arnassi Ruins",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "arnassiruins"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Cathedral Underground",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "cathedralunderground"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Energy Temple",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "energytemple"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Home Water",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "homewater"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Ice Cave",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "icecave"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Kelp Forest",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "kelpforest"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Mithalas Cathedral",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "mithalascathedral"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Mithalas City",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "mithalascity"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Mithalas City Castle",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "mithalascitycastle"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Naija's Home",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "naijashome"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Open Water",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "openwater"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Song Cave",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "songcave"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Sun Temple",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "suntemple"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Sunken City",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "sunkencity"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "The Body",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "thebody"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "The Veil",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "theveil"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Verse Cave",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "versecave"
+                            ]
+                        }
+                    }
+                ]
             }
         ]
     }

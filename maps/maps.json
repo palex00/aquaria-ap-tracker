@@ -7,110 +7,110 @@
     },
     {
         "name": "abyss",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/abyss.png"
     },
     {
         "name": "arnassiruins",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/arnassiruins.png"
     },
     {
         "name": "cathedralunderground",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/cathedralunderground.png"
     },
     {
         "name": "energytemple",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/energytemple.png"
     },
     {
         "name": "homewater",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/homewater.png"
     },
     {
         "name": "icecave",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/icecave.png"
     },
     {
         "name": "kelpforest",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/kelpforest.png"
     },
     {
         "name": "mithalascathedral",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/mithalascathedral.png"
     },
     {
         "name": "mithalascity",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/mithalascity.png"
     },
     {
         "name": "mithalascitycastle",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/mithalascitycastle.png"
     },
     {
         "name": "naijashome",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/naijashome.png"
     },
     {
         "name": "openwater",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/openwater.png"
     },
     {
         "name": "songcave",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 20,
+        "location_border_thickness": 2,
         "img": "images/maps/songcave.png"
     },
     {
         "name": "suntemple",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/suntemple.png"
     },
     {
         "name": "sunkencity",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/sunkencity.png"
     },
     {
         "name": "thebody",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/thebody.png"
     },
     {
         "name": "theveil",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/theveil.png"
     },
     {
         "name": "versecave",
-        "location_size": 6,
-        "location_border_thickness": 1,
+        "location_size": 30,
+        "location_border_thickness": 2,
         "img": "images/maps/versecave.png"
     }
 ]
