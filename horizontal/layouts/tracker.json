@@ -49,11 +49,20 @@
                         },
                         {
                             "type": "group",
-                            "header": "Misc Items",
+                            "header": "Misc Progression",
                             "dock": "left",
                             "content": {
                                 "type": "layout",
                                 "key": "misc"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Useful Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "useful"
                             }
                         }
                     ]

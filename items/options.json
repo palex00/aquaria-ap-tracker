@@ -177,5 +177,24 @@
         "overlay_align": "center",
         "overlay_font_size": 28,
         "codes": "opt_bigboss"
+    },
+    {
+        "name": "Strict logic",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Show out of logic locations",
+                "img": "images/settings/opt_logic_ool.png",
+                "codes": "opt_logic, opt_logic_ool"
+            },
+            {
+                "name": "Show only strictly what is in logic",
+                "img": "images/settings/opt_logic_strict.png",
+                "codes": "opt_logic, opt_logic_strict",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

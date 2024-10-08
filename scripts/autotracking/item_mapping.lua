@@ -26,4 +26,6 @@ ITEM_MAPPING = {
 	[698001] = {"ArnassiStatue", "toggle"},
 	[698014] = {"JellyCostume", "toggle"},
 	[698023] = {"ArnassiArmor", "toggle"},
+	[698006] = {"CrabArmor", "toggle"},
+	[698099] = {"Wok", "toggle"},
 }
