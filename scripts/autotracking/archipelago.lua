@@ -188,7 +188,6 @@ function onLocation(location_id, location_name)
             print(string.format("onLocation: could not find location_object for code %s", location))
         end
     end
-    canFinish()
 end
 
 function onEvent(key, value, old_value)
@@ -200,6 +199,7 @@ function onEventsLaunch(key, value)
 end
 
 function onBounce(json)
+	print(json)
     local data = json["data"]
     if data ~= nil then
             updateMap(data["Area"])
