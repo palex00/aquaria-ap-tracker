@@ -79,7 +79,7 @@
                         "name": "Open Water top right area, bulb in the small path before Mithalas",
                         "item_count": 1,
                         "access_rules": [
-                            ""
+                            "$bind"
                         ],
                         "visibility_rules": [
                             ""
