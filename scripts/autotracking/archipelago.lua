@@ -202,7 +202,7 @@ function onBounce(json)
 	print(json)
     local data = json["data"]
     if data ~= nil then
-            updateMap(data["Area"])
+            updateMap(data["area"])
     end
 end
 
@@ -242,10 +242,10 @@ function updateMap(area)
 
     local tabname = areaMap[area] or area  -- Convert area if it matches, otherwise keep original
 
-    if has("auto_tab_on") then
-        Tracker:UiHint("ActivateTab", Subareas)
+--    if has("auto_tab_on") then
+        Tracker:UiHint("ActivateTab", "Subareas")
         Tracker:UiHint("ActivateTab", tabname)
-    end
+--    end
 end
 
 
