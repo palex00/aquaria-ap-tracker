@@ -196,5 +196,27 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Auto Tabbing",
+        "type": "progressive",
+        "loop": true,
+		"codes": "auto_tab",
+		"initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Auto Tab - Off",
+                "img": "images/settings/auto_tab_on.png",
+                "img_mods": "@disabled",
+                "codes": "auto_tab_off"
+            },
+            {
+                "name": "Auto Tab - On",
+                "img": "images/settings/auto_tab_on.png",
+                "codes": "auto_tab_on",
+                "inherit_codes": false
+            }
+        ]
     }
 ]
