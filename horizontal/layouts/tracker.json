@@ -64,6 +64,15 @@
                                 "type": "layout",
                                 "key": "useful"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Tracker Settings",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "quicksettings"
+                            }
                         }
                     ]
                 },

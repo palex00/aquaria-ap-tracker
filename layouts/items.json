@@ -154,5 +154,36 @@
                 ]
             }
         ]
+    },
+    "quicksettings": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 50,
+                        "item_width": 50,
+                        "rows": [
+                            [
+								"auto_tab",
+								"opt_logic",
+								"opt_excludedvisibility"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }
