@@ -18,38 +18,11 @@
                 "type": "tabbed",
                 "tabs": [
                     {
-                        "title": "Abyss",
+                        "title": "Verse Cave",
                         "content": {
                             "type": "map",
                             "maps": [
-                                "abyss"
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Arnassi Ruins",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "arnassiruins"
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Cathedral Underground",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "cathedralunderground"
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Energy Temple",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "energytemple"
+                                "versecave"
                             ]
                         }
                     },
@@ -63,29 +36,38 @@
                         }
                     },
                     {
-                        "title": "Ice Cave",
+                        "title": "Naija's Home",
                         "content": {
                             "type": "map",
                             "maps": [
-                                "icecave"
+                                "naijashome"
                             ]
                         }
                     },
                     {
-                        "title": "Kelp Forest",
+                        "title": "Song Cave",
                         "content": {
                             "type": "map",
                             "maps": [
-                                "kelpforest"
+                                "songcave"
                             ]
                         }
                     },
                     {
-                        "title": "Mithalas Cathedral",
+                        "title": "Energy Temple",
                         "content": {
                             "type": "map",
                             "maps": [
-                                "mithalascathedral"
+                                "energytemple"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Open Water",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "openwater"
                             ]
                         }
                     },
@@ -108,29 +90,38 @@
                         }
                     },
                     {
-                        "title": "Naija's Home",
+                        "title": "Mithalas Cathedral",
                         "content": {
                             "type": "map",
                             "maps": [
-                                "naijashome"
+                                "mithalascathedral"
                             ]
                         }
                     },
                     {
-                        "title": "Open Water",
+                        "title": "Cathedral Underground",
                         "content": {
                             "type": "map",
                             "maps": [
-                                "openwater"
+                                "cathedralunderground"
                             ]
                         }
                     },
                     {
-                        "title": "Song Cave",
+                        "title": "Kelp Forest",
                         "content": {
                             "type": "map",
                             "maps": [
-                                "songcave"
+                                "kelpforest"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "The Veil",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "theveil"
                             ]
                         }
                     },
@@ -140,6 +131,33 @@
                             "type": "map",
                             "maps": [
                                 "suntemple"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Arnassi Ruins",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "arnassiruins"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Abyss",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "abyss"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Ice Cave",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "icecave"
                             ]
                         }
                     },
@@ -158,24 +176,6 @@
                             "type": "map",
                             "maps": [
                                 "thebody"
-                            ]
-                        }
-                    },
-                    {
-                        "title": "The Veil",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "theveil"
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Verse Cave",
-                        "content": {
-                            "type": "map",
-                            "maps": [
-                                "versecave"
                             ]
                         }
                     }

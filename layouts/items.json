@@ -19,19 +19,19 @@
                         "item_width": 50,
                         "rows": [
                             [
-                                "Bindsong",
                                 "Energyform",
-                                "Spiritform"
-                            ],
-                            [
-                                "Fishform",
-                                "Natureform",
-                                "LiandLisong"
-                            ],
-                            [
-                                "Dualform",
                                 "Beastform",
-                                "Sunform"
+                                "Natureform"
+							],
+							[
+                                "Sunform",
+                                "Fishform",
+                                "Spiritform"
+							],
+							[
+                                "Dualform",
+                                "Bindsong",
+                                "LiandLisong"
                             ]
                         ]
                     }
@@ -59,19 +59,19 @@
                         "item_width": 50,
                         "rows": [
                             [
+                                "TransturtleHomeWater",
+                                "TransturtleOpenWatertopright",
+                                "TransturtleForestbottomleft"
+							],
+							[								
                                 "TransturtleVeiltopleft",
                                 "TransturtleVeiltopright",
-                                "TransturtleOpenWatertopright"
-                            ],
-                            [
-                                "TransturtleForestbottomleft",
-                                "TransturtleHomeWater",
-                                "TransturtleAbyssright"
-                            ],
-                            [
-                                "TransturtleFinalBoss",
-                                "TransturtleSimonSays",
                                 "TransturtleArnassiRuins"
+							],
+							[
+                                "TransturtleSimonSays",
+                                "TransturtleAbyssright",
+                                "TransturtleFinalBoss"
                             ]
                         ]
                     }
@@ -104,13 +104,81 @@
                                 "BabyBlaster"
                             ],
                             [
-                                "JellyCostume",
                                 "BabyDumbo",
-                                "ArnassiArmor"
-                            ],
+                                "ArnassiArmor",
+								"Hotsoup"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "useful": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 50,
+                        "item_width": 50,
+                        "rows": [
                             [
-                                "",
-                                "Hotsoup"
+                                "JellyCostume",
+                                "CrabArmor",
+                                "Wok"
+                            ],
+							[
+								"ShieldSong",
+								"ArcanePoultice",
+								"DumboIceCream"
+							],
+							[
+								"LeafPoultice",
+								"SpicyRoll",
+								"ZuunasPerogi"
+							]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "quicksettings": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 50,
+                        "item_width": 50,
+                        "rows": [
+                            [
+								"auto_tab",
+								"opt_logic",
+								"opt_excludedvisibility"
                             ]
                         ]
                     }

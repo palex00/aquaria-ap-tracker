@@ -50,11 +50,29 @@
                         },
                         {
                             "type": "group",
-                            "header": "Misc Items",
+                            "header": "Misc Progression",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
                                 "key": "misc"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Useful Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "useful"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Tracker Settings",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "quicksettings"
                             }
                         }
                     ]

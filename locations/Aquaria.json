@@ -79,7 +79,7 @@
                         "name": "Open Water top right area, bulb in the small path before Mithalas",
                         "item_count": 1,
                         "access_rules": [
-                            ""
+                            "$bind"
                         ],
                         "visibility_rules": [
                             ""
@@ -947,7 +947,7 @@
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/home_water, $bind",
+                    "@Aquaria/home_water_behind_rocks",
                     "@Aquaria/energy_temple_2, $energy",
                     "@Aquaria/energy_temple_idol, $fish",
                     "@Aquaria/energy_temple_boss, $energyattack",
@@ -1110,7 +1110,7 @@
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/home_water, $energyattack, $bind"
+                    "@Aquaria/home_water_behind_rocks, $energyattack, $bind"
                 ],
                 "sections": [
                     {
@@ -2356,21 +2356,12 @@
                     "@Aquaria/home_water_transturtle",
                     "@Aquaria/energy_temple_1, $bind",
                     "@Aquaria/energy_temple_altar, $bind, $energyattack",
-                    "@Aquaria/openwater_tl"
+                    "@Aquaria/openwater_tl",
+					"@Aquaria/home_water_behind_rocks, $bind"
                 ],
                 "sections": [
                     {
                         "name": "Home Water, bulb below the grouper fish",
-                        "item_count": 1,
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": "Home Water, bulb in the path below Nautilus Prime",
                         "item_count": 1,
                         "access_rules": [
                             ""
@@ -2401,16 +2392,6 @@
                     },
                     {
                         "name": "Home Water, bulb in the top left path",
-                        "item_count": 1,
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": "Home Water, bulb in the bottom left room",
                         "item_count": 1,
                         "access_rules": [
                             ""
@@ -2487,7 +2468,7 @@
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/home_water, $bind, $energyattack"
+					"@Aquaria/home_water_behind_rocks, $energyattack"
                 ],
                 "sections": [
                     {
@@ -2911,7 +2892,7 @@
                         "name": "Song Cave, Verse Egg",
                         "item_count": 1,
                         "access_rules": [
-                            ""
+                            "$bind"
                         ],
                         "visibility_rules": [
                             ""
@@ -4024,6 +4005,48 @@
 				"@Aquaria/octo_cave_b"
                 ],
                 "sections": [],
+                "map_locations": [
+                    {
+                        "map": "",
+                        "x": 99,
+                        "y": 1440,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "home_water_behind_rocks",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+				"@Aquaria/home_water, $bind",
+				"@Aquaria/home_water_nautilus, $energyattack",
+				"@Aquaria/energy_temple_1",
+				"@Aquaria/energy_temple_altar, $energyattack, $bind"
+                ],
+                "sections": [
+                    {
+                        "name": "Home Water, bulb in the path below Nautilus Prime",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Home Water, bulb in the bottom left room",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    }
+				],
                 "map_locations": [
                     {
                         "map": "",

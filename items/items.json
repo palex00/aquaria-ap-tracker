@@ -148,5 +148,53 @@
         "type": "toggle",
         "img": "/images/Items/ArnassiArmor.png",
         "codes": "ArnassiArmor"
+    },
+    {
+        "name": "Shield Song",
+        "type": "toggle",
+        "img": "/images/Items/ShieldSong.png",
+        "codes": "ShieldSong"
+    },
+    {
+        "name": "Wok",
+        "type": "toggle",
+        "img": "/images/Items/wok.png",
+        "codes": "Wok"
+    },
+    {
+        "name": "Crab Armor",
+        "type": "toggle",
+        "img": "/images/Items/CrabArmor.png",
+        "codes": "CrabArmor"
+    },
+    {
+        "name": "Arcane Poultice",
+        "type": "toggle",
+        "img": "/images/Items/ArcanePoultice.png",
+        "codes": "ArcanePoultice"
+    },
+    {
+        "name": "Dumbo Ice Cream",
+        "type": "toggle",
+        "img": "/images/Items/DumboIceCream.png",
+        "codes": "DumboIceCream"
+    },
+    {
+        "name": "Leaf Poultice",
+        "type": "toggle",
+        "img": "/images/Items/LeafPoultice.png",
+        "codes": "LeafPoultice"
+    },
+    {
+        "name": "Spicy Roll",
+        "type": "toggle",
+        "img": "/images/Items/SpicyRoll.png",
+        "codes": "SpicyRoll"
+    },
+    {
+        "name": "Zuunas Perogi",
+        "type": "toggle",
+        "img": "/images/Items/ZuunasPerogi.png",
+        "codes": "ZuunasPerogi"
     }
 ]

@@ -2,7 +2,7 @@
 {
     "name": "Aquaria AP Tracker",
     "game_name": "Aquaria",
-    "package_version": "0.8.0",
+    "package_version": "0.9.0",
     "package_uid": "aquaria_ap",
     "author": "palex00",
     "variants": {

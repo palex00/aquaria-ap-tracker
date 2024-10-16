@@ -59,9 +59,7 @@ function onClear(slot_data)
 		local obj = Tracker:FindObjectForCode(code)
 		if obj then
 			obj.Active = false
-			if code == "opt_endgamecardreq" then
-				obj.AcquiredCount = 0
-			end
+			obj.AcquiredCount = 0
 		end
 	end
 
@@ -103,7 +101,50 @@ function onClear(slot_data)
             end
         end
     end
-	get_slot_options(slot_data)
+	get_slot_options(slot_data)	
+	
+	PLAYERNUMBER = Archipelago.PlayerNumber
+	
+	-- Sets various listeners.
+	-- Dev says I should just do one for each because creating a dictionary would be
+	-- too much code change for them
+	
+    Archipelago:Get({PLAYERNUMBER .. "@miniboss_nautilusprime"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@miniboss_nautilusprime"})
+    Archipelago:Get({PLAYERNUMBER .. "@sun_crystal_obtained"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@sun_crystal_obtained"})
+    Archipelago:Get({PLAYERNUMBER .. "@miniboss_kingjelly"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@miniboss_kingjelly"})
+    Archipelago:Get({PLAYERNUMBER .. "@miniboss_mergog"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@miniboss_mergog"})
+    Archipelago:Get({PLAYERNUMBER .. "@miniboss_crab"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@miniboss_crab"})
+    Archipelago:Get({PLAYERNUMBER .. "@miniboss_octomun"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@miniboss_octomun"})
+    Archipelago:Get({PLAYERNUMBER .. "@miniboss_mantisshrimp"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@miniboss_mantisshrimp"})
+    Archipelago:Get({PLAYERNUMBER .. "@miniboss_priests"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@miniboss_priests"})
+    Archipelago:Get({PLAYERNUMBER .. "@miniboss_blaster"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@miniboss_blaster"})
+    Archipelago:Get({PLAYERNUMBER .. "@energybossdead"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@energybossdead"})
+    Archipelago:Get({PLAYERNUMBER .. "@sunkencity_boss"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@sunkencity_boss"})
+    Archipelago:Get({PLAYERNUMBER .. "@boss_forest"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@boss_forest"})
+    Archipelago:Get({PLAYERNUMBER .. "@boss_mithala"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@boss_mithala"})
+    Archipelago:Get({PLAYERNUMBER .. "@boss_sunworm"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@boss_sunworm"})
+    Archipelago:Get({PLAYERNUMBER .. "@tongue_removed"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@tongue_removed"})
+    Archipelago:Get({PLAYERNUMBER .. "@secret01"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@secret01"})
+    Archipelago:Get({PLAYERNUMBER .. "@secret02"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@secret02"})
+    Archipelago:Get({PLAYERNUMBER .. "@secret03"})
+    Archipelago:SetNotify({PLAYERNUMBER .. "@secret03"})
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -117,32 +158,11 @@ function onItem(index, item_id, item_name, player_number)
         --print(string.format("onItem: could not find item mapping for id %s", item_id))
         return
     end
---    for _, item_code in pairs(item[1]) do
-        -- print(item[1], item[2])
+
     item_code = item[1]
     item_type = item[2]
     local item_obj = Tracker:FindObjectForCode(item_code)
---    if item_obj then
---        if item_type == "toggle" then
---            -- print("toggle")
---            item_obj.Active = true
---        elseif item_type == "progressive" then
---            -- print("progressive")
---            item_obj.Active = true
---        elseif item_type == "consumable" then
---            -- print("consumable")
---            item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment
---        elseif item_type == "progressive_toggle" then
---            -- print("progressive_toggle")
---            if item_obj.Active then
---                item_obj.CurrentStage = item_obj.CurrentStage + 1
---            else
---                item_obj.Active = true
---            end
---        end
---    else
---        print(string.format("onItem: could not find object for code %s", item_code[1]))
---    end
+
     if item_obj then
         if item_obj.Type == "toggle" then
             -- print("toggle")
@@ -164,7 +184,6 @@ function onItem(index, item_id, item_name, player_number)
     else
         print(string.format("onItem: could not find object for code %s", item_code[1]))
     end
---    end
 end
 
 --called when a location gets cleared
@@ -188,35 +207,34 @@ function onLocation(location_id, location_name)
             print(string.format("onLocation: could not find location_object for code %s", location))
         end
     end
-    canFinish()
 end
 
 function onEvent(key, value, old_value)
     updateEvents(key, value)
 end
 
-function onEventsLaunch(key, value)
+function onEventLaunch(key, value)
     updateEvents(key, value)
 end
 
 function onBounce(json)
     local data = json["data"]
     if data ~= nil then
-            updateMap(data["Area"])
+            updateMap(data["area"])
     end
 end
 
 function updateEvents(key, value)
     if value ~= nil then
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("updateEvents: Key - %s, Value - %s", key, value))
-        end
-        
-        if value == 0 then
-            Tracker:FindObjectForCode(key).Active = false
-        elseif value == 1 then
-            Tracker:FindObjectForCode(key).Active = true
-        end
+        -- print(string.format("updateEvents: Key - %s, Value - %s", key, value))
+		converted_key = key:sub(key:find("@") + 1)
+		
+		for _, v in pairs(value) do
+			if v == 1 then
+				Tracker:FindObjectForCode(converted_key).Active = true
+				print("Event Done: " .. converted_key)
+			end
+		end
     end
 end
 
@@ -243,7 +261,7 @@ function updateMap(area)
     local tabname = areaMap[area] or area  -- Convert area if it matches, otherwise keep original
 
     if has("auto_tab_on") then
-        Tracker:UiHint("ActivateTab", Subareas)
+        Tracker:UiHint("ActivateTab", "Subareas")
         Tracker:UiHint("ActivateTab", tabname)
     end
 end

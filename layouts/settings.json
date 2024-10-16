@@ -20,9 +20,7 @@
                     [
                         "opt_light",
                         "opt_bindsong",
-                        "opt_excluded",
-                        "opt_excludedvisibility",
-                        "opt_logic"
+                        "opt_excluded"
                     ]
                 ]
             }

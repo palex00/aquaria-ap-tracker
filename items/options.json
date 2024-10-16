@@ -177,5 +177,46 @@
         "overlay_align": "center",
         "overlay_font_size": 28,
         "codes": "opt_bigboss"
+    },
+    {
+        "name": "Strict logic",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Show out of logic locations",
+                "img": "images/settings/opt_logic_ool.png",
+                "codes": "opt_logic, opt_logic_ool"
+            },
+            {
+                "name": "Show only strictly what is in logic",
+                "img": "images/settings/opt_logic_strict.png",
+                "codes": "opt_logic, opt_logic_strict",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Auto Tabbing",
+        "type": "progressive",
+        "loop": true,
+		"codes": "auto_tab",
+		"initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Auto Tab - Off",
+                "img": "images/settings/auto_tab_on.png",
+                "img_mods": "@disabled",
+                "codes": "auto_tab_off"
+            },
+            {
+                "name": "Auto Tab - On",
+                "img": "images/settings/auto_tab_on.png",
+                "codes": "auto_tab_on",
+                "inherit_codes": false
+            }
+        ]
     }
 ]
