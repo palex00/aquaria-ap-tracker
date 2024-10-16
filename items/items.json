@@ -2,199 +2,199 @@
     {
         "name": "Hot Soup",
         "type": "toggle",
-        "img": "/images/items/hotsoup.png",
+        "img": "/images/Items/Hotsoup.png",
         "codes": "Hotsoup"
     },
     {
         "name": "Bind Song",
         "type": "toggle",
-        "img": "/images/items/bindsong.png",
+        "img": "/images/Items/Bindsong.png",
         "codes": "Bindsong"
     },
     {
         "name": "Energy form",
         "type": "toggle",
-        "img": "/images/items/energyform.png",
+        "img": "/images/Items/Energyform.png",
         "codes": "Energyform"
     },
     {
         "name": "Li and Li Song",
         "type": "toggle",
-        "img": "/images/items/liandlisong.png",
+        "img": "/images/Items/LiandLisong.png",
         "codes": "LiandLisong"
     },
     {
         "name": "Fish form",
         "type": "toggle",
-        "img": "/images/items/fishform.png",
+        "img": "/images/Items/Fishform.png",
         "codes": "Fishform"
     },
     {
         "name": "Spirit form",
         "type": "toggle",
-        "img": "/images/items/spiritform.png",
+        "img": "/images/Items/Spiritform.png",
         "codes": "Spiritform"
     },
     {
         "name": "Dual form",
         "type": "toggle",
-        "img": "/images/items/dualform.png",
+        "img": "/images/Items/Dualform.png",
         "codes": "Dualform"
     },
     {
         "name": "Beast form",
         "type": "toggle",
-        "img": "/images/items/beastform.png",
+        "img": "/images/Items/Beastform.png",
         "codes": "Beastform"
     },
     {
         "name": "Sun form",
         "type": "toggle",
-        "img": "/images/items/sunform.png",
+        "img": "/images/Items/Sunform.png",
         "codes": "Sunform"
     },
     {
         "name": "Nature form",
         "type": "toggle",
-        "img": "/images/items/natureform.png",
+        "img": "/images/Items/Natureform.png",
         "codes": "Natureform"
     },
     {
         "name": "Transturtle Veil top left",
         "type": "toggle",
-        "img": "/images/items/transturtle.png",
+        "img": "/images/Items/TransTurtle.png",
         "codes": "TransturtleVeiltopleft"
     },
     {
         "name": "Transturtle Veil top right",
         "type": "toggle",
-        "img": "/images/items/transturtle.png",
+        "img": "/images/Items/TransTurtle.png",
         "codes": "TransturtleVeiltopright"
     },
     {
         "name": "Transturtle Open Water top right",
         "type": "toggle",
-        "img": "/images/items/transturtle.png",
+        "img": "/images/Items/TransTurtle.png",
         "codes": "TransturtleOpenWatertopright"
     },
     {
         "name": "Transturtle Forest bottom left",
         "type": "toggle",
-        "img": "/images/items/transturtle.png",
+        "img": "/images/Items/TransTurtle.png",
         "codes": "TransturtleForestbottomleft"
     },
     {
         "name": "Transturtle Home Water",
         "type": "toggle",
-        "img": "/images/items/transturtle.png",
+        "img": "/images/Items/TransTurtle.png",
         "codes": "TransturtleHomeWater"
     },
     {
         "name": "Transturtle Abyss right",
         "type": "toggle",
-        "img": "/images/items/transturtle.png",
+        "img": "/images/Items/TransTurtle.png",
         "codes": "TransturtleAbyssright"
     },
     {
         "name": "Transturtle Final Boss",
         "type": "toggle",
-        "img": "/images/items/transturtle.png",
+        "img": "/images/Items/TransTurtle.png",
         "codes": "TransturtleFinalBoss"
     },
     {
         "name": "Transturtle Simon Says",
         "type": "toggle",
-        "img": "/images/items/transturtle.png",
+        "img": "/images/Items/TransTurtle.png",
         "codes": "TransturtleSimonSays"
     },
     {
         "name": "Transturtle Arnassi Ruins",
         "type": "toggle",
-        "img": "/images/items/transturtle.png",
+        "img": "/images/Items/TransTurtle.png",
         "codes": "TransturtleArnassiRuins"
     },
     {
         "name": "Baby Dumbo",
         "type": "toggle",
-        "img": "/images/items/babydumbo.png",
+        "img": "/images/Items/BabyDumbo.png",
         "codes": "BabyDumbo"
     },
     {
         "name": "Baby Nautilus",
         "type": "toggle",
-        "img": "/images/items/babynautilus.png",
+        "img": "/images/Items/BabyNautilus.png",
         "codes": "BabyNautilus"
     },
     {
         "name": "Baby Piranha",
         "type": "toggle",
-        "img": "/images/items/babypiranha.png",
+        "img": "/images/Items/BabyPiranha.png",
         "codes": "BabyPiranha"
     },
     {
         "name": "Baby Blaster",
         "type": "toggle",
-        "img": "/images/items/babyblaster.png",
+        "img": "/images/Items/BabyBlaster.png",
         "codes": "BabyBlaster"
     },
     {
         "name": "Jelly Costume",
         "type": "toggle",
-        "img": "/images/items/jellycostume.png",
+        "img": "/images/Items/JellyCostume.png",
         "codes": "JellyCostume"
     },
     {
         "name": "Arnassi Armor",
         "type": "toggle",
-        "img": "/images/items/arnassiarmor.png",
+        "img": "/images/Items/ArnassiArmor.png",
         "codes": "ArnassiArmor"
     },
     {
         "name": "Shield Song",
         "type": "toggle",
-        "img": "/images/items/shieldsong.png",
+        "img": "/images/Items/ShieldSong.png",
         "codes": "ShieldSong"
     },
     {
         "name": "Wok",
         "type": "toggle",
-        "img": "/images/items/wok.png",
+        "img": "/images/Items/wok.png",
         "codes": "Wok"
     },
     {
         "name": "Crab Armor",
         "type": "toggle",
-        "img": "/images/items/crabarmor.png",
+        "img": "/images/Items/CrabArmor.png",
         "codes": "CrabArmor"
     },
     {
         "name": "Arcane Poultice",
         "type": "toggle",
-        "img": "/images/items/arcanepoultice.png",
+        "img": "/images/Items/ArcanePoultice.png",
         "codes": "ArcanePoultice"
     },
     {
         "name": "Dumbo Ice Cream",
         "type": "toggle",
-        "img": "/images/items/dumboicecream.png",
+        "img": "/images/Items/DumboIceCream.png",
         "codes": "DumboIceCream"
     },
     {
         "name": "Leaf Poultice",
         "type": "toggle",
-        "img": "/images/items/leafpoultice.png",
+        "img": "/images/Items/LeafPoultice.png",
         "codes": "LeafPoultice"
     },
     {
         "name": "Spicy Roll",
         "type": "toggle",
-        "img": "/images/items/spicyroll.png",
+        "img": "/images/Items/SpicyRoll.png",
         "codes": "SpicyRoll"
     },
     {
         "name": "Zuunas Perogi",
         "type": "toggle",
-        "img": "/images/items/zuunasperogi.png",
+        "img": "/images/Items/ZuunasPerogi.png",
         "codes": "ZuunasPerogi"
     }
 ]
