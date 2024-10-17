@@ -18,7 +18,7 @@ end
 
 function energyattack()
 	return has("Energyform")
-	or has("Dualform")
+	or (has("Dualform") and has("LiandLisong"))
 end
 
 function shield()
