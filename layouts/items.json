@@ -137,15 +137,15 @@
                             [
                                 "JellyCostume",
                                 "CrabArmor",
-                                "Wok"
+                                "ShieldSong"
                             ],
 							[
-								"ShieldSong",
-								"ArcanePoultice",
-								"DumboIceCream"
+								"Wok",
+								"LeafPoultice",
+								"ArcanePoultice"
 							],
 							[
-								"LeafPoultice",
+								"DumboIceCream",
 								"SpicyRoll",
 								"ZuunasPerogi"
 							]

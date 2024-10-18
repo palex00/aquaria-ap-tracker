@@ -93,7 +93,7 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Home Area not unconfined",
+                "name": "Home Area confined",
                 "img": "images/settings/opt_confined_off.png",
                 "codes": "opt_confined, opt_confined_off"
             },
