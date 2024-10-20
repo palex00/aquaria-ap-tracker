@@ -22,13 +22,13 @@
                                 "Energyform",
                                 "Beastform",
                                 "Natureform"
-							],
-							[
+                            ],
+                            [
                                 "Sunform",
                                 "Fishform",
                                 "Spiritform"
-							],
-							[
+                            ],
+                            [
                                 "Dualform",
                                 "Bindsong",
                                 "LiandLisong"
@@ -62,13 +62,13 @@
                                 "TransturtleHomeWater",
                                 "TransturtleOpenWatertopright",
                                 "TransturtleForestbottomleft"
-							],
-							[								
+                            ],
+                            [
                                 "TransturtleVeiltopleft",
                                 "TransturtleVeiltopright",
                                 "TransturtleArnassiRuins"
-							],
-							[
+                            ],
+                            [
                                 "TransturtleSimonSays",
                                 "TransturtleAbyssright",
                                 "TransturtleFinalBoss"
@@ -106,7 +106,7 @@
                             [
                                 "BabyDumbo",
                                 "ArnassiArmor",
-								"Hotsoup"
+                                "Hotsoup"
                             ]
                         ]
                     }
@@ -123,7 +123,6 @@
                 "type": "array",
                 "orientation": "vertical",
                 "margin": "0,0",
-                "margin": "0,0",
                 "content": [
                     {
                         "type": "itemgrid",
@@ -139,16 +138,16 @@
                                 "CrabArmor",
                                 "ShieldSong"
                             ],
-							[
-								"Wok",
-								"LeafPoultice",
-								"ArcanePoultice"
-							],
-							[
-								"DumboIceCream",
-								"SpicyRoll",
-								"ZuunasPerogi"
-							]
+                            [
+                                "Wok",
+                                "LeafPoultice",
+                                "ArcanePoultice"
+                            ],
+                            [
+                                "DumboIceCream",
+                                "SpicyRoll",
+                                "ZuunasPerogi"
+                            ]
                         ]
                     }
                 ]
@@ -164,7 +163,6 @@
                 "type": "array",
                 "orientation": "vertical",
                 "margin": "0,0",
-                "margin": "0,0",
                 "content": [
                     {
                         "type": "itemgrid",
@@ -176,9 +174,9 @@
                         "item_width": 50,
                         "rows": [
                             [
-								"auto_tab",
-								"opt_logic",
-								"opt_excludedvisibility"
+                                "auto_tab",
+                                "opt_logic",
+                                "opt_excludedvisibility"
                             ]
                         ]
                     }
