@@ -46,7 +46,7 @@
 ,{"name": "Energy Temple​​​​", "sections": [{"name": "Energy Temple boss area, Fallen God Tooth", "ref": "Aquaria/energy_temple_boss/Energy Temple boss area, Fallen God Tooth"}], "map_locations": [{"map": "energytemple", "x": 908, "y": 851}]}
 ,{"name": "Energy Temple​​​​​", "sections": [{"name": "Energy Temple blaster room, Blaster Egg", "ref": "Aquaria/energy_temple_blaster_room/Energy Temple blaster room, Blaster Egg"}], "map_locations": [{"map": "energytemple", "x": 89, "y": 245}]}
 ,{"name": "Energy Temple​​​​​​", "sections": [{"name": "Energy Temple bottom entrance, Krotite Armor", "ref": "Aquaria/energy_temple_altar/Energy Temple bottom entrance, Krotite Armor"}], "map_locations": [{"map": "homewater", "x": 62, "y": 501}]}
-,{"name": "Energy Temple​​​​​​​", "sections": [{"name": "Energy Temple first area, Energy Idol", "ref": "Aquaria/energy_temple_idol/Energy Temple first area, Energy Idol"}], "map_locations": [{"map": "energytemple", "x": 1124, "y": 182}]}
+,{"name": "Energy Temple​​​​​​​", "sections": [{"name": "Energy Temple first area, Energy Idol", "ref": "Aquaria/energy_temple_idol/Energy Temple first area, Energy Idol"}], "map_locations": [{"map": "energytemple", "x": 434, "y": 391}]}
 
 // Naijas Home
 ,{"name": "Naija's Home", "sections": [{"name": "Naija's Home, bulb after the energy door", "ref": "Aquaria/naija_home/Naija's Home, bulb after the energy door"}], "map_locations": [{"map": "naijashome", "x": 265, "y": 87}]}
@@ -105,7 +105,7 @@
 ,{"name": "Mithalas City​​​​​​​", "sections": [{"name": "Mithalas City, first bulb in one of the homes", "ref": "Aquaria/mithalas_city/Mithalas City, first bulb in one of the homes"}], "map_locations": [{"map": "mithalascity", "x": 790, "y": 821}]}
 ,{"name": "Mithalas City​​​​​​​​", "sections": [{"name": "Mithalas City, second bulb in one of the homes", "ref": "Aquaria/mithalas_city/Mithalas City, second bulb in one of the homes"}], "map_locations": [{"map": "mithalascity", "x": 554, "y": 845}]}
 ,{"name": "Mithalas City​​​​​​​​​", "sections": [{"name": "Mithalas City, first urn in one of the homes", "ref": "Aquaria/mithalas_city/Mithalas City, first urn in one of the homes"}], "map_locations": [{"map": "mithalascity", "x": 446, "y": 336}]}
-,{"name": "Mithalas City​​​​​​​​​​", "sections": [{"name": "Mithalas City, second urn in one of the homes", "ref": "Aquaria/mithalas_city/Mithalas City, second urn in one of the homes"}], "map_locations": [{"map": "mithalascity", "x": 175, "y": 402}]}
+,{"name": "Mithalas City​​​​​​​​​​", "sections": [{"name": "Mithalas City, second urn in one of the homes", "ref": "Aquaria/mithalas_city/Mithalas City, second urn in one of the homes"}], "map_locations": [{"map": "mithalascity", "x": 159, "y": 346}]}
 ,{"name": "Mithalas City​​​​​​​​​​​", "sections": [{"name": "Mithalas City, first urn in the city reserve", "ref": "Aquaria/mithalas_city/Mithalas City, first urn in the city reserve"}], "map_locations": [{"map": "mithalascity", "x": 605, "y": 850}]}
 ,{"name": "Mithalas City​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, second urn in the city reserve", "ref": "Aquaria/mithalas_city/Mithalas City, second urn in the city reserve"}], "map_locations": [{"map": "mithalascity", "x": 635, "y": 850}]}
 ,{"name": "Mithalas City​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, third urn in the city reserve", "ref": "Aquaria/mithalas_city/Mithalas City, third urn in the city reserve"}], "map_locations": [{"map": "mithalascity", "x": 665, "y": 850}]}
@@ -114,8 +114,8 @@
 ,{"name": "Mithalas City​​​​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, bulb in the top path", "ref": "Aquaria/mithalas_city_top_path/Mithalas City, bulb in the top path"}], "map_locations": [{"map": "mithalascity", "x": 695, "y": 125}]}
 ,{"name": "Mithalas City​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, Mithalas Pot", "ref": "Aquaria/mithalas_city_top_path/Mithalas City, Mithalas Pot"}], "map_locations": [{"map": "mithalascity", "x": 611, "y": 213}]}
 ,{"name": "Mithalas City​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, urn in the Castle flower tube entrance", "ref": "Aquaria/mithalas_city_top_path/Mithalas City, urn in the Castle flower tube entrance"}], "map_locations": [{"map": "mithalascity", "x": 917, "y": 295}]}
-,{"name": "Mithalas City​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, Doll", "ref": "Aquaria/mithalas_city_fishpass/Mithalas City, Doll"}], "map_locations": [{"map": "mithalascity", "x": 512, "y": 439}]}
-,{"name": "Mithalas City​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, urn inside a home fish pass", "ref": "Aquaria/mithalas_city_fishpass/Mithalas City, urn inside a home fish pass"}], "map_locations": [{"map": "mithalascity", "x": 475, "y": 416}]}
+,{"name": "Mithalas City​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, Doll", "ref": "Aquaria/mithalas_city_fishpass/Mithalas City, Doll"}], "map_locations": [{"map": "mithalascity", "x": 497, "y": 457}]}
+,{"name": "Mithalas City​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, urn inside a home fish pass", "ref": "Aquaria/mithalas_city_fishpass/Mithalas City, urn inside a home fish pass"}], "map_locations": [{"map": "mithalascity", "x": 527, "y": 457}]}
 
 // Cathedral Underground
 ,{"name": "Cathedral Underground", "sections": [{"name": "Cathedral Underground, bulb in the center part", "ref": "Aquaria/cathedral_underground/Cathedral Underground, bulb in the center part"}], "map_locations": [{"map": "cathedralunderground", "x": 948, "y": 458}]}
@@ -141,6 +141,76 @@
 ,{"name": "Mithalas Cathedral​​​​​​​​​​​", "sections": [{"name": "Mithalas Cathedral, fourth urn in the top right room", "ref": "Aquaria/cathedral_r/Mithalas Cathedral, fourth urn in the top right room"}], "map_locations": [{"map": "mithalascathedral", "x": 941, "y": 136}]}
 ,{"name": "Mithalas Cathedral​​​​​​​​​​​​", "sections": [{"name": "Mithalas Cathedral, Mithalan Dress", "ref": "Aquaria/cathedral_r/Mithalas Cathedral, Mithalan Dress"}], "map_locations": [{"map": "mithalascathedral", "x": 327, "y": 337}]}
 ,{"name": "Mithalas Cathedral​​​​​​​​​​​​​", "sections": [{"name": "Mithalas Cathedral right area, urn below the left entrance", "ref": "Aquaria/cathedral_r/Mithalas Cathedral right area, urn below the left entrance"}], "map_locations": [{"map": "mithalascathedral", "x": 159, "y": 478}]}
+
+// Kelp Forest
+,{"name": "Kelp Forest", "sections": [{"name": "Kelp Forest top left area, bulb in the bottom left clearing", "ref": "Aquaria/forest_tl/Kelp Forest top left area, bulb in the bottom left clearing"}], "map_locations": [{"map": "kelpforest", "x": 125, "y": 842}]}
+,{"name": "Kelp Forest​", "sections": [{"name": "Kelp Forest top left area, bulb in the path down from the top left clearing", "ref": "Aquaria/forest_tl/Kelp Forest top left area, bulb in the path down from the top left clearing"}], "map_locations": [{"map": "kelpforest", "x": 186, "y": 502}]}
+,{"name": "Kelp Forest​​", "sections": [{"name": "Kelp Forest top left area, bulb in the top left clearing", "ref": "Aquaria/forest_tl/Kelp Forest top left area, bulb in the top left clearing"}], "map_locations": [{"map": "kelpforest", "x": 93, "y": 349}]}
+,{"name": "Kelp Forest​​​", "sections": [{"name": "Kelp Forest top left area, Jelly Egg", "ref": "Aquaria/forest_tl/Kelp Forest top left area, Jelly Egg"}], "map_locations": [{"map": "kelpforest", "x": 519, "y": 477}]}
+,{"name": "Kelp Forest​​​​", "sections": [{"name": "Kelp Forest top left area, bulb close to the Verse Egg", "ref": "Aquaria/forest_tl_fp/Kelp Forest top left area, bulb close to the Verse Egg"}], "map_locations": [{"map": "kelpforest", "x": 379, "y": 491}]}
+,{"name": "Kelp Forest​​​​​", "sections": [{"name": "Kelp Forest top left area, Verse Egg", "ref": "Aquaria/forest_tl_fp/Kelp Forest top left area, Verse Egg"}], "map_locations": [{"map": "kelpforest", "x": 432, "y": 520}]}
+,{"name": "Kelp Forest​​​​​​", "sections": [{"name": "Kelp Forest top right area, bulb under the rock in the right path", "ref": "Aquaria/forest_tr/Kelp Forest top right area, bulb under the rock in the right path"}], "map_locations": [{"map": "kelpforest", "x": 1210, "y": 766}]}
+,{"name": "Kelp Forest​​​​​​​", "sections": [{"name": "Kelp Forest top right area, bulb at the left of the center clearing", "ref": "Aquaria/forest_tr/Kelp Forest top right area, bulb at the left of the center clearing"}], "map_locations": [{"map": "kelpforest", "x": 817, "y": 600}]}
+,{"name": "Kelp Forest​​​​​​​​", "sections": [{"name": "Kelp Forest top right area, bulb in the left path's big room", "ref": "Aquaria/forest_tr/Kelp Forest top right area, bulb in the left path's big room"}], "map_locations": [{"map": "kelpforest", "x": 713, "y": 688}]}
+,{"name": "Kelp Forest​​​​​​​​​", "sections": [{"name": "Kelp Forest top right area, bulb in the left path's small room", "ref": "Aquaria/forest_tr/Kelp Forest top right area, bulb in the left path's small room"}], "map_locations": [{"map": "kelpforest", "x": 798, "y": 683}]}
+,{"name": "Kelp Forest​​​​​​​​​​", "sections": [{"name": "Kelp Forest top right area, bulb at the top of the center clearing", "ref": "Aquaria/forest_tr/Kelp Forest top right area, bulb at the top of the center clearing"}], "map_locations": [{"map": "kelpforest", "x": 923, "y": 469}]}
+,{"name": "Kelp Forest​​​​​​​​​​​", "sections": [{"name": "Kelp Forest top right area, Black Pearl", "ref": "Aquaria/forest_tr/Kelp Forest top right area, Black Pearl"}], "map_locations": [{"map": "kelpforest", "x": 876, "y": 401}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest top right area, bulb in the top fish pass", "ref": "Aquaria/forest_tr_fp/Kelp Forest top right area, bulb in the top fish pass"}], "map_locations": [{"map": "kelpforest", "x": 1138, "y": 353}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest bottom left area, bulb close to the spirit crystals", "ref": "Aquaria/forest_bl/Kelp Forest bottom left area, bulb close to the spirit crystals"}], "map_locations": [{"map": "kelpforest", "x": 358, "y": 1242}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest bottom left area, Walker baby", "ref": "Aquaria/forest_bl/Kelp Forest bottom left area, Walker baby"}], "map_locations": [{"map": "kelpforest", "x": 402, "y": 1271}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest bottom left area, Transturtle", "ref": "Aquaria/forest_bl/Kelp Forest bottom left area, Transturtle"}], "map_locations": [{"map": "kelpforest", "x": 529, "y": 1013}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest bottom right area, Odd Container", "ref": "Aquaria/forest_br/Kelp Forest bottom right area, Odd Container"}], "map_locations": [{"map": "kelpforest", "x": 1044, "y": 1010}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest boss area, beating Drunian God", "ref": "Aquaria/forest_boss/Kelp Forest boss area, beating Drunian God"}], "map_locations": [{"map": "kelpforest", "x": 321, "y": 118}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest boss room, bulb at the bottom of the area", "ref": "Aquaria/forest_boss_entrance/Kelp Forest boss room, bulb at the bottom of the area"}], "map_locations": [{"map": "kelpforest", "x": 295, "y": 328}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest sprite cave, bulb inside the fish pass", "ref": "Aquaria/forest_sprite_cave/Kelp Forest sprite cave, bulb inside the fish pass"}], "map_locations": [{"map": "kelpforest", "x": 725, "y": 117}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest sprite cave, bulb in the second room", "ref": "Aquaria/forest_sprite_cave_tube/Kelp Forest sprite cave, bulb in the second room"}], "map_locations": [{"map": "kelpforest", "x": 901, "y": 215}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest sprite cave, Seed Bag", "ref": "Aquaria/forest_sprite_cave_tube/Kelp Forest sprite cave, Seed Bag"}], "map_locations": [{"map": "kelpforest", "x": 852, "y": 281}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest bottom left area, Fish Cave puzzle", "ref": "Aquaria/forest_fish_cave/Kelp Forest bottom left area, Fish Cave puzzle"}], "map_locations": [{"map": "kelpforest", "x": 112, "y": 1230}]}
+
+// Simon Says
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Simon Says area, beating Simon Says", "ref": "Aquaria/simon/Simon Says area, beating Simon Says"}], "map_locations": [{"map": "kelpforest", "x": 1065, "y": 1100}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Simon Says area, Transturtle", "ref": "Aquaria/simon/Simon Says area, Transturtle"}], "map_locations": [{"map": "kelpforest", "x": 1208, "y": 1168}]}
+
+// Sun Temple
+,{"name": "Sun Temple", "sections": [{"name": "Sun Temple, bulb in the top left part", "ref": "Aquaria/sun_temple_l/Sun Temple, bulb in the top left part"}], "map_locations": [{"map": "suntemple", "x": 232, "y": 174}]}
+,{"name": "Sun Temple​", "sections": [{"name": "Sun Temple, bulb in the top right part", "ref": "Aquaria/sun_temple_l/Sun Temple, bulb in the top right part"}], "map_locations": [{"map": "suntemple", "x": 425, "y": 171}]}
+,{"name": "Sun Temple​​", "sections": [{"name": "Sun Temple, bulb at the top of the high dark room", "ref": "Aquaria/sun_temple_l/Sun Temple, bulb at the top of the high dark room"}], "map_locations": [{"map": "suntemple", "x": 282, "y": 640}]}
+,{"name": "Sun Temple​​​", "sections": [{"name": "Sun Temple, Golden Gear", "ref": "Aquaria/sun_temple_l/Sun Temple, Golden Gear"}], "map_locations": [{"map": "suntemple", "x": 81, "y": 522}]}
+,{"name": "Sun Temple​​​​", "sections": [{"name": "Sun Temple, first bulb of the temple", "ref": "Aquaria/sun_temple_r/Sun Temple, first bulb of the temple"}], "map_locations": [{"map": "suntemple", "x": 512, "y": 773}]}
+,{"name": "Sun Temple​​​​​", "sections": [{"name": "Sun Temple, bulb on the left part", "ref": "Aquaria/sun_temple_r/Sun Temple, bulb on the left part"}], "map_locations": [{"map": "suntemple", "x": 572, "y": 695}]}
+,{"name": "Sun Temple​​​​​​", "sections": [{"name": "Sun Temple, bulb in the hidden room of the right part", "ref": "Aquaria/sun_temple_r/Sun Temple, bulb in the hidden room of the right part"}], "map_locations": [{"map": "suntemple", "x": 601, "y": 622}]}
+,{"name": "Sun Temple​​​​​​​", "sections": [{"name": "Sun Temple, Sun Key", "ref": "Aquaria/sun_temple_r/Sun Temple, Sun Key"}], "map_locations": [{"map": "suntemple", "x": 649, "y": 604}]}
+,{"name": "Sun Temple​​​​​​​​", "sections": [{"name": "Sun Worm path, first path bulb", "ref": "Aquaria/sun_temple_boss_path/Sun Worm path, first path bulb"}], "map_locations": [{"map": "suntemple", "x": 651, "y": 188}]}
+,{"name": "Sun Temple​​​​​​​​​", "sections": [{"name": "Sun Worm path, second path bulb", "ref": "Aquaria/sun_temple_boss_path/Sun Worm path, second path bulb"}], "map_locations": [{"map": "suntemple", "x": 766, "y": 155}]}
+,{"name": "Sun Temple​​​​​​​​​​", "sections": [{"name": "Sun Worm path, first cliff bulb", "ref": "Aquaria/sun_temple_boss_path/Sun Worm path, first cliff bulb"}], "map_locations": [{"map": "suntemple", "x": 674, "y": 55}]}
+,{"name": "Sun Temple​​​​​​​​​​​", "sections": [{"name": "Sun Worm path, second cliff bulb", "ref": "Aquaria/sun_temple_boss_path/Sun Worm path, second cliff bulb"}], "map_locations": [{"map": "suntemple", "x": 825, "y": 76}]}
+,{"name": "Sun Temple​​​​​​​​​​​​", "sections": [{"name": "Sun Temple boss area, beating Lumerean God", "ref": "Aquaria/sun_temple_boss/Sun Temple boss area, beating Lumerean God"}], "map_locations": [{"map": "suntemple", "x": 1071, "y": 187}]}
+
+// The Veil
+,{"name": "The Veil", "sections": [{"name": "The Veil top left area, In Li's cave", "ref": "Aquaria/veil_tl/The Veil top left area, In Li's cave"}], "map_locations": [{"map": "theveil", "x": 983, "y": 442}]}
+,{"name": "The Veil​", "sections": [{"name": "The Veil top left area, bulb under the rock in the top right path", "ref": "Aquaria/veil_tl/The Veil top left area, bulb under the rock in the top right path"}], "map_locations": [{"map": "theveil", "x": 944, "y": 419}]}
+,{"name": "The Veil​​", "sections": [{"name": "The Veil top left area, bulb hidden behind the blocking rock", "ref": "Aquaria/veil_tl/The Veil top left area, bulb hidden behind the blocking rock"}], "map_locations": [{"map": "theveil", "x": 846, "y": 726}]}
+,{"name": "The Veil​​​", "sections": [{"name": "The Veil top left area, Transturtle", "ref": "Aquaria/veil_tl/The Veil top left area, Transturtle"}], "map_locations": [{"map": "theveil", "x": 412, "y": 416}]}
+,{"name": "The Veil​​​​", "sections": [{"name": "The Veil top left area, bulb inside the fish pass", "ref": "Aquaria/veil_tl_fp/The Veil top left area, bulb inside the fish pass"}], "map_locations": [{"map": "theveil", "x": 721, "y": 622}]}
+,{"name": "The Veil​​​​​", "sections": [{"name": "Turtle cave, Turtle Egg", "ref": "Aquaria/turtle_cave/Turtle cave, Turtle Egg"}], "map_locations": [{"map": "theveil", "x": 41, "y": 500}]}
+,{"name": "The Veil​​​​​​", "sections": [{"name": "Turtle cave, bulb in Bubble Cliff", "ref": "Aquaria/turtle_cave_bubble/Turtle cave, bulb in Bubble Cliff"}], "map_locations": [{"map": "theveil", "x": 213, "y": 239}]}
+,{"name": "The Veil​​​​​​​", "sections": [{"name": "Turtle cave, Urchin Costume", "ref": "Aquaria/turtle_cave_bubble/Turtle cave, Urchin Costume"}], "map_locations": [{"map": "theveil", "x": 160, "y": 71}]}
+,{"name": "The Veil​​​​​​​​", "sections": [{"name": "The Veil top right area, bulb in the middle of the wall jump cliff", "ref": "Aquaria/veil_tr_r/The Veil top right area, bulb in the middle of the wall jump cliff"}], "map_locations": [{"map": "theveil", "x": 1560, "y": 347}]}
+,{"name": "The Veil​​​​​​​​​", "sections": [{"name": "The Veil top right area, Golden Starfish", "ref": "Aquaria/veil_tr_r/The Veil top right area, Golden Starfish"}], "map_locations": [{"map": "theveil", "x": 1541, "y": 709}]}
+,{"name": "The Veil​​​​​​​​​​", "sections": [{"name": "The Veil top right area, bulb at the top of the waterfall", "ref": "Aquaria/veil_tr_l/The Veil top right area, bulb at the top of the waterfall"}], "map_locations": [{"map": "theveil", "x": 1012, "y": 289}]}
+,{"name": "The Veil​​​​​​​​​​​", "sections": [{"name": "The Veil top right area, Transturtle", "ref": "Aquaria/veil_tr_l/The Veil top right area, Transturtle"}], "map_locations": [{"map": "theveil", "x": 1137, "y": 452}]}
+,{"name": "The Veil​​​​​​​​​​​​", "sections": [{"name": "The Veil bottom area, bulb in the left path", "ref": "Aquaria/veil_bl/The Veil bottom area, bulb in the left path"}], "map_locations": [{"map": "theveil", "x": 441, "y": 1337}]}
+,{"name": "The Veil​​​​​​​​​​​​​", "sections": [{"name": "The Veil bottom area, bulb in the spirit path", "ref": "Aquaria/veil_b_sc/The Veil bottom area, bulb in the spirit path"}], "map_locations": [{"map": "theveil", "x": 619, "y": 1328}]}
+,{"name": "The Veil​​​​​​​​​​​​​​", "sections": [{"name": "The Veil bottom area, Verse Egg", "ref": "Aquaria/veil_bl_fp/The Veil bottom area, Verse Egg"}], "map_locations": [{"map": "theveil", "x": 454, "y": 1191}]}
+,{"name": "The Veil​​​​​​​​​​​​​​​", "sections": [{"name": "The Veil bottom area, Stone Head", "ref": "Aquaria/veil_br/The Veil bottom area, Stone Head"}], "map_locations": [{"map": "theveil", "x": 728, "y": 1176}]}
+
+// Mermog Cave
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mermog cave, bulb in the left part of the cave", "ref": "Aquaria/mermog_cave/Mermog cave, bulb in the left part of the cave"}], "map_locations": [{"map": "kelpforest", "x": 1262, "y": 311}]}
+,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mermog cave, Piranha Egg", "ref": "Aquaria/mermog_boss/Mermog cave, Piranha Egg"}], "map_locations": [{"map": "kelpforest", "x": 1394, "y": 283}]}
+
+// Octopus Cave
+,{"name": "The Veil​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Octopus Cave, Dumbo Egg", "ref": "Aquaria/octo_cave_t/Octopus Cave, Dumbo Egg"}], "map_locations": [{"map": "theveil", "x": 981, "y": 626}]}
+,{"name": "The Veil​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Octopus Cave, bulb in the path below the Octopus Cave path", "ref": "Aquaria/octo_cave_b/Octopus Cave, bulb in the path below the Octopus Cave path"}], "map_locations": [{"map": "theveil", "x": 1077, "y": 559}]}
 
 
 	]}]
