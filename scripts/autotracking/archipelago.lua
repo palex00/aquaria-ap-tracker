@@ -257,7 +257,7 @@ function updateMap(area)
         theveil = "The Veil",
         versecave = "Verse Cave",
         arnassiruins = "Arnassi Ruins",
-        abyss = "Abyss"
+        abyss = "Abyss",
     }
 
     local tabname = areaMap[area] or area  -- Convert area if it matches, otherwise keep original
