@@ -255,7 +255,8 @@ function updateMap(area)
         sunkencity = "Sunken City",
         thebody = "The Body",
         theveil = "The Veil",
-        versecave = "Verse Cave"
+        versecave = "Verse Cave",
+        arnassiruins = "Arnassi Ruins"
     }
 
     local tabname = areaMap[area] or area  -- Convert area if it matches, otherwise keep original
