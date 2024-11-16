@@ -950,8 +950,7 @@
                     "@Aquaria/home_water_behind_rocks",
                     "@Aquaria/energy_temple_2, $energy",
                     "@Aquaria/energy_temple_idol, $fish",
-                    "@Aquaria/energy_temple_boss, $energyattack",
-                    "@Aquaria/energy_temple_blaster_room, $nature, $bind, $energyattack, $beast"
+                    "@Aquaria/energy_temple_4"
                 ],
                 "sections": [
                     {
@@ -991,7 +990,7 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/energy_temple_1, $energy",
-                    "@Aquaria/energy_temple_3, $energy"
+                    "@Aquaria/energy_temple_3"
                 ],
                 "sections": [
                     {
@@ -1020,7 +1019,7 @@
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/energy_temple_2, $energy"
+                    "@Aquaria/energy_temple_2"
                 ],
                 "sections": [
                     {
@@ -1050,8 +1049,8 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/energy_temple_idol, $energyattack, $fish",
-                    "@Aquaria/energy_temple_1, $beast, $energyattack",
-                    "@Aquaria/energy_temple_blaster_room, $nature, $bind, $energyattack"
+                    "@Aquaria/energy_temple_4, $energyattack",
+                    "@Aquaria/energy_temple_3, $bind, $energyattack"
                 ],
                 "sections": [
                     {
@@ -1080,8 +1079,7 @@
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/energy_temple_boss, $nature, $bind, $energyattack",
-                    "@Aquaria/energy_temple_1, $nature, $bind, $energyattack, $beast"
+                    "@Aquaria/energy_temple_4, $nature, $bind, $energyattack"
                 ],
                 "sections": [
                     {
@@ -4055,7 +4053,26 @@
                         "size": 6
                     }
                 ]
-            }
+            },
+            {
+                "name": "energy_temple_4",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+				"@Aquaria/energy_temple_1, $beast",
+                "@Aquaria/energy_temple_boss, $energyattack"
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "",
+                        "x": 99,
+                        "y": 1440,
+                        "size": 6
+                    }
+                ]
+            },
         ]
     }
 ]
