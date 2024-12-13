@@ -25,5 +25,74 @@
                 ]
             }
         ]
+    },
+    "events_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "text",
+                "text": "Big Bosses"
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "item_size": "50,50",
+                "rows": [
+                    [
+                        "energybossdead",
+                        "boss_mithala",
+                        "boss_forest",
+                        "boss_sunworm",
+                        "sunkencity_boss"
+                    ]
+                ]
+            },
+            {
+                "type": "text",
+                "text": "Mini Bosses"
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "item_size": "50,50",
+                "rows": [
+                    [
+                        "miniboss_nautilusprime",
+                        "miniboss_kingjelly",
+                        "miniboss_mergog",
+                        "miniboss_crab"
+                    ],
+                    [
+                        "miniboss_octomun",
+                        "miniboss_mantisshrimp",
+                        "miniboss_priests",
+                        "miniboss_blaster"
+                    ]
+                ]
+            },
+            {
+                "type": "text",
+                "text": "Misc Events"
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "item_size": "50,50",
+                "rows": [
+                    [
+                        "secret01",
+                        "secret02",
+                        "secret03",
+                        "tongue_removed",
+                        "sun_crystal_obtained"
+                    ]
+                ]
+            }
+        ]
     }
 }

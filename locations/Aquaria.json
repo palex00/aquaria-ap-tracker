@@ -214,7 +214,7 @@
                     "@Aquaria/openwater_tl",
                     "@Aquaria/openwater_br",
                     "@Aquaria/skeleton_path",
-                    "@Aquaria/abyss_l"
+                    "@Aquaria/abyss_l, ^$optlight"
                 ],
                 "sections": [
                     {
@@ -885,10 +885,9 @@
                     "@Aquaria/openwater_br, ^$optlight",
                     "@Aquaria/abyss_l",
                     "@Aquaria/abyss_r_transturtle, ^$optlight",
-                    "@Aquaria/whale, $spirit, $sun",
+                    "@Aquaria/abyss_r_whale, $spirit, $sun",
                     "@Aquaria/first_secret, $spirit, $sun, $bind, $energyattack",
-                    "@Aquaria/ice_cave, $spirit",
-					"@Aquaria/arnassi"
+                    "@Aquaria/ice_cave, $spirit"
                 ],
                 "sections": [
                     {
@@ -2632,7 +2631,7 @@
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/abyss_lb, tongue_removed",
+                    "@Aquaria/abyss_lb, tongue_removed, ^$optlight",
                     "@Aquaria/body_l, $energy",
                     "@Aquaria/body_rt, $energy",
                     "@Aquaria/body_b, $dual"
@@ -3822,7 +3821,7 @@
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/abyss_r, $spirit, $sun"
+                    "@Aquaria/abyss_r_whale, $spirit, $sun"
                 ],
                 "sections": [
                     {
@@ -3863,7 +3862,7 @@
                 "access_rules": [
                     "@Aquaria/openwater_tr",
                     "@Aquaria/openwater_bl",
-                    "@Aquaria/abyss_r",
+                    "@Aquaria/abyss_r, ^$optlight",
                     "@Aquaria/arnassi"
                 ],
                 "sections": [],
@@ -3920,7 +3919,7 @@
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/abyss_r",
+                    "@Aquaria/abyss_r, ^$optlight",
                     "^$transturtle|Abyssright"
                 ],
                 "sections": [],
@@ -4062,6 +4061,25 @@
                 "access_rules": [
 				"@Aquaria/energy_temple_1, $beast",
                 "@Aquaria/energy_temple_boss, $energyattack"
+                ],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "",
+                        "x": 99,
+                        "y": 1440,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "abyss_r_whale",
+                "chest_unopened_img": "/images/Items/close.png",
+                "chest_opened_img": "/images/Items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                       "@Aquaria/abyss_r, $spirit, $sun",
+                       "@Aquaria/whale"
                 ],
                 "sections": [],
                 "map_locations": [
