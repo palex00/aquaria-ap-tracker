@@ -9,10 +9,17 @@
                 {
                     "type": "group",
                     "header": "Settings",
-                    "dock": "Settings",
                     "content": {
                         "type": "layout",
                         "key": "setting_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Events",
+                    "content": {
+                        "type": "layout",
+                        "key": "events_grid"
                     }
                 }
             ]
