@@ -91,7 +91,7 @@
 ,{"name": "Arnassi Ruins​​​", "sections": [{"name": "Arnassi Ruins, Song Plant Spore", "ref": "Aquaria/arnassi/Arnassi Ruins, Song Plant Spore"}], "map_locations": [{"map": "arnassiruins", "x": 222, "y": 88}]}
 ,{"name": "Arnassi Ruins​​​​", "sections": [{"name": "Arnassi Ruins, Arnassi Armor", "ref": "Aquaria/arnassi/Arnassi Ruins, Arnassi Armor"}], "map_locations": [{"map": "arnassiruins", "x": 102, "y": 641}]}
 ,{"name": "Arnassi Ruins​​​​​", "sections": [{"name": "Arnassi Ruins, Arnassi Statue", "ref": "Aquaria/arnassi_cave/Arnassi Ruins, Arnassi Statue"}], "map_locations": [{"map": "arnassiruins", "x": 818, "y": 787}]}
-,{"name": "Arnassi Ruins​​​​​​", "sections": [{"name": "Arnassi Ruins, Transturtle", "ref": "Aquaria/arnassi_cave/Arnassi Ruins, Transturtle"}], "map_locations": [{"map": "arnassiruins", "x": 1161, "y": 521}]}
+,{"name": "Arnassi Ruins​​​​​​", "sections": [{"name": "Arnassi Ruins, Transturtle", "ref": "Aquaria/arnassi_cave_transturtle/Arnassi Ruins, Transturtle"}], "map_locations": [{"map": "arnassiruins", "x": 1161, "y": 521}]}
 ,{"name": "Arnassi Ruins​​​​​​​", "sections": [{"name": "Arnassi Ruins, Crab Armor", "ref": "Aquaria/arnassi_crab_boss/Arnassi Ruins, Crab Armor"}], "map_locations": [{"map": "arnassiruins", "x": 542, "y": 137}]}
 
 // Mithalas City

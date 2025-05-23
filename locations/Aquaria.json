@@ -407,16 +407,6 @@
                         "visibility_rules": [
                             ""
                         ]
-                    },
-                    {
-                        "name": "Arnassi Ruins, Transturtle",
-                        "item_count": 1,
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
                     }
                 ],
                 "map_locations": [
@@ -3884,7 +3874,18 @@
                     "@Aquaria/arnassi_cave, $fish",
                     "^$transturtle|ArnassiRuins"
                 ],
-                "sections": [],
+                "sections": [
+                    {
+                        "name": "Arnassi Ruins, Transturtle",
+                        "item_count": 1,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "",
