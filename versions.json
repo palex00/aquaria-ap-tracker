@@ -2,13 +2,13 @@
 	"versions": [
 		{
 			"package_version": "0.9.3",
-			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.2.zip",
+			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.3.zip",
 			"sha256": "cb74921c39b0a78b4b4d2ce1db4edb6c44a4581610a69d9356d5c3063c5f387a",
 			"changelog": ["Many Bugfixes"]
 		},
 		{
 			"package_version": "0.9.2",
-			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.3.zip",
+			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.2.zip",
 			"sha256": "afdb8f2a91bab5bced6f0379d1dc91a4e7e28fd793fb4787e649f4a572c2594d",
 			"changelog": ["Arnassi Bugfix"]
 		},
