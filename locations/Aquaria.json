@@ -2631,14 +2631,14 @@
                         "name": "The Body center area, breaking Li's cage",
                         "item_count": 1,
                         "access_rules": [
-                            "tongue_removed"
+                            "sunkencity_boss"
                         ],
                         "visibility_rules": [
                             ""
                         ]
                     },
                     {
-                        "name": "The Body main area, bulb on the main path blocking tube",
+                        "name": "The Body center area, bulb on the main path blocking tube",
                         "item_count": 1,
                         "access_rules": [
                             ""
