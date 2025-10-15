@@ -877,7 +877,7 @@
                     "@Aquaria/abyss_r_transturtle, ^$optlight",
                     "@Aquaria/abyss_r_whale, $spirit, $sun",
                     "@Aquaria/first_secret, $spirit, $sun, $bind, $energyattack",
-                    "@Aquaria/ice_cave, $spirit"
+                    "@Aquaria/ice_cavern, $spirit"
                 ],
                 "sections": [
                     {
@@ -3281,7 +3281,7 @@
                 ]
             },
             {
-                "name": "ice_cave",
+                "name": "ice_cavern",
                 "chest_unopened_img": "/images/Items/close.png",
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
@@ -3291,7 +3291,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Ice Cave, bulb in the room to the right",
+                        "name": "Ice Cavern, bulb in the room to the right",
                         "item_count": 1,
                         "access_rules": [
                             ""
@@ -3301,7 +3301,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave, first bulb in the top exit room",
+                        "name": "Ice Cavern, first bulb in the top exit room",
                         "item_count": 1,
                         "access_rules": [
                             ""
@@ -3311,7 +3311,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave, second bulb in the top exit room",
+                        "name": "Ice Cavern, second bulb in the top exit room",
                         "item_count": 1,
                         "access_rules": [
                             ""
@@ -3321,7 +3321,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave, third bulb in the top exit room",
+                        "name": "Ice Cavern, third bulb in the top exit room",
                         "item_count": 1,
                         "access_rules": [
                             ""
@@ -3331,7 +3331,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave, bulb in the left room",
+                        "name": "Ice Cavern, bulb in the left room",
                         "item_count": 1,
                         "access_rules": [
                             ""
@@ -3396,7 +3396,7 @@
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/ice_cave, $beast, $soup",
+                    "@Aquaria/ice_cavern, $beast, $soup",
                     "@Aquaria/bubble_cave_boss, $nature, $bind"
                 ],
                 "sections": [

@@ -1219,30 +1219,30 @@
                 ]
 			},
             {
-                "name": "Ice Cave",
+                "name": "Ice Cavern",
                 "chest_unopened_img": "/images/Items/close.png",
                 "chest_opened_img": "/images/Items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
-                        "name": "Ice Cave, bulb in the room to the right",
-                        "ref": "ice_cave/Ice Cave, bulb in the room to the right"
+                        "name": "Ice Cavern, bulb in the room to the right",
+                        "ref": "ice_cavern/Ice Cavern, bulb in the room to the right"
                     },
                     {
-                        "name": "Ice Cave, first bulb in the top exit room",
-                        "ref": "ice_cave/Ice Cave, first bulb in the top exit room"
+                        "name": "Ice Cavern, first bulb in the top exit room",
+                        "ref": "ice_cavern/Ice Cavern, first bulb in the top exit room"
                     },
                     {
-                        "name": "Ice Cave, second bulb in the top exit room",
-                        "ref": "ice_cave/Ice Cave, second bulb in the top exit room"
+                        "name": "Ice Cavern, second bulb in the top exit room",
+                        "ref": "ice_cavern/Ice Cavern, second bulb in the top exit room"
                     },
                     {
-                        "name": "Ice Cave, third bulb in the top exit room",
-                        "ref": "ice_cave/Ice Cave, third bulb in the top exit room"
+                        "name": "Ice Cavern, third bulb in the top exit room",
+                        "ref": "ice_cavern/Ice Cavern, third bulb in the top exit room"
                     },
                     {
-                        "name": "Ice Cave, bulb in the left room",
-                        "ref": "ice_cave/Ice Cave, bulb in the left room"
+                        "name": "Ice Cavern, bulb in the left room",
+                        "ref": "ice_cavern/Ice Cavern, bulb in the left room"
                     }
                 ],
                 "map_locations": [
