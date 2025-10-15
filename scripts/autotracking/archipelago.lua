@@ -243,7 +243,7 @@ function updateMap(area)
         cathedralunderground = "Cathedral Underground",
         energytemple = "Energy Temple",
         homewater = "Home Water",
-        icecavern = "Ice Cavern",
+        icecave = "Ice Cavern",
         kelpforest = "Kelp Forest",
         mithalascathedral = "Mithalas Cathedral",
         mithalascity = "Mithalas City",
