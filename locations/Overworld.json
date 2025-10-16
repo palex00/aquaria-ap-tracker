@@ -1,8 +1,8 @@
 [
     {
         "name": "Overworld",
-        "chest_unopened_img": "/images/Items/close.png",
-        "chest_opened_img": "/images/Items/open.png",
+        "chest_unopened_img": "images/items/close.png",
+        "chest_opened_img": "images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
             " "
@@ -10,8 +10,8 @@
         "children": [
             {
                 "name": "Open Water top left area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -37,8 +37,8 @@
 			},
             {
                 "name": "Open Water top right area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
 									
@@ -93,8 +93,8 @@
 			},
             {
                 "name": "Open Water bottom left area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
 
@@ -117,8 +117,8 @@
 			},
             {
                 "name": "Skeleton Path",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -144,8 +144,8 @@
 			},
             {
                 "name": "Arnassi Ruins",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -191,8 +191,8 @@
 			},
             {
                 "name": "Sun Temple",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -258,8 +258,8 @@
 			},
             {
                 "name": "Verse Cave",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
 
@@ -302,8 +302,8 @@
 			},
             {
                 "name": "Abyss Left Side",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -345,8 +345,8 @@
 			},
             {
                 "name": "Abyss Right Side",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -380,8 +380,8 @@
 			},
             {
                 "name": "Energy Temple",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -427,8 +427,8 @@
 			},
             {
                 "name": "Mithalas City",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -526,8 +526,8 @@
 			},
             {
                 "name": "Mithalas Cathedral Left Side",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -581,8 +581,8 @@
 			},
             {
                 "name": "Mithalas Cathedral Right Side",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -652,8 +652,8 @@
 			},
             {
                 "name": "Cathedral Underground",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -695,8 +695,8 @@
 			},
             {
                 "name": "Kelp Forest Top Left Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -742,8 +742,8 @@
 			},
             {
                 "name": "Kelp Forest Top Right Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -785,8 +785,8 @@
 			},
             {
                 "name": "Sprite Cave",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -812,8 +812,8 @@
 			},
             {
                 "name": "Kelp Forest Bottom Left Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -843,8 +843,8 @@
 			},
             {
                 "name": "Kelp Forest Bottom Right Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -862,8 +862,8 @@
 			},
             {
                 "name": "Home Water",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -917,8 +917,8 @@
 			},
             {
                 "name": "The Body Left Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -952,8 +952,8 @@
 			},
             {
                 "name": "The Body Right Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -979,8 +979,8 @@
 			},
             {
                 "name": "The Body Center Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1002,8 +1002,8 @@
 			},
             {
                 "name": "The Body Bottom Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1045,8 +1045,8 @@
 			},
             {
                 "name": "Song Cave",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1096,8 +1096,8 @@
 			},
             {
                 "name": "The Veil Top Left Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1131,8 +1131,8 @@
 			},
             {
                 "name": "Turtle Cave",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1158,8 +1158,8 @@
 			},
             {
                 "name": "The Veil Top Right Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1189,8 +1189,8 @@
 			},
             {
                 "name": "The Veil Bottom Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1219,30 +1219,30 @@
                 ]
 			},
             {
-                "name": "Ice Cave",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "name": "Ice Cavern",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
-                        "name": "Ice Cave, bulb in the room to the right",
-                        "ref": "ice_cave/Ice Cave, bulb in the room to the right"
+                        "name": "Ice Cavern, bulb in the room to the right",
+                        "ref": "ice_cavern/Ice Cavern, bulb in the room to the right"
                     },
                     {
-                        "name": "Ice Cave, first bulb in the top exit room",
-                        "ref": "ice_cave/Ice Cave, first bulb in the top exit room"
+                        "name": "Ice Cavern, first bulb in the top exit room",
+                        "ref": "ice_cavern/Ice Cavern, first bulb in the top exit room"
                     },
                     {
-                        "name": "Ice Cave, second bulb in the top exit room",
-                        "ref": "ice_cave/Ice Cave, second bulb in the top exit room"
+                        "name": "Ice Cavern, second bulb in the top exit room",
+                        "ref": "ice_cavern/Ice Cavern, second bulb in the top exit room"
                     },
                     {
-                        "name": "Ice Cave, third bulb in the top exit room",
-                        "ref": "ice_cave/Ice Cave, third bulb in the top exit room"
+                        "name": "Ice Cavern, third bulb in the top exit room",
+                        "ref": "ice_cavern/Ice Cavern, third bulb in the top exit room"
                     },
                     {
-                        "name": "Ice Cave, bulb in the left room",
-                        "ref": "ice_cave/Ice Cave, bulb in the left room"
+                        "name": "Ice Cavern, bulb in the left room",
+                        "ref": "ice_cavern/Ice Cavern, bulb in the left room"
                     }
                 ],
                 "map_locations": [
@@ -1255,8 +1255,8 @@
 			},
             {
                 "name": "Bubble Cave",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1282,8 +1282,8 @@
 			},
             {
                 "name": "Naija's Home",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1305,8 +1305,8 @@
 			},
             {
                 "name": "Mermog Cave",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1328,8 +1328,8 @@
 			},
             {
                 "name": "Octo Cave",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1351,8 +1351,8 @@
 			},
             {
                 "name": "Sunken City",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1394,8 +1394,8 @@
 			},
             {
                 "name": "Simon Says Area",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1417,8 +1417,8 @@
 			},
             {
                 "name": "The Whale",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
@@ -1436,8 +1436,8 @@
             },
             {
                 "name": "Final Boss",
-                "chest_unopened_img": "/images/Items/close.png",
-                "chest_opened_img": "/images/Items/open.png",
+                "chest_unopened_img": "images/items/close.png",
+                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {

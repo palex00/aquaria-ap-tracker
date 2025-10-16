@@ -153,11 +153,11 @@
                         }
                     },
                     {
-                        "title": "Ice Cave",
+                        "title": "Ice Cavern",
                         "content": {
                             "type": "map",
                             "maps": [
-                                "icecave"
+                                "icecavern"
                             ]
                         }
                     },
