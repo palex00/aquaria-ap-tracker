@@ -168,8 +168,8 @@
 ,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Kelp Forest bottom left area, Fish Cave puzzle", "ref": "Aquaria/forest_fish_cave/Kelp Forest bottom left area, Fish Cave puzzle"}], "map_locations": [{"map": "kelpforest", "x": 112, "y": 1230}]}
 
 // Simon Says
-,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Simon Says area, beating Simon Says", "ref": "Aquaria/simon/Simon Says area, beating Simon Says"}], "map_locations": [{"map": "kelpforest", "x": 1065, "y": 1100}]}
-,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Simon Says area, Transturtle", "ref": "Aquaria/simon/Simon Says area, Transturtle"}], "map_locations": [{"map": "kelpforest", "x": 1208, "y": 1168}]}
+,{"name": "Simon Says area", "sections": [{"name": "Simon Says area, beating Simon Says", "ref": "Aquaria/simon/Simon Says area, beating Simon Says"}], "map_locations": [{"map": "kelpforest", "x": 1065, "y": 1100}]}
+,{"name": "Simon Says area​", "sections": [{"name": "Simon Says area, Transturtle", "ref": "Aquaria/simon/Simon Says area, Transturtle"}], "map_locations": [{"map": "kelpforest", "x": 1208, "y": 1168}]}
 
 // Sun Temple
 ,{"name": "Sun Temple", "sections": [{"name": "Sun Temple, bulb in the top left part", "ref": "Aquaria/sun_temple_l/Sun Temple, bulb in the top left part"}], "map_locations": [{"map": "suntemple", "x": 232, "y": 174}]}
@@ -205,12 +205,70 @@
 ,{"name": "The Veil​​​​​​​​​​​​​​​", "sections": [{"name": "The Veil bottom area, Stone Head", "ref": "Aquaria/veil_br/The Veil bottom area, Stone Head"}], "map_locations": [{"map": "theveil", "x": 728, "y": 1176}]}
 
 // Mermog Cave
-,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mermog cave, bulb in the left part of the cave", "ref": "Aquaria/mermog_cave/Mermog cave, bulb in the left part of the cave"}], "map_locations": [{"map": "kelpforest", "x": 1262, "y": 311}]}
-,{"name": "Kelp Forest​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mermog cave, Piranha Egg", "ref": "Aquaria/mermog_boss/Mermog cave, Piranha Egg"}], "map_locations": [{"map": "kelpforest", "x": 1394, "y": 283}]}
+,{"name": "Mermog Cave", "sections": [{"name": "Mermog cave, bulb in the left part of the cave", "ref": "Aquaria/mermog_cave/Mermog cave, bulb in the left part of the cave"}], "map_locations": [{"map": "kelpforest", "x": 1262, "y": 311}]}
+,{"name": "Mermog Cave​", "sections": [{"name": "Mermog cave, Piranha Egg", "ref": "Aquaria/mermog_boss/Mermog cave, Piranha Egg"}], "map_locations": [{"map": "kelpforest", "x": 1394, "y": 283}]}
 
 // Octopus Cave
-,{"name": "The Veil​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Octopus Cave, Dumbo Egg", "ref": "Aquaria/octo_cave_t/Octopus Cave, Dumbo Egg"}], "map_locations": [{"map": "theveil", "x": 981, "y": 626}]}
-,{"name": "The Veil​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Octopus Cave, bulb in the path below the Octopus Cave path", "ref": "Aquaria/octo_cave_b/Octopus Cave, bulb in the path below the Octopus Cave path"}], "map_locations": [{"map": "theveil", "x": 1077, "y": 559}]}
+,{"name": "Octopus Cave", "sections": [{"name": "Octopus Cave, Dumbo Egg", "ref": "Aquaria/octo_cave_t/Octopus Cave, Dumbo Egg"}], "map_locations": [{"map": "theveil", "x": 981, "y": 626}]}
+,{"name": "Octopus Cave​", "sections": [{"name": "Octopus Cave, bulb in the path below the Octopus Cave path", "ref": "Aquaria/octo_cave_b/Octopus Cave, bulb in the path below the Octopus Cave path"}], "map_locations": [{"map": "theveil", "x": 1077, "y": 559}]}
 
+// Ice Cavern
+,{"name": "Ice Cavern", "sections": [{"name": "Ice Cavern, bulb in the room to the right", "ref": "Aquaria/ice_cavern/Ice Cavern, bulb in the room to the right"}], "map_locations": [{"map": "icecavern", "x": 363, "y": 834}]}
+,{"name": "Ice Cavern​", "sections": [{"name": "Ice Cavern, first bulb in the top exit room", "ref": "Aquaria/ice_cavern/Ice Cavern, first bulb in the top exit room"}], "map_locations": [{"map": "icecavern", "x": 249, "y": 708}]}
+,{"name": "Ice Cavern​​", "sections": [{"name": "Ice Cavern, second bulb in the top exit room", "ref": "Aquaria/ice_cavern/Ice Cavern, second bulb in the top exit room"}], "map_locations": [{"map": "icecavern", "x": 279, "y": 708}]}
+,{"name": "Ice Cavern​​​", "sections": [{"name": "Ice Cavern, third bulb in the top exit room", "ref": "Aquaria/ice_cavern/Ice Cavern, third bulb in the top exit room"}], "map_locations": [{"map": "icecavern", "x": 335, "y": 707}]}
+,{"name": "Ice Cavern​​​​", "sections": [{"name": "Ice Cavern, bulb in the left room", "ref": "Aquaria/ice_cavern/Ice Cavern, bulb in the left room"}], "map_locations": [{"map": "icecavern", "x": 94, "y": 837}]}
+
+// Bubble Cave
+,{"name": "Bubble Cave", "sections": [{"name": "Bubble Cave, bulb in the left cave wall", "ref": "Aquaria/bubble_cave/Bubble Cave, bulb in the left cave wall"}], "map_locations": [{"map": "icecavern", "x": 566, "y": 316}]}
+,{"name": "Bubble Cave​", "sections": [{"name": "Bubble Cave, bulb in the right cave wall (behind the ice crystal)", "ref": "Aquaria/bubble_cave/Bubble Cave, bulb in the right cave wall (behind the ice crystal)"}], "map_locations": [{"map": "icecavern", "x": 676, "y": 247}]}
+,{"name": "Bubble Cave​​", "sections": [{"name": "Bubble Cave, Verse Egg", "ref": "Aquaria/bubble_cave_boss/Bubble Cave, Verse Egg"}], "map_locations": [{"map": "icecavern", "x": 592, "y": 169}]}
+
+// Abyss
+,{"name": "The Abyss", "sections": [{"name": "Abyss left area, bulb in hidden path room", "ref": "Aquaria/abyss_l/Abyss left area, bulb in hidden path room"}], "map_locations": [{"map": "abyss", "x": 168, "y": 175}]}
+,{"name": "The Abyss​", "sections": [{"name": "Abyss left area, bulb in the right part", "ref": "Aquaria/abyss_l/Abyss left area, bulb in the right part"}], "map_locations": [{"map": "abyss", "x": 395, "y": 386}]}
+,{"name": "The Abyss​​", "sections": [{"name": "Abyss left area, Glowing Seed", "ref": "Aquaria/abyss_l/Abyss left area, Glowing Seed"}], "map_locations": [{"map": "abyss", "x": 38, "y": 352}]}
+,{"name": "The Abyss​​​", "sections": [{"name": "Abyss left area, Glowing Plant", "ref": "Aquaria/abyss_l/Abyss left area, Glowing Plant"}], "map_locations": [{"map": "abyss", "x": 403, "y": 304}]}
+,{"name": "The Abyss​​​​", "sections": [{"name": "Abyss left area, bulb in the bottom fish pass", "ref": "Aquaria/abyss_lb/Abyss left area, bulb in the bottom fish pass"}], "map_locations": [{"map": "abyss", "x": 318, "y": 444}]}
+,{"name": "The Abyss​​​​​", "sections": [{"name": "Abyss right area, bulb behind the rock in the whale room", "ref": "Aquaria/abyss_r/Abyss right area, bulb behind the rock in the whale room"}], "map_locations": [{"map": "abyss", "x": 612, "y": 483}]}
+,{"name": "The Abyss​​​​​​", "sections": [{"name": "Abyss right area, bulb in the middle path", "ref": "Aquaria/abyss_r/Abyss right area, bulb in the middle path"}], "map_locations": [{"map": "abyss", "x": 725, "y": 280}]}
+,{"name": "The Abyss​​​​​​​", "sections": [{"name": "Abyss right area, bulb behind the rock in the middle path", "ref": "Aquaria/abyss_r/Abyss right area, bulb behind the rock in the middle path"}], "map_locations": [{"map": "abyss", "x": 689, "y": 201}]}
+,{"name": "The Abyss​​​​​​​​", "sections": [{"name": "Abyss right area, bulb in the left green room", "ref": "Aquaria/abyss_r/Abyss right area, bulb in the left green room"}], "map_locations": [{"map": "abyss", "x": 629, "y": 205}]}
+,{"name": "The Abyss​​​​​​​​​", "sections": [{"name": "Abyss right area, Transturtle", "ref": "Aquaria/abyss_r/Abyss right area, Transturtle"}], "map_locations": [{"map": "abyss", "x": 858, "y": 487}]}
+
+// King Jellyfish Cave
+,{"name": "King Jellyfish Cave", "sections": [{"name": "King Jellyfish Cave, bulb in the right path from King Jelly", "ref": "Aquaria/king_jellyfish_cave/King Jellyfish Cave, bulb in the right path from King Jelly"}], "map_locations": [{"map": "abyss", "x": 370, "y": 149}]}
+,{"name": "King Jellyfish Cave​", "sections": [{"name": "King Jellyfish Cave, Jellyfish Costume", "ref": "Aquaria/king_jellyfish_cave/King Jellyfish Cave, Jellyfish Costume"}], "map_locations": [{"map": "abyss", "x": 340, "y": 149}]}
+
+// The Whale
+,{"name": "The Whale", "sections": [{"name": "The Whale, Verse Egg", "ref": "Aquaria/whale/The Whale, Verse Egg"}], "map_locations": [{"map": "abyss", "x": 600, "y": 525}]}
+
+// Sunken City
+,{"name": "Sunken City", "sections": [{"name": "Sunken City left area, crate in the little pipe room", "ref": "Aquaria/sunken_city_l/Sunken City left area, crate in the little pipe room"}], "map_locations": [{"map": "sunkencity", "x": 15, "y": 297}]}
+,{"name": "Sunken City​", "sections": [{"name": "Sunken City left area, crate close to the save crystal", "ref": "Aquaria/sunken_city_l/Sunken City left area, crate close to the save crystal"}], "map_locations": [{"map": "sunkencity", "x": 32, "y": 168}]}
+,{"name": "Sunken City​​", "sections": [{"name": "Sunken City left area, crate before the bedroom", "ref": "Aquaria/sunken_city_l/Sunken City left area, crate before the bedroom"}], "map_locations": [{"map": "sunkencity", "x": 92, "y": 216}]}
+,{"name": "Sunken City​​​", "sections": [{"name": "Sunken City right area, crate in the left bottom room", "ref": "Aquaria/sunken_city_r/Sunken City right area, crate in the left bottom room"}], "map_locations": [{"map": "sunkencity", "x": 239, "y": 155}]}
+,{"name": "Sunken City​​​​", "sections": [{"name": "Sunken City right area, crate close to the save crystal", "ref": "Aquaria/sunken_city_r/Sunken City right area, crate close to the save crystal"}], "map_locations": [{"map": "sunkencity", "x": 550, "y": 72}]}
+,{"name": "Sunken City​​​​​", "sections": [{"name": "Sunken City, bulb on top of the boss area", "ref": "Aquaria/sunken_city_boss/Sunken City, bulb on top of the boss area"}], "map_locations": [{"map": "sunkencity", "x": 243, "y": 276}]}
+,{"name": "Sunken City​​​​​​", "sections": [{"name": "Sunken City left area, Girl Costume", "ref": "Aquaria/sunken_city_l_bedroom/Sunken City left area, Girl Costume"}], "map_locations": [{"map": "sunkencity", "x": 192, "y": 227}]}
+
+// The Body
+,{"name": "The Body", "sections": [{"name": "The Body left area, first bulb in the top face room", "ref": "Aquaria/body_l/The Body left area, first bulb in the top face room"}], "map_locations": [{"map": "thebody", "x": 106, "y": 64}]}
+,{"name": "The Body​", "sections": [{"name": "The Body left area, second bulb in the top face room", "ref": "Aquaria/body_l/The Body left area, second bulb in the top face room"}], "map_locations": [{"map": "thebody", "x": 135, "y": 32}]}
+,{"name": "The Body​​", "sections": [{"name": "The Body left area, bulb below the water stream", "ref": "Aquaria/body_l/The Body left area, bulb below the water stream"}], "map_locations": [{"map": "thebody", "x": 269, "y": 332}]}
+,{"name": "The Body​​​", "sections": [{"name": "The Body left area, bulb in the top path to the top face room", "ref": "Aquaria/body_l/The Body left area, bulb in the top path to the top face room"}], "map_locations": [{"map": "thebody", "x": 276, "y": 129}]}
+,{"name": "The Body​​​​", "sections": [{"name": "The Body left area, bulb in the bottom face room", "ref": "Aquaria/body_l/The Body left area, bulb in the bottom face room"}], "map_locations": [{"map": "thebody", "x": 110, "y": 418}]}
+,{"name": "The Body​​​​​", "sections": [{"name": "The Body right area, bulb in the top face room", "ref": "Aquaria/body_rt/The Body right area, bulb in the top face room"}], "map_locations": [{"map": "thebody", "x": 1496, "y": 272}]}
+,{"name": "The Body​​​​​​", "sections": [{"name": "The Body right area, bulb in the top path to the bottom face room", "ref": "Aquaria/body_rb/The Body right area, bulb in the top path to the bottom face room"}], "map_locations": [{"map": "thebody", "x": 1409, "y": 288}]}
+,{"name": "The Body​​​​​​​", "sections": [{"name": "The Body right area, bulb in the bottom face room", "ref": "Aquaria/body_rb/The Body right area, bulb in the bottom face room"}], "map_locations": [{"map": "thebody", "x": 1533, "y": 383}]}
+,{"name": "The Body​​​​​​​​", "sections": [{"name": "The Body center area, breaking Li's cage", "ref": "Aquaria/body_c/The Body center area, breaking Li's cage"}], "map_locations": [{"map": "thebody", "x": 904, "y": 249}]}
+,{"name": "The Body​​​​​​​​​", "sections": [{"name": "The Body main area, bulb on the main path blocking tube", "ref": "Aquaria/body_c/The Body main area, bulb on the main path blocking tube"}], "map_locations": [{"map": "thebody", "x": 908, "y": 204}]}
+,{"name": "The Body​​​​​​​​​​", "sections": [{"name": "The Body bottom area, bulb in the Jelly Zap room", "ref": "Aquaria/body_b/The Body bottom area, bulb in the Jelly Zap room"}], "map_locations": [{"map": "thebody", "x": 768, "y": 877}]}
+,{"name": "The Body​​​​​​​​​​​", "sections": [{"name": "The Body bottom area, bulb in the nautilus room", "ref": "Aquaria/body_b/The Body bottom area, bulb in the nautilus room"}], "map_locations": [{"map": "thebody", "x": 829, "y": 865}]}
+,{"name": "The Body​​​​​​​​​​​​", "sections": [{"name": "The Body bottom area, Mutant Costume", "ref": "Aquaria/body_b/The Body bottom area, Mutant Costume"}], "map_locations": [{"map": "thebody", "x": 995, "y": 678}]}
+
+// Final Area
+,{"name": "Final Boss area", "sections": [{"name": "Final Boss area, first bulb in the turtle room", "ref": "Aquaria/final_boss_tube/Final Boss area, first bulb in the turtle room"}, {"name": "Final Boss area, second bulb in the turtle room", "ref": "Aquaria/final_boss_tube/Final Boss area, second bulb in the turtle room"}, {"name": "Final Boss area, third bulb in the turtle room", "ref": "Aquaria/final_boss_tube/Final Boss area, third bulb in the turtle room"}, {"name": "Final Boss area, Transturtle", "ref": "Aquaria/final_boss_tube/Final Boss area, Transturtle"}], "map_locations": [{"map": "thebody", "x": 1143, "y": 863}]}
+,{"name": "Final Boss area​", "sections": [{"name": "Final Boss area, bulb in the boss third form room", "ref": "Aquaria/final_boss/Final Boss area, bulb in the boss third form room"}], "map_locations": [{"map": "thebody", "x": 1197, "y": 984}]}
 
 	]}]

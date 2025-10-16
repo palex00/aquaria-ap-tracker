@@ -91,7 +91,7 @@
     },
     {
         "name": "sunkencity",
-        "location_size": 30,
+        "location_size": 16,
         "location_border_thickness": 2,
         "img": "images/maps/sunkencity.png"
     },
