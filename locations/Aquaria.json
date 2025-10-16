@@ -8,8 +8,6 @@
         "children": [
             {
                 "name": "openwater_tl",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_tl",
@@ -63,8 +61,6 @@
             },
             {
                 "name": "openwater_tr",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_tl",
@@ -128,6 +124,8 @@
                     {
                         "name": "Open Water top right area, first urn in the Mithalas exit",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -138,6 +136,8 @@
                     {
                         "name": "Open Water top right area, second urn in the Mithalas exit",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -148,6 +148,8 @@
                     {
                         "name": "Open Water top right area, third urn in the Mithalas exit",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -167,8 +169,6 @@
             },
             {
                 "name": "openwater_tr_turtle",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_tr, $beastorarnassi",
@@ -188,6 +188,8 @@
                     {
                         "name": "Open Water top right area, Transturtle",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/transturtle.png",
+                        "chest_opened_img": "images/items/transturtle_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -207,8 +209,6 @@
             },
             {
                 "name": "openwater_bl",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_tl",
@@ -249,8 +249,6 @@
             },
             {
                 "name": "skeleton_path",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_bl",
@@ -289,8 +287,6 @@
             },
             {
                 "name": "skeleton_path_sc",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/skeleton_path, $spirit"
@@ -299,6 +295,8 @@
                     {
                         "name": "Open Water skeleton path, King Skull",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -318,8 +316,6 @@
             },
             {
                 "name": "arnassi",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_br, $beast",
@@ -359,6 +355,8 @@
                     {
                         "name": "Arnassi Ruins, Song Plant Spore",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "$beastorarnassi"
                         ],
@@ -369,6 +367,8 @@
                     {
                         "name": "Arnassi Ruins, Arnassi Armor",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/arnassiarmor.png",
+                        "chest_opened_img": "images/items/arnassiarmor_collected.png",
                         "access_rules": [
                             "$fish",
 							"$beastandsoup"
@@ -389,8 +389,6 @@
             },
             {
                 "name": "arnassi_cave",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/arnassi",
@@ -401,6 +399,8 @@
                     {
                         "name": "Arnassi Ruins, Arnassi Statue",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -420,8 +420,6 @@
             },
             {
                 "name": "arnassi_crab_boss",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/arnassi_cave, $beastorarnassi, $nature",
@@ -431,6 +429,8 @@
                     {
                         "name": "Arnassi Ruins, Crab Armor",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/crabarmor.png",
+                        "chest_opened_img": "images/items/crabarmor_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -450,8 +450,6 @@
             },
             {
                 "name": "sun_temple_l",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/sun_temple_r, $bind",
@@ -495,6 +493,8 @@
                     {
                         "name": "Sun Temple, Golden Gear",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -514,8 +514,6 @@
             },
             {
                 "name": "sun_temple_r",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_tr_r",
@@ -555,6 +553,8 @@
                     {
                         "name": "Sun Temple, Sun Key",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -574,8 +574,6 @@
             },
             {
                 "name": "sun_temple_boss_path",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/sun_temple_l",
@@ -634,8 +632,6 @@
             },
             {
                 "name": "sun_temple_boss",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/sun_temple_boss_path, $energyattack"
@@ -644,6 +640,8 @@
                     {
                         "name": "Sun Temple boss area, beating Lumerean God",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -663,8 +661,6 @@
             },
             {
                 "name": "verse_cave_r",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/verse_cave_l",
@@ -694,6 +690,8 @@
                     {
                         "name": "Verse Cave right area, Big Seed",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "$bind"
                         ],
@@ -713,8 +711,6 @@
             },
             {
                 "name": "verse_cave_l",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/verse_cave_r",
@@ -724,6 +720,8 @@
                     {
                         "name": "Verse Cave, the Naija hint about the shield ability",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -773,8 +771,6 @@
             },
             {
                 "name": "abyss_l",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_bl, ^$optlight",
@@ -808,6 +804,8 @@
                     {
                         "name": "Abyss left area, Glowing Seed",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -818,6 +816,8 @@
                     {
                         "name": "Abyss left area, Glowing Plant",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -837,8 +837,6 @@
             },
             {
                 "name": "abyss_lb",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/abyss_l",
@@ -868,8 +866,6 @@
             },
             {
                 "name": "abyss_r",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_br, ^$optlight",
@@ -913,6 +909,8 @@
                     {
                         "name": "Abyss right area, Transturtle",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/transturtle.png",
+                        "chest_opened_img": "images/items/transturtle_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -932,8 +930,6 @@
             },
             {
                 "name": "energy_temple_1",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/home_water_behind_rocks",
@@ -945,6 +941,8 @@
                     {
                         "name": "Energy Temple first area, beating the Energy Statue",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -974,8 +972,6 @@
             },
             {
                 "name": "energy_temple_2",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/energy_temple_1, $energy",
@@ -1004,8 +1000,6 @@
             },
             {
                 "name": "energy_temple_3",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/energy_temple_2"
@@ -1033,8 +1027,6 @@
             },
             {
                 "name": "energy_temple_boss",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/energy_temple_idol, $energyattack, $fish",
@@ -1045,6 +1037,8 @@
                     {
                         "name": "Energy Temple boss area, Fallen God Tooth",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -1064,8 +1058,6 @@
             },
             {
                 "name": "energy_temple_blaster_room",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/energy_temple_4, $nature, $bind, $energyattack"
@@ -1074,6 +1066,8 @@
                     {
                         "name": "Energy Temple blaster room, Blaster Egg",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/babyblaster.png",
+                        "chest_opened_img": "images/items/babyblaster_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -1093,8 +1087,6 @@
             },
             {
                 "name": "energy_temple_altar",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/home_water_behind_rocks, $energyattack, $bind"
@@ -1103,6 +1095,8 @@
                     {
                         "name": "Energy Temple bottom entrance, Krotite Armor",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -1122,8 +1116,6 @@
             },
             {
                 "name": "energy_temple_idol",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/energy_temple_1, $fish",
@@ -1133,6 +1125,8 @@
                     {
                         "name": "Energy Temple first area, Energy Idol",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -1152,8 +1146,6 @@
             },
             {
                 "name": "mithalas_city",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_tr",
@@ -1255,6 +1247,8 @@
                     {
                         "name": "Mithalas City, first urn in one of the homes",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1265,6 +1259,8 @@
                     {
                         "name": "Mithalas City, second urn in one of the homes",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1275,6 +1271,8 @@
                     {
                         "name": "Mithalas City, first urn in the city reserve",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1285,6 +1283,8 @@
                     {
                         "name": "Mithalas City, second urn in the city reserve",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1295,6 +1295,8 @@
                     {
                         "name": "Mithalas City, third urn in the city reserve",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1314,8 +1316,6 @@
             },
             {
                 "name": "mithalas_city_top_path",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/mithalas_city, $beastorarnassi",
@@ -1356,6 +1356,8 @@
                     {
                         "name": "Mithalas City, Mithalas Pot",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -1366,6 +1368,8 @@
                     {
                         "name": "Mithalas City, urn in the Castle flower tube entrance",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1385,8 +1389,6 @@
             },
             {
                 "name": "mithalas_city_fishpass",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/mithalas_city, $fish"
@@ -1395,6 +1397,8 @@
                     {
                         "name": "Mithalas City, Doll",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -1405,6 +1409,8 @@
                     {
                         "name": "Mithalas City, urn inside a home fish pass",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1424,8 +1430,6 @@
             },
             {
                 "name": "cathedral_l",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/mithalas_city",
@@ -1448,6 +1452,8 @@
                     {
                         "name": "Mithalas City Castle, Blue banner",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -1458,6 +1464,8 @@
                     {
                         "name": "Mithalas City Castle, urn in the bedroom",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1468,6 +1476,8 @@
                     {
                         "name": "Mithalas City Castle, first urn of the single lamp path",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1478,6 +1488,8 @@
                     {
                         "name": "Mithalas City Castle, second urn of the single lamp path",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1488,6 +1500,8 @@
                     {
                         "name": "Mithalas City Castle, urn in the bottom room",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1498,6 +1512,8 @@
                     {
                         "name": "Mithalas City Castle, first urn on the entrance path",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1508,6 +1524,8 @@
                     {
                         "name": "Mithalas City Castle, second urn on the entrance path",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1527,8 +1545,6 @@
             },
             {
                 "name": "cathedral_l_tube",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/mithalas_city_top_path, $nature, $energyattack"
@@ -1537,6 +1553,8 @@
                     {
                         "name": "Mithalas City Castle, beating the Priests",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -1556,8 +1574,6 @@
             },
             {
                 "name": "cathedral_l_sc",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/cathedral_l_tube, $spirit",
@@ -1567,6 +1583,8 @@
                     {
                         "name": "Mithalas City Castle, Trident Head",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -1586,8 +1604,6 @@
             },
             {
                 "name": "cathedral_r",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/cathedral_l, $bind, $energyattack",
@@ -1597,6 +1613,8 @@
                     {
                         "name": "Mithalas Cathedral, third urn in the top right room",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1607,6 +1625,8 @@
                     {
                         "name": "Mithalas Cathedral, second urn in the top right room",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1617,6 +1637,8 @@
                     {
                         "name": "Mithalas Cathedral, urn in the flesh room with fleas",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1627,6 +1649,8 @@
                     {
                         "name": "Mithalas Cathedral, first urn in the bottom right path",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1637,6 +1661,8 @@
                     {
                         "name": "Mithalas Cathedral, first urn in the top right room",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1647,6 +1673,8 @@
                     {
                         "name": "Mithalas Cathedral, second urn in the bottom right path",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1657,6 +1685,8 @@
                     {
                         "name": "Mithalas Cathedral, urn behind the flesh vein",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1667,6 +1697,8 @@
                     {
                         "name": "Mithalas Cathedral, urn in the top left eyes boss room",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1677,6 +1709,8 @@
                     {
                         "name": "Mithalas Cathedral, first urn in the path behind the flesh vein",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1687,6 +1721,8 @@
                     {
                         "name": "Mithalas Cathedral, second urn in the path behind the flesh vein",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1697,6 +1733,8 @@
                     {
                         "name": "Mithalas Cathedral, third urn in the path behind the flesh vein",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1707,6 +1745,8 @@
                     {
                         "name": "Mithalas Cathedral, fourth urn in the top right room",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1717,6 +1757,8 @@
                     {
                         "name": "Mithalas Cathedral, Mithalan Dress",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "$beast"
                         ],
@@ -1727,6 +1769,8 @@
                     {
                         "name": "Mithalas Cathedral right area, urn below the left entrance",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1746,8 +1790,6 @@
             },
             {
                 "name": "cathedral_underground",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/cathedral_l, $beast",
@@ -1827,8 +1869,6 @@
             },
             {
                 "name": "cathedral_boss_l",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/cathedral_boss_r, $bind, $energyattack"
@@ -1837,6 +1877,8 @@
                     {
                         "name": "Cathedral boss area, beating Mithalan God",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -1856,8 +1898,6 @@
             },
             {
                 "name": "cathedral_boss_r",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/cathedral_boss_l",
@@ -1875,8 +1915,6 @@
             },
             {
                 "name": "forest_tl",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_bl",
@@ -1918,6 +1956,8 @@
                     {
                         "name": "Kelp Forest top left area, Jelly Egg",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "$beast"
                         ],
@@ -1937,8 +1977,6 @@
             },
             {
                 "name": "forest_tl_fp",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_tl, $nature, $bind, $energyattack, $fish"
@@ -1957,6 +1995,8 @@
                     {
                         "name": "Kelp Forest top left area, Verse Egg",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -1976,8 +2016,6 @@
             },
             {
                 "name": "forest_tr",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_br",
@@ -2039,6 +2077,8 @@
                     {
                         "name": "Kelp Forest top right area, Black Pearl",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "^$optlight"
                         ],
@@ -2058,8 +2098,6 @@
             },
             {
                 "name": "forest_tr_fp",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_tr, $fish",
@@ -2088,8 +2126,6 @@
             },
             {
                 "name": "forest_bl",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_br",
@@ -2113,6 +2149,8 @@
                     {
                         "name": "Kelp Forest bottom left area, Walker baby",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "$spirit"
                         ],
@@ -2123,6 +2161,8 @@
                     {
                         "name": "Kelp Forest bottom left area, Transturtle",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/transturtle.png",
+                        "chest_opened_img": "images/items/transturtle_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2142,8 +2182,6 @@
             },
             {
                 "name": "forest_br",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_tl",
@@ -2155,6 +2193,8 @@
                     {
                         "name": "Kelp Forest bottom right area, Odd Container",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "^$optlight"
                         ],
@@ -2174,8 +2214,6 @@
             },
             {
                 "name": "forest_boss",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_boss_entrance, $energyattack"
@@ -2184,6 +2222,8 @@
                     {
                         "name": "Kelp Forest boss area, beating Drunian God",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2203,8 +2243,6 @@
             },
             {
                 "name": "forest_boss_entrance",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_bl, $nature",
@@ -2234,8 +2272,6 @@
             },
             {
                 "name": "forest_sprite_cave",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_tr",
@@ -2264,8 +2300,6 @@
             },
             {
                 "name": "forest_sprite_cave_tube",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_sprite_cave, $nature"
@@ -2284,6 +2318,8 @@
                     {
                         "name": "Kelp Forest sprite cave, Seed Bag",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2303,8 +2339,6 @@
             },
             {
                 "name": "forest_fish_cave",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_bl"
@@ -2313,6 +2347,8 @@
                     {
                         "name": "Kelp Forest bottom left area, Fish Cave puzzle",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2332,8 +2368,6 @@
             },
             {
                 "name": "home_water",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/verse_cave_l",
@@ -2419,8 +2453,6 @@
             },
             {
                 "name": "home_water_transturtle",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/home_water, opt_confined_both",
@@ -2432,6 +2464,8 @@
                     {
                         "name": "Home Water, Transturtle",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/transturtle.png",
+                        "chest_opened_img": "images/items/transturtle_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2451,8 +2485,6 @@
             },
             {
                 "name": "home_water_nautilus",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
 					"@Aquaria/home_water_behind_rocks, $energyattack"
@@ -2461,6 +2493,8 @@
                     {
                         "name": "Home Water, Nautilus Egg",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/babynautilus.png",
+                        "chest_opened_img": "images/items/babynautilus_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2480,8 +2514,6 @@
             },
             {
                 "name": "body_l",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/body_c, $energy"
@@ -2549,8 +2581,6 @@
             },
             {
                 "name": "body_rt",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/body_c"
@@ -2578,8 +2608,6 @@
             },
             {
                 "name": "body_rb",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/body_c, $energy"
@@ -2617,8 +2645,6 @@
             },
             {
                 "name": "body_c",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/abyss_lb, tongue_removed, ^$optlight",
@@ -2630,15 +2656,17 @@
                     {
                         "name": "The Body center area, breaking Li's cage",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
-                            "tongue_removed"
+                            ""
                         ],
                         "visibility_rules": [
                             ""
                         ]
                     },
                     {
-                        "name": "The Body main area, bulb on the main path blocking tube",
+                        "name": "The Body center area, bulb on the main path blocking tube",
                         "item_count": 1,
                         "access_rules": [
                             ""
@@ -2659,8 +2687,6 @@
             },
             {
                 "name": "body_b",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/body_c, $dual",
@@ -2690,6 +2716,8 @@
                     {
                         "name": "The Body bottom area, Mutant Costume",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2709,8 +2737,6 @@
             },
             {
                 "name": "final_boss_tube",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/final_boss_loby, $nature",
@@ -2750,6 +2776,8 @@
                     {
                         "name": "Final Boss area, Transturtle",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/transturtle.png",
+                        "chest_opened_img": "images/items/transturtle_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2769,8 +2797,6 @@
             },
             {
                 "name": "final_boss",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/final_boss_loby, $energy, $dual, $sun, $bind, $minibosses, $bigbosses, $secrets"
@@ -2789,6 +2815,8 @@
                     {
                         "name": "GOAL",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2808,8 +2836,6 @@
             },
             {
                 "name": "song_cave",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/home_water"
@@ -2818,6 +2844,8 @@
                     {
                         "name": "Song Cave, Erulian spirit",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2878,6 +2906,8 @@
                     {
                         "name": "Song Cave, Verse Egg",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "$bind"
                         ],
@@ -2888,6 +2918,8 @@
                     {
                         "name": "Song Cave, Jelly Beacon",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2898,6 +2930,8 @@
                     {
                         "name": "Song Cave, Anemone Seed",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "$nature"
                         ],
@@ -2917,8 +2951,6 @@
             },
             {
                 "name": "veil_tl",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_br",
@@ -2931,6 +2963,8 @@
                     {
                         "name": "The Veil top left area, In Li's cave",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2961,6 +2995,8 @@
                     {
                         "name": "The Veil top left area, Transturtle",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/transturtle.png",
+                        "chest_opened_img": "images/items/transturtle_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -2980,8 +3016,6 @@
             },
             {
                 "name": "veil_tl_fp",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_tl, $fish"
@@ -3009,8 +3043,6 @@
             },
             {
                 "name": "turtle_cave",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_tl",
@@ -3020,6 +3052,8 @@
                     {
                         "name": "Turtle cave, Turtle Egg",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "$bind"
                         ],
@@ -3039,8 +3073,6 @@
             },
             {
                 "name": "turtle_cave_bubble",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/turtle_cave"
@@ -3059,6 +3091,8 @@
                     {
                         "name": "Turtle cave, Urchin Costume",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "$soup"
                         ],
@@ -3078,8 +3112,6 @@
             },
             {
                 "name": "veil_tr_r",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_tl",
@@ -3099,6 +3131,8 @@
                     {
                         "name": "The Veil top right area, Golden Starfish",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3118,8 +3152,6 @@
             },
             {
                 "name": "veil_tr_l",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/sun_temple_l_entrance",
@@ -3141,6 +3173,8 @@
                     {
                         "name": "The Veil top right area, Transturtle",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/transturtle.png",
+                        "chest_opened_img": "images/items/transturtle_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3160,8 +3194,6 @@
             },
             {
                 "name": "veil_bl",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_tr",
@@ -3192,8 +3224,6 @@
             },
             {
                 "name": "veil_b_sc",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_bl, $spirit",
@@ -3222,8 +3252,6 @@
             },
             {
                 "name": "veil_bl_fp",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_bl, $fish, $bind, $damage"
@@ -3232,6 +3260,8 @@
                     {
                         "name": "The Veil bottom area, Verse Egg",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             "$bind"
                         ],
@@ -3251,8 +3281,6 @@
             },
             {
                 "name": "veil_br",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_tr, $beastorarnassi",
@@ -3263,6 +3291,8 @@
                     {
                         "name": "The Veil bottom area, Stone Head",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3282,8 +3312,6 @@
             },
             {
                 "name": "ice_cavern",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/abyss_r, $spirit",
@@ -3352,8 +3380,6 @@
             },
             {
                 "name": "king_jellyfish_cave",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/abyss_l, $energy, $beast",
@@ -3373,6 +3399,8 @@
                     {
                         "name": "King Jellyfish Cave, Jellyfish Costume",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/jellycostume.png",
+                        "chest_opened_img": "images/items/jellycostume_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3392,8 +3420,6 @@
             },
             {
                 "name": "bubble_cave",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/ice_cavern, $beast, $soup",
@@ -3432,8 +3458,6 @@
             },
             {
                 "name": "bubble_cave_boss",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/bubble_cave, $nature, $bind"
@@ -3442,6 +3466,8 @@
                     {
                         "name": "Bubble Cave, Verse Egg",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3461,8 +3487,6 @@
             },
             {
                 "name": "naija_home",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/home_water"
@@ -3500,8 +3524,6 @@
             },
             {
                 "name": "mermog_cave",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_tr_fp",
@@ -3530,8 +3552,6 @@
             },
             {
                 "name": "mermog_boss",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/mermog_cave, $beast, $energyattack"
@@ -3540,6 +3560,8 @@
                     {
                         "name": "Mermog cave, Piranha Egg",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/babypiranha.png",
+                        "chest_opened_img": "images/items/babypiranha_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3559,8 +3581,6 @@
             },
             {
                 "name": "octo_cave_t",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_tr_l, $fish, $sun, $beast, $energyattack",
@@ -3570,6 +3590,8 @@
                     {
                         "name": "Octopus Cave, Dumbo Egg",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/babydumbo.png",
+                        "chest_opened_img": "images/items/babydumbo_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3589,8 +3611,6 @@
             },
             {
                 "name": "octo_cave_b",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_tr_l, $fish",
@@ -3619,8 +3639,6 @@
             },
             {
                 "name": "sunken_city_l",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/sunken_city_r",
@@ -3631,6 +3649,8 @@
                     {
                         "name": "Sunken City left area, crate in the little pipe room",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/crate.png",
+                        "chest_opened_img": "images/items/crate_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -3641,6 +3661,8 @@
                     {
                         "name": "Sunken City left area, crate close to the save crystal",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/crate.png",
+                        "chest_opened_img": "images/items/crate_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -3651,6 +3673,8 @@
                     {
                         "name": "Sunken City left area, crate before the bedroom",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/crate.png",
+                        "chest_opened_img": "images/items/crate_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -3670,8 +3694,6 @@
             },
             {
                 "name": "sunken_city_r",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/abyss_lb, $LI",
@@ -3681,6 +3703,8 @@
                     {
                         "name": "Sunken City right area, crate in the left bottom room",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/crate.png",
+                        "chest_opened_img": "images/items/crate_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -3691,6 +3715,8 @@
                     {
                         "name": "Sunken City right area, crate close to the save crystal",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/crate.png",
+                        "chest_opened_img": "images/items/crate_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -3710,8 +3736,6 @@
             },
             {
                 "name": "sunken_city_boss",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/sunken_city_l, $beast, $sun, $energyattack, $bind"
@@ -3739,8 +3763,6 @@
             },
             {
                 "name": "sunken_city_l_bedroom",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/sunken_city_l, $spirit"
@@ -3749,6 +3771,8 @@
                     {
                         "name": "Sunken City left area, Girl Costume",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3768,8 +3792,6 @@
             },
             {
                 "name": "simon",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "^$transturtle|SimonSays"
@@ -3778,6 +3800,8 @@
                     {
                         "name": "Simon Says area, beating Simon Says",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3788,6 +3812,8 @@
                     {
                         "name": "Simon Says area, Transturtle",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/transturtle.png",
+                        "chest_opened_img": "images/items/transturtle_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3807,8 +3833,6 @@
             },
             {
                 "name": "whale",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/abyss_r_whale, $spirit, $sun"
@@ -3827,6 +3851,8 @@
                     {
                         "name": "The Whale, Verse Egg",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3846,8 +3872,6 @@
             },
             {
                 "name": "openwater_br",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_tr",
@@ -3867,8 +3891,6 @@
             },
             {
                 "name": "arnassi_cave_transturtle",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/arnassi_cave, $fish",
@@ -3878,6 +3900,8 @@
                     {
                         "name": "Arnassi Ruins, Transturtle",
                         "item_count": 1,
+                        "chest_unopened_img": "images/items/transturtle.png",
+                        "chest_opened_img": "images/items/transturtle_collected.png",
                         "access_rules": [
                             ""
                         ],
@@ -3897,8 +3921,6 @@
             },
             {
                 "name": "final_boss_loby",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/body_b, $dual",
@@ -3916,8 +3938,6 @@
             },
             {
                 "name": "abyss_r_transturtle",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/abyss_r, ^$optlight",
@@ -3935,8 +3955,6 @@
             },
             {
                 "name": "first_secret",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/abyss_r, $spirit, $sun, $bind, $energyattack"
@@ -3953,8 +3971,6 @@
             },
             {
                 "name": "forest_bl_sc",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_bl, $energyattack",
@@ -3972,8 +3988,6 @@
             },
             {
                 "name": "sun_temple_l_entrance",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_tr_l",
@@ -3994,8 +4008,6 @@
             },
             {
                 "name": "veil_tr_l_fp",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
 				"@Aquaria/veil_tr_l, $fish",
@@ -4014,8 +4026,6 @@
             },
             {
                 "name": "home_water_behind_rocks",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
 				"@Aquaria/home_water, $bind",
@@ -4056,8 +4066,6 @@
             },
             {
                 "name": "energy_temple_4",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
 				"@Aquaria/energy_temple_1, $beast",
@@ -4075,8 +4083,6 @@
             },
             {
                 "name": "abyss_r_whale",
-                "chest_unopened_img": "images/items/close.png",
-                "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                        "@Aquaria/abyss_r, $spirit, $sun",
