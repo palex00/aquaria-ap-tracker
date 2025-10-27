@@ -16,6 +16,15 @@ function damage()
 	or has("BabyBlaster")
 end
 
+function damage_no_nature()
+	return has("Energyform")
+	or has("Beastform")
+	or has("Liandlisong")
+	or has("BabyNautilus")
+	or has("BabyPiranha")
+	or has("BabyBlaster")
+end
+
 function energyattack()
 	return has("Energyform")
 	or (has("Dualform") and has("LiandLisong"))
@@ -191,4 +200,20 @@ function excluded()
 	else
 		return true
 	end
+end
+
+function show_miniboss()
+    if minibosses() == true then
+        return false
+    else
+        return true
+    end
+end
+
+function show_boss()
+    if bigbosses() == true then
+        return false
+    else
+        return true
+    end
 end

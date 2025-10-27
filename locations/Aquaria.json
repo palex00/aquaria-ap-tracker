@@ -14,9 +14,9 @@
                     "@Aquaria/openwater_tr",
                     "@Aquaria/openwater_bl",
                     "@Aquaria/forest_br",
-					"@Aquaria/home_water, $bind, $energyattack",
-					"@Aquaria/home_water, opt_confined_both",
-					"@Aquaria/home_water, opt_confined_energydoor"
+                    "@Aquaria/home_water, $bind, $energyattack",
+                    "@Aquaria/home_water, opt_confined_both",
+                    "@Aquaria/home_water, opt_confined_energydoor"
                 ],
                 "sections": [
                     {
@@ -130,7 +130,8 @@
                             "^$damage"
                         ],
                         "visibility_rules": [
-                            ""
+                            "^$damage_no_nature",
+                            "$bind"
                         ]
                     },
                     {
@@ -139,7 +140,8 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "^$damage_no_nature",
+                            "$bind"
                         ],
                         "visibility_rules": [
                             ""
@@ -151,7 +153,8 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "^$damage_no_nature",
+                            "$bind"
                         ],
                         "visibility_rules": [
                             ""
@@ -319,7 +322,7 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/openwater_br, $beast",
-					"@Aquaria/arnassi_cave"
+                    "@Aquaria/arnassi_cave"
                 ],
                 "sections": [
                     {
@@ -371,7 +374,7 @@
                         "chest_opened_img": "images/items/arnassiarmor_collected.png",
                         "access_rules": [
                             "$fish",
-							"$beastandsoup"
+                            "$beastandsoup"
                         ],
                         "visibility_rules": [
                             "$excluded"
@@ -437,6 +440,16 @@
                         "visibility_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Defeat Crab (Event)",
+                        "hosted_item": "miniboss_crab",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_miniboss"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -501,14 +514,16 @@
                         "visibility_rules": [
                             ""
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "",
-                        "x": 1627,
-                        "y": 387,
-                        "size": 6
+                        "name": "Sun Temple, Obtain Secret 3 (Event)",
+                        "hosted_item": "secret03",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "opt_goal_secrets"
+                        ]
                     }
                 ]
             },
@@ -562,14 +577,6 @@
                             "$excluded"
                         ]
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 331,
-                        "y": 72,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -620,14 +627,6 @@
                             "$excluded"
                         ]
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 311,
-                        "y": 1451,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -648,14 +647,16 @@
                         "visibility_rules": [
                             "$excluded"
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "",
-                        "x": 2111,
-                        "y": 1042,
-                        "size": 6
+                        "name": "Defeat the Sun Temple Boss (Event)",
+                        "hosted_item": "boss_sunworm",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_boss"
+                        ]
                     }
                 ]
             },
@@ -698,14 +699,6 @@
                         "visibility_rules": [
                             ""
                         ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 1208,
-                        "y": 738,
-                        "size": 6
                     }
                 ]
             },
@@ -758,14 +751,6 @@
                         "visibility_rules": [
                             ""
                         ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 2355,
-                        "y": 845,
-                        "size": 6
                     }
                 ]
             },
@@ -854,14 +839,6 @@
                             ""
                         ]
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 2093,
-                        "y": 687,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -917,14 +894,6 @@
                         "visibility_rules": [
                             ""
                         ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 434,
-                        "y": 679,
-                        "size": 6
                     }
                 ]
             },
@@ -1045,6 +1014,16 @@
                         "visibility_rules": [
                             "$excluded"
                         ]
+                    },
+                    {
+                        "name": "Defeat the Energy Temple Boss (Event)",
+                        "hosted_item": "energybossdead",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_boss"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1063,6 +1042,16 @@
                     "@Aquaria/energy_temple_4, $nature, $bind, $energyattack"
                 ],
                 "sections": [
+                    {
+                        "name": "Defeat Blaster (Event)",
+                        "hosted_item": "miniboss_blaster",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_miniboss"
+                        ]
+                    },
                     {
                         "name": "Energy Temple blaster room, Blaster Egg",
                         "item_count": 1,
@@ -1148,10 +1137,11 @@
                 "name": "mithalas_city",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/openwater_tr",
                     "@Aquaria/mithalas_city_top_path",
-                    "@Aquaria/mithalas_city_fishpass, $fish",
-                    "@Aquaria/cathedral_l"
+                    "@Aquaria/mithalas_city_fishpass",
+                    "@Aquaria/mithalas_castle",
+                    "@Aquaria/cathedral_boss_l, $beast",
+                    "@Aquaria/cathedral_underground, $beast"
                 ],
                 "sections": [
                     {
@@ -1303,14 +1293,49 @@
                         "visibility_rules": [
                             ""
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "",
-                        "x": 1972,
-                        "y": 759,
-                        "size": 6
+                        "name": "Mithalas City, Obtain Secret 2 (Event)",
+                        "hosted_item": "secret02",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "opt_goal_secrets"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "mithalas_city_fishpass",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Aquaria/mithalas_city"
+                ],
+                "sections": [
+                    {
+                        "name": "Mithalas City, Doll",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Mithalas City, urn inside a home fish pass",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
+                        "access_rules": [
+                            "^$damage"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
                     }
                 ]
             },
@@ -1319,8 +1344,7 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/mithalas_city, $beastorarnassi",
-                    "@Aquaria/cathedral_l_tube, $nature, $energyattack",
-                    "@Aquaria/cathedral_l_tube, $nature"
+                    "@Aquaria/mithalas_castle_tube, $nature"
                 ],
                 "sections": [
                     {
@@ -1377,66 +1401,14 @@
                             ""
                         ]
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 1589,
-                        "y": 83,
-                        "size": 6
-                    }
                 ]
             },
             {
-                "name": "mithalas_city_fishpass",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "@Aquaria/mithalas_city, $fish"
-                ],
-                "sections": [
-                    {
-                        "name": "Mithalas City, Doll",
-                        "item_count": 1,
-                        "chest_unopened_img": "images/items/.png",
-                        "chest_opened_img": "images/items/_collected.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": "Mithalas City, urn inside a home fish pass",
-                        "item_count": 1,
-                        "chest_unopened_img": "images/items/urn.png",
-                        "chest_opened_img": "images/items/urn_collected.png",
-                        "access_rules": [
-                            "^$damage"
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 875,
-                        "y": 455,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "cathedral_l",
+                "name": "mithalas_castle",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/mithalas_city",
-                    "@Aquaria/cathedral_l_tube, $spirit",
-                    "@Aquaria/cathedral_l_sc, $spirit",
-                    "@Aquaria/cathedral_boss_l, $beast",
-                    "@Aquaria/cathedral_underground, $beast"
+                    "@Aquaria/mithalas_castle_tube, $spirit"
                 ],
                 "sections": [
                     {
@@ -1464,8 +1436,8 @@
                     {
                         "name": "Mithalas City Castle, urn in the bedroom",
                         "item_count": 1,
-                        "chest_unopened_img": "images/items/.png",
-                        "chest_opened_img": "images/items/_collected.png",
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1476,8 +1448,8 @@
                     {
                         "name": "Mithalas City Castle, first urn of the single lamp path",
                         "item_count": 1,
-                        "chest_unopened_img": "images/items/.png",
-                        "chest_opened_img": "images/items/_collected.png",
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1488,8 +1460,8 @@
                     {
                         "name": "Mithalas City Castle, second urn of the single lamp path",
                         "item_count": 1,
-                        "chest_unopened_img": "images/items/.png",
-                        "chest_opened_img": "images/items/_collected.png",
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1500,8 +1472,8 @@
                     {
                         "name": "Mithalas City Castle, urn in the bottom room",
                         "item_count": 1,
-                        "chest_unopened_img": "images/items/.png",
-                        "chest_opened_img": "images/items/_collected.png",
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1512,8 +1484,8 @@
                     {
                         "name": "Mithalas City Castle, first urn on the entrance path",
                         "item_count": 1,
-                        "chest_unopened_img": "images/items/.png",
-                        "chest_opened_img": "images/items/_collected.png",
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1524,8 +1496,8 @@
                     {
                         "name": "Mithalas City Castle, second urn on the entrance path",
                         "item_count": 1,
-                        "chest_unopened_img": "images/items/.png",
-                        "chest_opened_img": "images/items/_collected.png",
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
                             "^$damage"
                         ],
@@ -1533,18 +1505,10 @@
                             ""
                         ]
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 1481,
-                        "y": 482,
-                        "size": 6
-                    }
                 ]
             },
             {
-                "name": "cathedral_l_tube",
+                "name": "mithalas_castle_tube",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/mithalas_city_top_path, $nature, $energyattack"
@@ -1561,23 +1525,25 @@
                         "visibility_rules": [
                             "$excluded"
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "",
-                        "x": 2489,
-                        "y": 721,
-                        "size": 6
+                        "name": "Defeat Mithala Priests (Event)",
+                        "hosted_item": "miniboss_priests",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_miniboss"
+                        ]
                     }
                 ]
             },
             {
-                "name": "cathedral_l_sc",
+                "name": "mithalas_castle_sc",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/cathedral_l_tube, $spirit",
-                    "@Aquaria/cathedral_l, $spirit"
+                    "@Aquaria/mithalas_castle_tube, $spirit",
+                    "@Aquaria/mithalas_castle, $spirit"
                 ],
                 "sections": [
                     {
@@ -1592,24 +1558,40 @@
                             ""
                         ]
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 2009,
-                        "y": 898,
-                        "size": 6
-                    }
                 ]
             },
             {
-                "name": "cathedral_r",
+                "name": "cathedral_top_start",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/cathedral_l, $bind, $energyattack",
-                    "@Aquaria/cathedral_underground, $beast, $energy"
+                    "@Aquaria/mithalas_castle, $bind",
+                    "@Aquaria/cathedral_top_end, $energyattack"
                 ],
                 "sections": [
+                    {
+                        "name": "Mithalas Cathedral, bulb in the flesh room with fleas",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/bulb.png",
+                        "chest_opened_img": "images/items/bulb_collected.png",
+                        "access_rules": [
+                            "^$damage"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Mithalas Cathedral, Mithalan Dress",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/.png",
+                        "chest_opened_img": "images/items/_collected.png",
+                        "access_rules": [
+                            "$beast"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
                     {
                         "name": "Mithalas Cathedral, third urn in the top right room",
                         "item_count": 1,
@@ -1635,43 +1617,7 @@
                         ]
                     },
                     {
-                        "name": "Mithalas Cathedral, urn in the flesh room with fleas",
-                        "item_count": 1,
-                        "chest_unopened_img": "images/items/urn.png",
-                        "chest_opened_img": "images/items/urn_collected.png",
-                        "access_rules": [
-                            "^$damage"
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": "Mithalas Cathedral, first urn in the bottom right path",
-                        "item_count": 1,
-                        "chest_unopened_img": "images/items/urn.png",
-                        "chest_opened_img": "images/items/urn_collected.png",
-                        "access_rules": [
-                            "^$damage"
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
                         "name": "Mithalas Cathedral, first urn in the top right room",
-                        "item_count": 1,
-                        "chest_unopened_img": "images/items/urn.png",
-                        "chest_opened_img": "images/items/urn_collected.png",
-                        "access_rules": [
-                            "^$damage"
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
-                        "name": "Mithalas Cathedral, second urn in the bottom right path",
                         "item_count": 1,
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
@@ -1755,18 +1701,6 @@
                         ]
                     },
                     {
-                        "name": "Mithalas Cathedral, Mithalan Dress",
-                        "item_count": 1,
-                        "chest_unopened_img": "images/items/.png",
-                        "chest_opened_img": "images/items/_collected.png",
-                        "access_rules": [
-                            "$beast"
-                        ],
-                        "visibility_rules": [
-                            ""
-                        ]
-                    },
-                    {
                         "name": "Mithalas Cathedral right area, urn below the left entrance",
                         "item_count": 1,
                         "chest_unopened_img": "images/items/urn.png",
@@ -1778,13 +1712,39 @@
                             ""
                         ]
                     }
+                ]
+            },
+            {
+                "name": "cathedral_top_end",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Aquaria/cathedral_top_start, $energyattack",
+                    "@Aquaria/cathedral_underground, $beast, $damage"
                 ],
-                "map_locations": [
+                "sections": [
                     {
-                        "map": "",
-                        "x": 2425,
-                        "y": 351,
-                        "size": 6
+                        "name": "Mithalas Cathedral, first urn in the bottom right path",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
+                        "access_rules": [
+                            "^$damage"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Mithalas Cathedral, second urn in the bottom right path",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/urn.png",
+                        "chest_opened_img": "images/items/urn_collected.png",
+                        "access_rules": [
+                            "^$damage"
+                        ],
+                        "visibility_rules": [
+                            ""
+                        ]
                     }
                 ]
             },
@@ -1792,8 +1752,8 @@
                 "name": "cathedral_underground",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/cathedral_l, $beast",
-                    "@Aquaria/cathedral_r",
+                    "@Aquaria/mithalas_castle, $beast",
+                    "@Aquaria/cathedral_top_end, $energy",
                     "@Aquaria/cathedral_boss_r, $beast"
                 ],
                 "sections": [
@@ -1857,14 +1817,6 @@
                             ""
                         ]
                     }
-                ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 997,
-                        "y": 801,
-                        "size": 6
-                    }
                 ]
             },
             {
@@ -1885,14 +1837,16 @@
                         "visibility_rules": [
                             "$excluded"
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "",
-                        "x": 2243,
-                        "y": 1182,
-                        "size": 6
+                        "name": "Defeat the Mithala Underground Boss (Event)",
+                        "hosted_item": "boss_mithala",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_boss"
+                        ]
                     }
                 ]
             },
@@ -1900,18 +1854,11 @@
                 "name": "cathedral_boss_r",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/cathedral_boss_l",
-                    "@Aquaria/cathedral_l, $beast",
-                    "@Aquaria/cathedral_underground"
+                    "@Aquaria/mithalas_castle, $beast",
+                    "@Aquaria/cathedral_underground",
+                    "@Aquaria/cathedral_boss_l"
                 ],
-                "map_locations": [
-                    {
-                        "map": "",
-                        "x": 2243,
-                        "y": 1182,
-                        "size": 6
-                    }
-                ]
+                "sections": []
             },
             {
                 "name": "forest_tl",
@@ -2021,7 +1968,7 @@
                     "@Aquaria/forest_br",
                     "@Aquaria/forest_tl",
                     "@Aquaria/forest_tr_fp, $fish",
-                    "@Aquaria/forest_sprite_cave"
+                    "@Aquaria/sprite_cave"
                 ],
                 "sections": [
                     {
@@ -2230,14 +2177,16 @@
                         "visibility_rules": [
                             "$excluded"
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "",
-                        "x": 2439,
-                        "y": 1133,
-                        "size": 6
+                        "name": "Defeat the Kelp Forest Boss (Event)",
+                        "hosted_item": "boss_forest",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_boss"
+                        ]
                     }
                 ]
             },
@@ -2271,11 +2220,11 @@
                 ]
             },
             {
-                "name": "forest_sprite_cave",
+                "name": "sprite_cave",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/forest_tr",
-                    "@Aquaria/forest_sprite_cave_tube, $nature"
+                    "@Aquaria/sprite_cave_tube, $nature"
                 ],
                 "sections": [
                     {
@@ -2299,10 +2248,10 @@
                 ]
             },
             {
-                "name": "forest_sprite_cave_tube",
+                "name": "sprite_cave_tube",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/forest_sprite_cave, $nature"
+                    "@Aquaria/sprite_cave, $nature"
                 ],
                 "sections": [
                     {
@@ -2378,7 +2327,7 @@
                     "@Aquaria/energy_temple_1, $bind",
                     "@Aquaria/energy_temple_altar, $bind, $energyattack",
                     "@Aquaria/openwater_tl",
-					"@Aquaria/home_water_behind_rocks, $bind"
+                    "@Aquaria/home_water_behind_rocks, $bind"
                 ],
                 "sections": [
                     {
@@ -2456,8 +2405,8 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/home_water, opt_confined_both",
-					"@Aquaria/home_water, opt_confined_transturtle",
-					"@Aquaria/home_water, $bind",
+                    "@Aquaria/home_water, opt_confined_transturtle",
+                    "@Aquaria/home_water, $bind",
                     "^$transturtle|HomeWater"
                 ],
                 "sections": [
@@ -2487,9 +2436,19 @@
                 "name": "home_water_nautilus",
                 "overlay_background": "#000000",
                 "access_rules": [
-					"@Aquaria/home_water_behind_rocks, $energyattack"
+                    "@Aquaria/home_water_behind_rocks, $energyattack"
                 ],
                 "sections": [
+                    {
+                        "name": "Defeat Nautilus Prime",
+                        "hosted_item": "miniboss_nautilusprime",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_miniboss"
+                        ]
+                    },
                     {
                         "name": "Home Water, Nautilus Egg",
                         "item_count": 1,
@@ -3156,7 +3115,7 @@
                 "access_rules": [
                     "@Aquaria/sun_temple_l_entrance",
                     "@Aquaria/sun_temple_boss",
-					"@Aquaria/veil_tr_l_fp, $fish",
+                    "@Aquaria/veil_tr_l_fp, $fish",
                     "^$transturtle|Veiltopright"
                 ],
                 "sections": [
@@ -3397,6 +3356,16 @@
                         ]
                     },
                     {
+                        "name": "Defeat King Jelly (Event)",
+                        "hosted_item": "miniboss_kingjelly",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_miniboss"
+                        ]
+                    },
+                    {
                         "name": "King Jellyfish Cave, Jellyfish Costume",
                         "item_count": 1,
                         "chest_unopened_img": "images/items/jellycostume.png",
@@ -3474,14 +3443,16 @@
                         "visibility_rules": [
                             "$excluded"
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "",
-                        "x": 2221,
-                        "y": 305,
-                        "size": 6
+                        "name": "Defeat Mantis Shrimp (Event)",
+                        "hosted_item": "miniboss_mantisshrimp",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_miniboss"
+                        ]
                     }
                 ]
             },
@@ -3568,6 +3539,16 @@
                         "visibility_rules": [
                             "$excluded"
                         ]
+                    },
+                    {
+                        "name": "Defeat Mergog (Event)",
+                        "hosted_item": "miniboss_mergog",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_miniboss"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -3584,7 +3565,7 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_tr_l, $fish, $sun, $beast, $energyattack",
-					"@Aquaria/veil_tr_l_fp, $sun, $beast, $energyattack"
+                    "@Aquaria/veil_tr_l_fp, $sun, $beast, $energyattack"
                 ],
                 "sections": [
                     {
@@ -3597,6 +3578,16 @@
                         ],
                         "visibility_rules": [
                             "$excluded"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Octomun (Event)",
+                        "hosted_item": "miniboss_octomun",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "$show_miniboss"
                         ]
                     }
                 ],
@@ -3614,7 +3605,7 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/veil_tr_l, $fish",
-					"@Aquaria/veil_tr_l_fp"
+                    "@Aquaria/veil_tr_l_fp"
                 ],
                 "sections": [
                     {
@@ -3749,6 +3740,16 @@
                         ],
                         "visibility_rules": [
                             "$excluded"
+                        ]
+                    },
+                    {
+                        "name": "Defeat the Sunken City Boss (Event)",
+                        "hosted_item": "sunkencity_boss",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            ""
                         ]
                     }
                 ],
@@ -3959,13 +3960,16 @@
                 "access_rules": [
                     "@Aquaria/abyss_r, $spirit, $sun, $bind, $energyattack"
                 ],
-                "sections": [],
-                "map_locations": [
+                "sections": [
                     {
-                        "map": "",
-                        "x": 99,
-                        "y": 1440,
-                        "size": 6
+                        "name": "Abyss right area, Obtain Secret 1 (Event)",
+                        "hosted_item": "secret01",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "opt_goal_secrets"
+                        ]
                     }
                 ]
             },
@@ -3992,9 +3996,8 @@
                 "access_rules": [
                     "@Aquaria/veil_tr_l",
                     "@Aquaria/sun_temple_l",
-					"@Aquaria/sun_temple_r, ^$optlight",
-					// "@Aquaria/sun_temple_r, ^$optsuncrystal", // Removed?
-					"@Aquaria/sun_temple_r, $bind"
+                    "@Aquaria/sun_temple_r, ^$optlight",
+                    "@Aquaria/sun_temple_r, $bind"
                 ],
                 "sections": [],
                 "map_locations": [
@@ -4010,9 +4013,9 @@
                 "name": "veil_tr_l_fp",
                 "overlay_background": "#000000",
                 "access_rules": [
-				"@Aquaria/veil_tr_l, $fish",
-				"@Aquaria/octo_cave_t",
-				"@Aquaria/octo_cave_b"
+                    "@Aquaria/veil_tr_l, $fish",
+                    "@Aquaria/octo_cave_t",
+                    "@Aquaria/octo_cave_b"
                 ],
                 "sections": [],
                 "map_locations": [
@@ -4028,10 +4031,10 @@
                 "name": "home_water_behind_rocks",
                 "overlay_background": "#000000",
                 "access_rules": [
-				"@Aquaria/home_water, $bind",
-				"@Aquaria/home_water_nautilus, $energyattack",
-				"@Aquaria/energy_temple_1",
-				"@Aquaria/energy_temple_altar, $energyattack, $bind"
+                    "@Aquaria/home_water, $bind",
+                    "@Aquaria/home_water_nautilus, $energyattack",
+                    "@Aquaria/energy_temple_1",
+                    "@Aquaria/energy_temple_altar, $energyattack, $bind"
                 ],
                 "sections": [
                     {
@@ -4054,7 +4057,7 @@
                             ""
                         ]
                     }
-				],
+                ],
                 "map_locations": [
                     {
                         "map": "",
@@ -4068,8 +4071,8 @@
                 "name": "energy_temple_4",
                 "overlay_background": "#000000",
                 "access_rules": [
-				"@Aquaria/energy_temple_1, $beast",
-                "@Aquaria/energy_temple_boss, $energyattack"
+                    "@Aquaria/energy_temple_1, $beast",
+                    "@Aquaria/energy_temple_boss, $energyattack"
                 ],
                 "sections": [],
                 "map_locations": [
@@ -4085,8 +4088,8 @@
                 "name": "abyss_r_whale",
                 "overlay_background": "#000000",
                 "access_rules": [
-                       "@Aquaria/abyss_r, $spirit, $sun",
-                       "@Aquaria/whale"
+                    "@Aquaria/abyss_r, $spirit, $sun",
+                    "@Aquaria/whale"
                 ],
                 "sections": [],
                 "map_locations": [
@@ -4097,7 +4100,7 @@
                         "size": 6
                     }
                 ]
-            },
+            }
         ]
     }
 ]

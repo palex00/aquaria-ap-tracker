@@ -244,8 +244,16 @@
                         "ref": "sun_temple_boss_path/Sun Worm path, second cliff bulb"
                     },
                     {
-                        "name": "Sun Temple boss area, beating Sun God",
-                        "ref": "sun_temple_boss/Sun Temple boss area, beating Sun God"
+                        "name": "Sun Temple boss area, beating Lumerean God",
+                        "ref": "sun_temple_boss/Sun Temple boss area, beating Lumerean God"
+                    },
+                    {
+                        "name": "Defeat the Sun Temple Boss (Event)",
+                        "ref": "sun_temple_boss/Defeat the Sun Temple Boss (Event)"
+                    },
+                    {
+                        "name": "Sun Temple, Obtain Secret 3 (Event)",
+                        "ref": "sun_temple_l/Sun Temple, Obtain Secret 3 (Event)"
                     }
                 ],
                 "map_locations": [
@@ -333,6 +341,10 @@
                     {
                         "name": "King Jellyfish Cave, Jellyfish Costume",
                         "ref": "king_jellyfish_cave/King Jellyfish Cave, Jellyfish Costume"
+                    },
+                    {
+                        "name": "Defeat King Jelly (Event)",
+                        "ref": "king_jellyfish_cave/Defeat King Jelly (Event)"
                     }
                 ],
                 "map_locations": [
@@ -368,6 +380,10 @@
                     {
                         "name": "Abyss right area, Transturtle",
                         "ref": "abyss_r/Abyss right area, Transturtle"
+                    },
+                    {
+                        "name": "Abyss right area, Obtain Secret 1 (Event)",
+                        "ref": "first_secret/Abyss right area, Obtain Secret 1 (Event)"
                     }
                 ],
                 "map_locations": [
@@ -403,6 +419,14 @@
                     {
                         "name": "Energy Temple boss area, Fallen God Tooth",
                         "ref": "energy_temple_boss/Energy Temple boss area, Fallen God Tooth"
+                    },
+                    {
+                        "name": "Defeat the Energy Temple Boss (Event)",
+                        "ref": "energy_temple_boss/Defeat the Energy Temple Boss (Event)"
+                    },
+                    {
+                        "name": "Defeat Blaster (Event)",
+                        "ref": "energy_temple_blaster_room/Defeat Blaster (Event)"
                     },
                     {
                         "name": "Energy Temple blaster room, Blaster Egg",
@@ -514,6 +538,10 @@
                     {
                         "name": "Mithalas City, urn inside a home fish pass",
                         "ref": "mithalas_city_fishpass/Mithalas City, urn inside a home fish pass"
+                    },
+                    {
+                        "name": "Mithalas City, Obtain Secret 2 (Event)",
+                        "ref": "mithalas_city/Mithalas City, Obtain Secret 2 (Event)"
                     }
                 ],
                 "map_locations": [
@@ -525,50 +553,54 @@
                 ]
 			},
             {
-                "name": "Mithalas Cathedral Left Side",
+                "name": "Mithalas Castle",
                 "chest_unopened_img": "images/items/close.png",
                 "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
                         "name": "Mithalas City Castle, bulb in the flesh hole",
-                        "ref": "cathedral_l/Mithalas City Castle, bulb in the flesh hole"
+                        "ref": "mithalas_castle/Mithalas City Castle, bulb in the flesh hole"
                     },
                     {
                         "name": "Mithalas City Castle, Blue banner",
-                        "ref": "cathedral_l/Mithalas City Castle, Blue banner"
+                        "ref": "mithalas_castle/Mithalas City Castle, Blue banner"
                     },
                     {
                         "name": "Mithalas City Castle, urn in the bedroom",
-                        "ref": "cathedral_l/Mithalas City Castle, urn in the bedroom"
+                        "ref": "mithalas_castle/Mithalas City Castle, urn in the bedroom"
                     },
                     {
                         "name": "Mithalas City Castle, first urn of the single lamp path",
-                        "ref": "cathedral_l/Mithalas City Castle, first urn of the single lamp path"
+                        "ref": "mithalas_castle/Mithalas City Castle, first urn of the single lamp path"
                     },
                     {
                         "name": "Mithalas City Castle, second urn of the single lamp path",
-                        "ref": "cathedral_l/Mithalas City Castle, second urn of the single lamp path"
+                        "ref": "mithalas_castle/Mithalas City Castle, second urn of the single lamp path"
                     },
                     {
                         "name": "Mithalas City Castle, urn in the bottom room",
-                        "ref": "cathedral_l/Mithalas City Castle, urn in the bottom room"
+                        "ref": "mithalas_castle/Mithalas City Castle, urn in the bottom room"
                     },
                     {
                         "name": "Mithalas City Castle, first urn on the entrance path",
-                        "ref": "cathedral_l/Mithalas City Castle, first urn on the entrance path"
+                        "ref": "mithalas_castle/Mithalas City Castle, first urn on the entrance path"
                     },
                     {
                         "name": "Mithalas City Castle, second urn on the entrance path",
-                        "ref": "cathedral_l/Mithalas City Castle, second urn on the entrance path"
+                        "ref": "mithalas_castle/Mithalas City Castle, second urn on the entrance path"
+                    },
+                    {
+                        "name": "Defeat Mithala Priests (Event)",
+                        "ref": "mithalas_castle_tube/Defeat Mithala Priests (Event)"
                     },
                     {
                         "name": "Mithalas City Castle, beating the Priests",
-                        "ref": "cathedral_l_tube/Mithalas City Castle, beating the Priests"
+                        "ref": "mithalas_castle_tube/Mithalas City Castle, beating the Priests"
                     },
                     {
                         "name": "Mithalas City Castle, Trident Head",
-                        "ref": "cathedral_l_sc/Mithalas City Castle, Trident Head"
+                        "ref": "mithalas_castle_sc/Mithalas City Castle, Trident Head"
                     }
                 ],
                 "map_locations": [
@@ -580,66 +612,66 @@
                 ]
 			},
             {
-                "name": "Mithalas Cathedral Right Side",
+                "name": "Mithalas Cathedral",
                 "chest_unopened_img": "images/items/close.png",
                 "chest_opened_img": "images/items/open.png",
                 "overlay_background": "#000000",
                 "sections": [
                     {
                         "name": "Mithalas Cathedral, third urn in the top right room",
-                        "ref": "cathedral_r/Mithalas Cathedral, third urn in the top right room"
+                        "ref": "cathedral_top_start/Mithalas Cathedral, third urn in the top right room"
                     },
                     {
                         "name": "Mithalas Cathedral, second urn in the top right room",
-                        "ref": "cathedral_r/Mithalas Cathedral, second urn in the top right room"
+                        "ref": "cathedral_top_start/Mithalas Cathedral, second urn in the top right room"
                     },
                     {
-                        "name": "Mithalas Cathedral, urn in the flesh room with fleas",
-                        "ref": "cathedral_r/Mithalas Cathedral, urn in the flesh room with fleas"
+                        "name": "Mithalas Cathedral, bulb in the flesh room with fleas",
+                        "ref": "cathedral_top_start/Mithalas Cathedral, bulb in the flesh room with fleas"
                     },
                     {
                         "name": "Mithalas Cathedral, first urn in the bottom right path",
-                        "ref": "cathedral_r/Mithalas Cathedral, first urn in the bottom right path"
+                        "ref": "cathedral_top_end/Mithalas Cathedral, first urn in the bottom right path"
                     },
                     {
                         "name": "Mithalas Cathedral, first urn in the top right room",
-                        "ref": "cathedral_r/Mithalas Cathedral, first urn in the top right room"
+                        "ref": "cathedral_top_start/Mithalas Cathedral, first urn in the top right room"
                     },
                     {
                         "name": "Mithalas Cathedral, second urn in the bottom right path",
-                        "ref": "cathedral_r/Mithalas Cathedral, second urn in the bottom right path"
+                        "ref": "cathedral_top_end/Mithalas Cathedral, second urn in the bottom right path"
                     },
                     {
                         "name": "Mithalas Cathedral, urn behind the flesh vein",
-                        "ref": "cathedral_r/Mithalas Cathedral, urn behind the flesh vein"
+                        "ref": "cathedral_top_start/Mithalas Cathedral, urn behind the flesh vein"
                     },
                     {
                         "name": "Mithalas Cathedral, urn in the top left eyes boss room",
-                        "ref": "cathedral_r/Mithalas Cathedral, urn in the top left eyes boss room"
+                        "ref": "cathedral_top_start/Mithalas Cathedral, urn in the top left eyes boss room"
                     },
                     {
                         "name": "Mithalas Cathedral, first urn in the path behind the flesh vein",
-                        "ref": "cathedral_r/Mithalas Cathedral, first urn in the path behind the flesh vein"
+                        "ref": "cathedral_top_start/Mithalas Cathedral, first urn in the path behind the flesh vein"
                     },
                     {
                         "name": "Mithalas Cathedral, second urn in the path behind the flesh vein",
-                        "ref": "cathedral_r/Mithalas Cathedral, second urn in the path behind the flesh vein"
+                        "ref": "cathedral_top_start/Mithalas Cathedral, second urn in the path behind the flesh vein"
                     },
                     {
                         "name": "Mithalas Cathedral, third urn in the path behind the flesh vein",
-                        "ref": "cathedral_r/Mithalas Cathedral, third urn in the path behind the flesh vein"
+                        "ref": "cathedral_top_start/Mithalas Cathedral, third urn in the path behind the flesh vein"
                     },
                     {
                         "name": "Mithalas Cathedral, fourth urn in the top right room",
-                        "ref": "cathedral_r/Mithalas Cathedral, fourth urn in the top right room"
+                        "ref": "cathedral_top_start/Mithalas Cathedral, fourth urn in the top right room"
                     },
                     {
                         "name": "Mithalas Cathedral, Mithalan Dress",
-                        "ref": "cathedral_r/Mithalas Cathedral, Mithalan Dress"
+                        "ref": "cathedral_top_start/Mithalas Cathedral, Mithalan Dress"
                     },
                     {
                         "name": "Mithalas Cathedral right area, urn below the left entrance",
-                        "ref": "cathedral_r/Mithalas Cathedral right area, urn below the left entrance"
+                        "ref": "cathedral_top_start/Mithalas Cathedral right area, urn below the left entrance"
                     }
                 ],
                 "map_locations": [
@@ -683,6 +715,10 @@
                     {
                         "name": "Cathedral boss area, beating Mithalan God",
                         "ref": "cathedral_boss_l/Cathedral boss area, beating Mithalan God"
+                    },
+                    {
+                        "name": "Defeat the Mithala Underground Boss (Event)",
+                        "ref": "cathedral_boss_l/Defeat the Mithala Underground Boss (Event)"
                     }
                 ],
                 "map_locations": [
@@ -730,6 +766,10 @@
                     {
                         "name": "Kelp Forest boss area, beating Drunian God",
                         "ref": "forest_boss/Kelp Forest boss area, beating Drunian God"
+                    },
+                    {
+                        "name": "Defeat the Kelp Forest Boss (Event)",
+                        "ref": "forest_boss/Defeat the Kelp Forest Boss (Event)"
                     }
                 ],
                 "map_locations": [
@@ -791,15 +831,15 @@
                 "sections": [
                     {
                         "name": "Kelp Forest sprite cave, bulb inside the fish pass",
-                        "ref": "forest_sprite_cave/Kelp Forest sprite cave, bulb inside the fish pass"
+                        "ref": "sprite_cave/Kelp Forest sprite cave, bulb inside the fish pass"
                     },
                     {
                         "name": "Kelp Forest sprite cave, bulb in the second room",
-                        "ref": "forest_sprite_cave_tube/Kelp Forest sprite cave, bulb in the second room"
+                        "ref": "sprite_cave_tube/Kelp Forest sprite cave, bulb in the second room"
                     },
                     {
                         "name": "Kelp Forest sprite cave, Seed Bag",
-                        "ref": "forest_sprite_cave_tube/Kelp Forest sprite cave, Seed Bag"
+                        "ref": "sprite_cave_tube/Kelp Forest sprite cave, Seed Bag"
                     }
                 ],
                 "map_locations": [
@@ -905,6 +945,10 @@
                     {
                         "name": "Home Water, Nautilus Egg",
                         "ref": "home_water_nautilus/Home Water, Nautilus Egg"
+                    },
+                    {
+                        "name": "Home Water, Defeat Nautilus Prime",
+                        "ref": "home_water_nautilus/Defeat Nautilus Prime"
                     }
                 ],
                 "map_locations": [
@@ -1268,7 +1312,11 @@
                         "ref": "bubble_cave/Bubble Cave, bulb in the right cave wall (behind the ice crystal)"
                     },
                     {
-                        "name": "bubble_cave_boss - Bubble Cave, Verse Egg",
+                        "name": "Defeat Mantis Shrimp (Event)",
+                        "ref": "bubble_cave_boss/Defeat Mantis Shrimp (Event)"
+                    },
+                    {
+                        "name": "Bubble Cave, Verse Egg",
                         "ref": "bubble_cave_boss/Bubble Cave, Verse Egg"
                     }
                 ],
@@ -1316,6 +1364,10 @@
                     {
                         "name": "Mermog cave, Piranha Egg",
                         "ref": "mermog_boss/Mermog cave, Piranha Egg"
+                    },
+                    {
+                        "name": "Defeat Mergog (Event)",
+                        "ref": "mermog_boss/Defeat Mergog (Event)"
                     }
                 ],
                 "map_locations": [
@@ -1333,12 +1385,16 @@
                 "overlay_background": "#000000",
                 "sections": [
                     {
+                        "name": "Octopus Cave, bulb in the path below the Octopus Cave path",
+                        "ref": "octo_cave_b/Octopus Cave, bulb in the path below the Octopus Cave path"
+                    },
+                    {
                         "name": "Octopus Cave, Dumbo Egg",
                         "ref": "octo_cave_t/Octopus Cave, Dumbo Egg"
                     },
                     {
-                        "name": "Octopus Cave, bulb in the path below the Octopus Cave path",
-                        "ref": "octo_cave_b/Octopus Cave, bulb in the path below the Octopus Cave path"
+                        "name": "Defeat Octomun (Event)",
+                        "ref": "octo_cave_t/Defeat Octomun (Event)"
                     }
                 ],
                 "map_locations": [
@@ -1378,6 +1434,10 @@
                     {
                         "name": "Sunken City, bulb on top of the boss area",
                         "ref": "sunken_city_boss/Sunken City, bulb on top of the boss area"
+                    },
+                    {
+                        "name": "Defeat the Sunken City Boss (Event)",
+                        "ref": "sunken_city_boss/Defeat the Sunken City Boss (Event)"
                     },
                     {
                         "name": "Sunken City left area, Girl Costume",
