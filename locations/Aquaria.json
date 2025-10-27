@@ -2606,7 +2606,7 @@
                 "name": "body_c",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/abyss_lb, tongue_removed, ^$optlight",
+                    "@Aquaria/abyss_lb, sunkencity_boss, ^$optlight",
                     "@Aquaria/body_l, $energy",
                     "@Aquaria/body_rt, $energy",
                     "@Aquaria/body_b, $dual"

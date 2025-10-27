@@ -12,7 +12,6 @@
 {"name": "Defeat the Kelp Forest Boss (Event)", "type": "toggle", "img": "images/events/event_kelpforestboss.png", "codes": "boss_forest"},
 {"name": "Defeat the Mithala Underground Boss (Event)", "type": "toggle", "img": "images/events/event_mithalaundergroundboss.png", "codes": "boss_mithala"},
 {"name": "Defeat the Sun Temple Boss (Event)", "type": "toggle", "img": "images/events/event_suntempleboss.png", "codes": "boss_sunworm"},
-{"name": "Remove the Tongue (Event)", "type": "toggle", "img": "images/events/tongue.png", "codes": "tongue_removed"},
 {"name": "Obtain Secret 1 (Event)", "type": "toggle", "img": "images/events/secret01.png", "codes": "secret01"},
 {"name": "Obtain Secret 2 (Event)", "type": "toggle", "img": "images/events/secret02.png", "codes": "secret02"},
 {"name": "Obtain Secret 3 (Event)", "type": "toggle", "img": "images/events/secret03.png", "codes": "secret03"}

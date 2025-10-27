@@ -116,6 +116,7 @@
 ,{"name": "Mithalas City​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, urn in the Castle flower tube entrance", "ref": "Aquaria/mithalas_city_top_path/Mithalas City, urn in the Castle flower tube entrance"}], "map_locations": [{"map": "mithalascity", "x": 917, "y": 295}]}
 ,{"name": "Mithalas City​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, Doll", "ref": "Aquaria/mithalas_city_fishpass/Mithalas City, Doll"}], "map_locations": [{"map": "mithalascity", "x": 497, "y": 457}]}
 ,{"name": "Mithalas City​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, urn inside a home fish pass", "ref": "Aquaria/mithalas_city_fishpass/Mithalas City, urn inside a home fish pass"}], "map_locations": [{"map": "mithalascity", "x": 527, "y": 457}]}
+,{"name": "Mithalas City​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mithalas City, Obtain Secret 2 (Event)", "ref": "Aquaria/mithalas_city/Mithalas City, Obtain Secret 2 (Event)"}], "map_locations": [{"map": "mithalascity", "x": 567, "y": 567}]}
 
 // Cathedral Underground
 ,{"name": "Cathedral Underground", "sections": [{"name": "Cathedral Underground, bulb in the center part", "ref": "Aquaria/cathedral_underground/Cathedral Underground, bulb in the center part"}], "map_locations": [{"map": "cathedralunderground", "x": 948, "y": 458}]}
@@ -185,6 +186,7 @@
 ,{"name": "Sun Temple​​​​​​​​​​", "sections": [{"name": "Sun Worm path, first cliff bulb", "ref": "Aquaria/sun_temple_boss_path/Sun Worm path, first cliff bulb"}], "map_locations": [{"map": "suntemple", "x": 674, "y": 55}]}
 ,{"name": "Sun Temple​​​​​​​​​​​", "sections": [{"name": "Sun Worm path, second cliff bulb", "ref": "Aquaria/sun_temple_boss_path/Sun Worm path, second cliff bulb"}], "map_locations": [{"map": "suntemple", "x": 825, "y": 76}]}
 ,{"name": "Sun Temple​​​​​​​​​​​​", "sections": [{"name": "Sun Temple boss area, beating Lumerean God", "ref": "Aquaria/sun_temple_boss/Sun Temple boss area, beating Lumerean God"}, {"name": "Defeat the Sun Temple Boss (Event)", "ref": "Aquaria/sun_temple_boss/Defeat the Sun Temple Boss (Event)"}], "map_locations": [{"map": "suntemple", "x": 1071, "y": 187}]}
+,{"name": "Sun Temple​​​​​​​​​​​​​", "sections": [{"name": "Sun Temple, Obtain Secret 3 (Event)", "ref": "Aquaria/sun_temple_l/Sun Temple, Obtain Secret 3 (Event)"}], "map_locations": [{"map": "suntemple", "x": 1068, "y": 22}, {"map": "theveil", "x": 1306, "y": 246}]}
 
 // The Veil
 ,{"name": "The Veil", "sections": [{"name": "The Veil top left area, In Li's cave", "ref": "Aquaria/veil_tl/The Veil top left area, In Li's cave"}], "map_locations": [{"map": "theveil", "x": 983, "y": 442}]}
@@ -236,6 +238,7 @@
 ,{"name": "The Abyss​​​​​​​", "sections": [{"name": "Abyss right area, bulb behind the rock in the middle path", "ref": "Aquaria/abyss_r/Abyss right area, bulb behind the rock in the middle path"}], "map_locations": [{"map": "abyss", "x": 689, "y": 201}]}
 ,{"name": "The Abyss​​​​​​​​", "sections": [{"name": "Abyss right area, bulb in the left green room", "ref": "Aquaria/abyss_r/Abyss right area, bulb in the left green room"}], "map_locations": [{"map": "abyss", "x": 629, "y": 205}]}
 ,{"name": "The Abyss​​​​​​​​​", "sections": [{"name": "Abyss right area, Transturtle", "ref": "Aquaria/abyss_r/Abyss right area, Transturtle"}], "map_locations": [{"map": "abyss", "x": 858, "y": 487}]}
+,{"name": "The Abyss​​​​​​​​​​", "sections": [{"name": "Abyss right area, Obtain Secret 1 (Event)", "ref": "Aquaria/first_secret/Abyss right area, Obtain Secret 1 (Event)"}], "map_locations": [{"map": "abyss", "x": 958, "y": 212}]}
 
 // King Jellyfish Cave
 ,{"name": "King Jellyfish Cave", "sections": [{"name": "King Jellyfish Cave, bulb in the right path from King Jelly", "ref": "Aquaria/king_jellyfish_cave/King Jellyfish Cave, bulb in the right path from King Jelly"},{"name": "King Jellyfish Cave, Jellyfish Costume", "ref": "Aquaria/king_jellyfish_cave/King Jellyfish Cave, Jellyfish Costume"},{"name": "Defeat King Jelly (Event)", "ref": "Aquaria/king_jellyfish_cave/Defeat King Jelly (Event)"}], "map_locations": [{"map": "abyss", "x": 386, "y": 149}]}
