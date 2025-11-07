@@ -83,6 +83,7 @@
 ,{"name": "Mithalas City Castle​​​​​​​", "sections": [{"name": "Mithalas City Castle, second urn on the entrance path", "ref": "Aquaria/mithalas_castle/Mithalas City Castle, second urn on the entrance path"}], "map_locations": [{"map": "mithalascitycastle", "x": 195, "y": 451}]}
 ,{"name": "Mithalas City Castle​​​​​​​​", "sections": [{"name": "Mithalas City Castle, beating the Priests", "ref": "Aquaria/mithalas_castle_tube/Mithalas City Castle, beating the Priests"}, {"name": "Defeat Mithala Priests (Event)", "ref": "Aquaria/mithalas_castle_tube/Defeat Mithala Priests (Event)"}], "map_locations": [{"map": "mithalascitycastle", "x": 547, "y": 78}]}
 ,{"name": "Mithalas City Castle​​​​​​​​​", "sections": [{"name": "Mithalas City Castle, Trident Head", "ref": "Aquaria/mithalas_castle_sc/Mithalas City Castle, Trident Head"}], "map_locations": [{"map": "mithalascitycastle", "x": 559, "y": 224}]}
+,{"name": "Mithalas City Castle​​​​​​​​​​", "sections": [{"name": "Mithalas City Castle, sitting on the sealed throne", "ref": "Aquaria/mithalas_castle/Mithalas City Castle, sitting on the sealed throne"}], "map_locations": [{"map": "mithalascitycastle", "x": 710, "y": 424}]}
 
 // Arnassi Ruins
 ,{"name": "Arnassi Ruins", "sections": [{"name": "Arnassi Ruins, bulb in the right part", "ref": "Aquaria/arnassi/Arnassi Ruins, bulb in the right part"}], "map_locations": [{"map": "arnassiruins", "x": 416, "y": 315}]}
@@ -178,7 +179,7 @@
 ,{"name": "Sun Temple​​", "sections": [{"name": "Sun Temple, bulb at the top of the high dark room", "ref": "Aquaria/sun_temple_l/Sun Temple, bulb at the top of the high dark room"}], "map_locations": [{"map": "suntemple", "x": 282, "y": 640}]}
 ,{"name": "Sun Temple​​​", "sections": [{"name": "Sun Temple, Golden Gear", "ref": "Aquaria/sun_temple_l/Sun Temple, Golden Gear"}], "map_locations": [{"map": "suntemple", "x": 81, "y": 522}]}
 ,{"name": "Sun Temple​​​​", "sections": [{"name": "Sun Temple, first bulb of the temple", "ref": "Aquaria/sun_temple_r/Sun Temple, first bulb of the temple"}], "map_locations": [{"map": "suntemple", "x": 512, "y": 773}]}
-,{"name": "Sun Temple​​​​​", "sections": [{"name": "Sun Temple, bulb on the left part", "ref": "Aquaria/sun_temple_r/Sun Temple, bulb on the left part"}], "map_locations": [{"map": "suntemple", "x": 572, "y": 695}]}
+,{"name": "Sun Temple​​​​​", "sections": [{"name": "Sun Temple, bulb in the right part", "ref": "Aquaria/sun_temple_r/Sun Temple, bulb in the right part"}], "map_locations": [{"map": "suntemple", "x": 572, "y": 695}]}
 ,{"name": "Sun Temple​​​​​​", "sections": [{"name": "Sun Temple, bulb in the hidden room of the right part", "ref": "Aquaria/sun_temple_r/Sun Temple, bulb in the hidden room of the right part"}], "map_locations": [{"map": "suntemple", "x": 601, "y": 622}]}
 ,{"name": "Sun Temple​​​​​​​", "sections": [{"name": "Sun Temple, Sun Key", "ref": "Aquaria/sun_temple_r/Sun Temple, Sun Key"}], "map_locations": [{"map": "suntemple", "x": 649, "y": 604}]}
 ,{"name": "Sun Temple​​​​​​​​", "sections": [{"name": "Sun Worm path, first path bulb", "ref": "Aquaria/sun_temple_boss_path/Sun Worm path, first path bulb"}], "map_locations": [{"map": "suntemple", "x": 651, "y": 188}]}
@@ -254,7 +255,7 @@
 ,{"name": "Sunken City​​​​", "sections": [{"name": "Sunken City right area, crate close to the save crystal", "ref": "Aquaria/sunken_city_r/Sunken City right area, crate close to the save crystal"}], "map_locations": [{"map": "sunkencity", "x": 550, "y": 72}]}
 ,{"name": "Sunken City​​​​​", "sections": [{"name": "Sunken City, bulb on top of the boss area", "ref": "Aquaria/sunken_city_boss/Sunken City, bulb on top of the boss area"}], "map_locations": [{"map": "sunkencity", "x": 243, "y": 276}]}
 ,{"name": "Sunken City​​​​​​", "sections": [{"name": "Sunken City left area, Girl Costume", "ref": "Aquaria/sunken_city_l_bedroom/Sunken City left area, Girl Costume"}], "map_locations": [{"map": "sunkencity", "x": 192, "y": 227}]}
-,{"name": "Sunken City​​​​​​​", "sections": [{"name": "Defeat the Sunken City Boss (Event)", "ref": "Aquaria/sunken_city_boss/Defeat the Sunken City Boss (Event)"}], "map_locations": [{"map": "sunkencity", "x": 280, "y": 356}]}
+,{"name": "Sunken City​​​​​​​", "sections": [{"name": "Defeat the Sunken City Boss (Event)", "ref": "Aquaria/sunken_city_boss/Defeat the Sunken City Boss (Event)"}, {"name": "Sunken City, beating the Golem", "ref": "Aquaria/sunken_city_boss/Sunken City, beating the Golem"}], "map_locations": [{"map": "sunkencity", "x": 280, "y": 356}]}
 
 // The Body
 ,{"name": "The Body", "sections": [{"name": "The Body left area, first bulb in the top face room", "ref": "Aquaria/body_l/The Body left area, first bulb in the top face room"}], "map_locations": [{"map": "thebody", "x": 106, "y": 64}]}

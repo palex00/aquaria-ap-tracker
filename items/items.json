@@ -196,5 +196,17 @@
         "type": "toggle",
         "img": "/images/items/zuunasperogi.png",
         "codes": "ZuunasPerogi"
+    },
+    {
+        "name": "Body Tongue Removed",
+        "type": "toggle",
+        "img": "/images/items/bodytongueremoved.png",
+        "codes": "bodytongueremoved"
+    },
+    {
+        "name": "Cathedral Door",
+        "type": "toggle",
+        "img": "/images/items/cathedraldoor.png",
+        "codes": "cathedraldoor"
     }
 ]

@@ -20,6 +20,8 @@
                     [
                         "opt_light",
                         "opt_bindsong",
+                        "throne_as_location",
+                        "golem_as_location",
                         "opt_excluded"
                     ]
                 ]

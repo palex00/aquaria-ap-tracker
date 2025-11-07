@@ -216,8 +216,8 @@
                         "ref": "sun_temple_r/Sun Temple, first bulb of the temple"
                     },
                     {
-                        "name": "Sun Temple, bulb on the left part",
-                        "ref": "sun_temple_r/Sun Temple, bulb on the left part"
+                        "name": "Sun Temple, bulb in the right part",
+                        "ref": "sun_temple_r/Sun Temple, bulb in the right part"
                     },
                     {
                         "name": "Sun Temple, bulb in the hidden room of the right part",
@@ -589,6 +589,10 @@
                     {
                         "name": "Mithalas City Castle, second urn on the entrance path",
                         "ref": "mithalas_castle/Mithalas City Castle, second urn on the entrance path"
+                    },
+                    {
+                        "name": "Mithalas City Castle, sitting on the sealed throne",
+                        "ref": "mithalas_castle/Mithalas City Castle, sitting on the sealed throne"
                     },
                     {
                         "name": "Defeat Mithala Priests (Event)",
@@ -1438,6 +1442,10 @@
                     {
                         "name": "Defeat the Sunken City Boss (Event)",
                         "ref": "sunken_city_boss/Defeat the Sunken City Boss (Event)"
+                    },
+                    {
+                        "name": "Sunken City, beating the Golem",
+                        "ref": "sunken_city_boss/Sunken City, beating the Golem"
                     },
                     {
                         "name": "Sunken City left area, Girl Costume",

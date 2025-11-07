@@ -220,5 +220,49 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Throne as a location",
+        "type": "progressive",
+        "loop": true,
+		"codes": "throne_as_location",
+		"initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Throne as a location - Off",
+                "img": "images/settings/throne_as_location.png",
+                "img_mods": "@disabled",
+                "codes": "throne_as_location_false"
+            },
+            {
+                "name": "Throne as a location - On",
+                "img": "images/settings/throne_as_location.png",
+                "codes": "throne_as_location_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Golem as a location",
+        "type": "progressive",
+        "loop": true,
+		"codes": "golem_as_location",
+		"initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Golem as a location - Off",
+                "img": "images/settings/golem_as_location.png",
+                "img_mods": "@disabled",
+                "codes": "golem_as_location_false"
+            },
+            {
+                "name": "Golem as a location - On",
+                "img": "images/settings/golem_as_location.png",
+                "codes": "golem_as_location_true",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

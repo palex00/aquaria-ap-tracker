@@ -127,10 +127,10 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
-                            "^$damage_no_nature",
+                            "$damage_no_nature",
                             "$bind"
                         ]
                     },
@@ -140,7 +140,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage_no_nature",
+                            "$damage_no_nature",
                             "$bind"
                         ],
                         "visibility_rules": [
@@ -153,7 +153,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage_no_nature",
+                            "$damage_no_nature",
                             "$bind"
                         ],
                         "visibility_rules": [
@@ -546,7 +546,7 @@
                         ]
                     },
                     {
-                        "name": "Sun Temple, bulb on the left part",
+                        "name": "Sun Temple, bulb in the right part",
                         "item_count": 1,
                         "access_rules": [
                             ""
@@ -1240,7 +1240,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1252,7 +1252,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1264,7 +1264,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1276,7 +1276,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1288,7 +1288,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1331,7 +1331,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1395,7 +1395,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1408,6 +1408,7 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/mithalas_city",
+                    "@Aquaria/cathedral_top_start, cathedraldoor, throne_as_location_true",
                     "@Aquaria/mithalas_castle_tube, $spirit"
                 ],
                 "sections": [
@@ -1439,7 +1440,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1451,7 +1452,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1463,7 +1464,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1475,7 +1476,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1487,7 +1488,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1499,10 +1500,22 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
+                        ]
+                    },
+                    {
+                        "name": "Mithalas City Castle, sitting on the sealed throne",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items/throne.png",
+                        "chest_opened_img": "images/items/throne_collected.png",
+                        "access_rules": [
+                            "$bind"
+                        ],
+                        "visibility_rules": [
+                            "throne_as_location_true"
                         ]
                     }
                 ]
@@ -1564,7 +1577,8 @@
                 "name": "cathedral_top_start",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/mithalas_castle, $bind",
+                    "@Aquaria/mithalas_castle, cathedraldoor, throne_as_location_true",
+                    "@Aquaria/mithalas_castle, $bind, throne_as_location_false",
                     "@Aquaria/cathedral_top_end, $energyattack"
                 ],
                 "sections": [
@@ -1574,7 +1588,7 @@
                         "chest_unopened_img": "images/items/bulb.png",
                         "chest_opened_img": "images/items/bulb_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1598,7 +1612,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1610,7 +1624,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1622,7 +1636,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1634,7 +1648,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1646,7 +1660,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1658,7 +1672,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1670,7 +1684,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1682,7 +1696,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1694,7 +1708,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1706,7 +1720,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1728,7 +1742,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -1740,7 +1754,7 @@
                         "chest_unopened_img": "images/items/urn.png",
                         "chest_opened_img": "images/items/urn_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -2606,7 +2620,8 @@
                 "name": "body_c",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/abyss_lb, sunkencity_boss, ^$optlight",
+                    "@Aquaria/abyss_lb, sunkencity_boss, golem_as_location_false, ^$optlight",
+                    "@Aquaria/abyss_lb, bodytongueremoved, golem_as_location_true, ^$optlight",
                     "@Aquaria/body_l, $energy",
                     "@Aquaria/body_rt, $energy",
                     "@Aquaria/body_b, $dual"
@@ -3643,7 +3658,7 @@
                         "chest_unopened_img": "images/items/crate.png",
                         "chest_opened_img": "images/items/crate_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -3655,7 +3670,7 @@
                         "chest_unopened_img": "images/items/crate.png",
                         "chest_opened_img": "images/items/crate_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -3667,7 +3682,7 @@
                         "chest_unopened_img": "images/items/crate.png",
                         "chest_opened_img": "images/items/crate_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -3697,7 +3712,7 @@
                         "chest_unopened_img": "images/items/crate.png",
                         "chest_opened_img": "images/items/crate_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -3709,7 +3724,7 @@
                         "chest_unopened_img": "images/items/crate.png",
                         "chest_opened_img": "images/items/crate_collected.png",
                         "access_rules": [
-                            "^$damage"
+                            "$damage"
                         ],
                         "visibility_rules": [
                             ""
@@ -3749,7 +3764,16 @@
                             ""
                         ],
                         "visibility_rules": [
+                            "golem_as_location_false"
+                        ]
+                    },
+                    {
+                        "name": "Sunken City, beating the Golem",
+                        "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "golem_as_location_true"
                         ]
                     }
                 ],

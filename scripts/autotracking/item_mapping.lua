@@ -42,4 +42,19 @@ ITEM_MAPPING = {
 	[698107] = {"LeafPoultice", "toggle"}, -- Leaf Poultice x3
 	[698085] = {"SpicyRoll", "toggle"},
 	[698037] = {"ZuunasPerogi", "toggle"},
+    
+    -- New Stuff
+    [698134] = {"cathedraldoor", "toggle"},
+    [698146] = {"bodytongueremoved", "toggle"},
+    [698140] = {"progressive_soup", "toggle"},
+    [698142] = {"progressive_poultice", "toggle"}, -- only useful
+    [698145] = {"progressive_icecream", "toggle"}, -- only useful
+    [698143] = {"progressive_roll", "toggle"}, -- only useful
+    [698144] = {"progressive_perogi", "toggle"}, -- only useful
+    
+    
+    
+    
+    
+    
 }
