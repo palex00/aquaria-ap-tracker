@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.0",
+			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/1.0.0.zip",
+			"sha256": "a24b2fb2572ecd663153a50c94e80718096590e0af348bf234bd05a97b8b5034",
+			"changelog": ["See Changelog"]
+		},
+		{
 			"package_version": "0.9.3",
 			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.3.zip",
 			"sha256": "cb74921c39b0a78b4b4d2ce1db4edb6c44a4581610a69d9356d5c3063c5f387a",
