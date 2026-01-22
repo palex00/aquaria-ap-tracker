@@ -1137,6 +1137,7 @@
                 "name": "mithalas_city",
                 "overlay_background": "#000000",
                 "access_rules": [
+                    "@Aquaria/openwater_br",
                     "@Aquaria/mithalas_city_top_path",
                     "@Aquaria/mithalas_city_fishpass",
                     "@Aquaria/mithalas_castle",
@@ -3875,6 +3876,7 @@
                 "name": "openwater_br",
                 "overlay_background": "#000000",
                 "access_rules": [
+                    "@Aquaria/mithalas_city",
                     "@Aquaria/openwater_tr",
                     "@Aquaria/openwater_bl",
                     "@Aquaria/abyss_r, ^$optlight",
