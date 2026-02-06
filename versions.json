@@ -1,46 +1,68 @@
 {
-	"versions": [
-		{
-			"package_version": "1.0.1",
-			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/1.0.1.zip",
-			"sha256": "a77a7fc5e84070c3cc983a050d0e7d54b1d907e473e0df0c47926f43911719e5",
-			"changelog": ["See Changelog"]
-		},
-		{
-			"package_version": "1.0.0",
-			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/1.0.0.zip",
-			"sha256": "a24b2fb2572ecd663153a50c94e80718096590e0af348bf234bd05a97b8b5034",
-			"changelog": ["See Changelog"]
-		},
-		{
-			"package_version": "0.9.3",
-			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.3.zip",
-			"sha256": "cb74921c39b0a78b4b4d2ce1db4edb6c44a4581610a69d9356d5c3063c5f387a",
-			"changelog": ["Many Bugfixes"]
-		},
-		{
-			"package_version": "0.9.2",
-			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.2.zip",
-			"sha256": "afdb8f2a91bab5bced6f0379d1dc91a4e7e28fd793fb4787e649f4a572c2594d",
-			"changelog": ["Arnassi Bugfix"]
-		},
-		{
-			"package_version": "0.9.1",
-			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.1.zip",
-			"sha256": "68FDC540058748FD869E2B0C2BC3B0F2214FFD8C491506D2D95B66A182C4647E",
-			"changelog": ["Many Bugfixes"]
-		},
-		{
-			"package_version": "0.9.0",
-			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.0.zip",
-			"sha256": "320AC53D9A2CC331492B047A4D5F601D733F773FE2D569DEA23B7FAEBDD71DC5",
-			"changelog": ["First Public Release"]
-		},
-		{
-			"package_version": "0.8.1",
-			"download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.8.1.zip",
-			"sha256": "1D53CF0FAA2CC7979C45B17642FCD1AC4C5496E1C4841285505797AEC767494F",
-			"changelog": ["Second Initial Release"]
-		}
-	]
+  "versions": [
+    {
+      "package_version": "1.0.1",
+      "download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/1.0.1.zip",
+      "sha256": "a77a7fc5e84070c3cc983a050d0e7d54b1d907e473e0df0c47926f43911719e5",
+      "changelog": [
+        "See Changelog"
+      ]
+    },
+    {
+      "package_version": "1.0.0",
+      "download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/1.0.0.zip",
+      "sha256": "a24b2fb2572ecd663153a50c94e80718096590e0af348bf234bd05a97b8b5034",
+      "changelog": [
+        "See Changelog"
+      ]
+    },
+    {
+      "package_version": "0.9.3",
+      "download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.3.zip",
+      "sha256": "cb74921c39b0a78b4b4d2ce1db4edb6c44a4581610a69d9356d5c3063c5f387a",
+      "changelog": [
+        "Many Bugfixes"
+      ]
+    },
+    {
+      "package_version": "0.9.2",
+      "download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.2.zip",
+      "sha256": "afdb8f2a91bab5bced6f0379d1dc91a4e7e28fd793fb4787e649f4a572c2594d",
+      "changelog": [
+        "Arnassi Bugfix"
+      ]
+    },
+    {
+      "package_version": "0.9.1",
+      "download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.1.zip",
+      "sha256": "68FDC540058748FD869E2B0C2BC3B0F2214FFD8C491506D2D95B66A182C4647E",
+      "changelog": [
+        "Many Bugfixes"
+      ]
+    },
+    {
+      "package_version": "0.9.0",
+      "download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.9.0.zip",
+      "sha256": "320AC53D9A2CC331492B047A4D5F601D733F773FE2D569DEA23B7FAEBDD71DC5",
+      "changelog": [
+        "First Public Release"
+      ]
+    },
+    {
+      "package_version": "0.8.1",
+      "download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/0.8.1.zip",
+      "sha256": "1D53CF0FAA2CC7979C45B17642FCD1AC4C5496E1C4841285505797AEC767494F",
+      "changelog": [
+        "Second Initial Release"
+      ]
+    },
+    {
+      "package_version": "1.0.2",
+      "download_url": "https://github.com/palex00/aquaria-ap-tracker/releases/download/1.0.2/poptracker.zip",
+      "sha256": "256f61bbced7f5170918f90fe5892c114ceba9532487fea096add7b69b6fd595",
+      "changelog": [
+        "Check release notes"
+      ]
+    }
+  ]
 }
