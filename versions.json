@@ -2,8 +2,8 @@
   "versions": [
     {
       "package_version": "1.0.2",
-      "download_url": "https://github.com/palex00/aquaria-ap-tracker/releases/download/1.0.2/poptracker.zip",
-      "sha256": "256f61bbced7f5170918f90fe5892c114ceba9532487fea096add7b69b6fd595",
+      "download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/1.0.2.zip",
+      "sha256": "8003d749c85ed9047c6ac525414023a27958059899bd5e2bb4f3bfb89d0a483b",
       "changelog": [
         "Check release notes"
       ]
