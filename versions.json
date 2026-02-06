@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.0.2",
+      "download_url": "https://github.com/palex00/aquaria-ap-tracker/releases/download/1.0.2/poptracker.zip",
+      "sha256": "256f61bbced7f5170918f90fe5892c114ceba9532487fea096add7b69b6fd595",
+      "changelog": [
+        "Check release notes"
+      ]
+    },
+    {
       "package_version": "1.0.1",
       "download_url": "https://github.com/palex00/aquaria-ap-tracker/archive/refs/tags/1.0.1.zip",
       "sha256": "a77a7fc5e84070c3cc983a050d0e7d54b1d907e473e0df0c47926f43911719e5",
@@ -54,14 +62,6 @@
       "sha256": "1D53CF0FAA2CC7979C45B17642FCD1AC4C5496E1C4841285505797AEC767494F",
       "changelog": [
         "Second Initial Release"
-      ]
-    },
-    {
-      "package_version": "1.0.2",
-      "download_url": "https://github.com/palex00/aquaria-ap-tracker/releases/download/1.0.2/poptracker.zip",
-      "sha256": "256f61bbced7f5170918f90fe5892c114ceba9532487fea096add7b69b6fd595",
-      "changelog": [
-        "Check release notes"
       ]
     }
   ]
