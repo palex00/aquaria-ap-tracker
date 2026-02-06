@@ -1311,7 +1311,7 @@
                 "name": "mithalas_city_fishpass",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/mithalas_city"
+                    "@Aquaria/mithalas_city, $fish"
                 ],
                 "sections": [
                     {
