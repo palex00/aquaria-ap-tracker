@@ -15,7 +15,6 @@ Tracker:AddMaps("maps/maps.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/items.json")
-Tracker:AddLayouts("layouts/tabbed_maps.json")
 Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
