@@ -42,8 +42,8 @@ function get_slot_options(slot_data)
 	end
 	
     if slot_data["bind_song_needed_to_get_under_rock_bulb"] ~= nil then
-		local obj = Tracker:FindObjectForCode('opt_goal')
-		local setting = slot_data["secret_needed"]
+		local obj = Tracker:FindObjectForCode('opt_bindsong')
+		local setting = slot_data["bind_song_needed_to_get_under_rock_bulb"]
 		if setting == true then
 			obj.CurrentStage = 1
 		else
