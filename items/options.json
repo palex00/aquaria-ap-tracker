@@ -220,5 +220,25 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Open the body tongue",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Body Tongue Closed",
+                "img": "images/placeholder.png",
+                "img_mods": "@disabled",
+                "codes": "opt_bodytongue, opt_bodytongue_closed"
+            },
+            {
+                "name": "Body Tongue Open",
+                "img": "images/placeholder.png",
+                "codes": "opt_bodytongue, opt_bodytongue_open",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

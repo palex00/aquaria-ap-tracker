@@ -2608,6 +2608,7 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     "@Aquaria/abyss_lb, sunkencity_boss, ^$optlight",
+                    "@Aquaria/abyss_lb, opt_bodytongue_open, ^$optlight",
                     "@Aquaria/body_l, $energy",
                     "@Aquaria/body_rt, $energy",
                     "@Aquaria/body_b, $dual"

@@ -20,7 +20,8 @@
                     [
                         "opt_light",
                         "opt_bindsong",
-                        "opt_excluded"
+                        "opt_excluded",
+                        "opt_bodytongue"
                     ]
                 ]
             }

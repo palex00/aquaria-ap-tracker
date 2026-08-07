@@ -77,6 +77,18 @@ function get_slot_options(slot_data)
 		print("\nWARNING: You're using an apworld without light_needed_to_get_to_dark_places in the slot data!\nUse a beta apworld for better poptracking.\nPlease fill this option manually in the Settings popout.\n")
 	end
 	
+    if slot_data["open_body_tongue"] ~= nil then
+		local obj = Tracker:FindObjectForCode('opt_bodytongue')
+		local setting = slot_data["open_body_tongue"]
+		if setting == true then
+			obj.CurrentStage = 1
+		else
+			obj.CurrentStage = 0
+		end
+	else
+		print("\nWARNING: You're using an apworld without open_body_tongue in the slot data!\nUse a beta apworld for better poptracking.\nPlease fill this option manually in the Settings popout.\n")
+	end
+
     if slot_data["turtle_randomizer"] ~= nil then
 		local obj = Tracker:FindObjectForCode('opt_turtle')
 		local stage = slot_data["turtle_randomizer"]
