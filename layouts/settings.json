@@ -20,22 +20,36 @@
                     [
                         "opt_light",
                         "opt_bindsong",
-                        "opt_excluded",
                         "opt_bodytongue",
                         "opt_throne"
-                    ],
+                    ]
+                ]
+            },
+            {
+                "type": "text",
+                "text": "Progression-exclusions"
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "item_size": "50,50",
+                "rows": [
                     [
+                        "opt_excluded",
                         "opt_excluded_simon",
                         "opt_excluded_forest",
                         "opt_excluded_veil",
-                        "opt_excluded_mithalas",
-                        "opt_excluded_energytemple"
+                        "opt_excluded_mithalas"
                     ],
                     [
+                        "opt_excluded_energytemple",
                         "opt_excluded_arnassi",
                         "opt_excluded_frozenveil",
                         "opt_excluded_abyss",
-                        "opt_excluded_sunkencity",
+                        "opt_excluded_sunkencity"
+                    ],
+                    [
                         "opt_excluded_body"
                     ]
                 ]
