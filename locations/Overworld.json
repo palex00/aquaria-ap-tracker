@@ -591,6 +591,10 @@
                         "ref": "mithalas_castle/Mithalas City Castle, second urn on the entrance path"
                     },
                     {
+                        "name": "Mithalas City Castle, sitting on the sealed throne",
+                        "ref": "mithalas_castle/Mithalas City Castle, sitting on the sealed throne"
+                    },
+                    {
                         "name": "Defeat Mithala Priests (Event)",
                         "ref": "mithalas_castle_tube/Defeat Mithala Priests (Event)"
                     },

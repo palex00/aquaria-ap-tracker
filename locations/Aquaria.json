@@ -1505,6 +1505,18 @@
                         "visibility_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Mithalas City Castle, sitting on the sealed throne",
+                        "item_count": 1,
+                        "chest_unopened_img": "images/placeholder.png",
+                        "chest_opened_img": "images/placeholder.png",
+                        "access_rules": [
+                            "$bind"
+                        ],
+                        "visibility_rules": [
+                            "opt_throne_on"
+                        ]
                     }
                 ]
             },
@@ -1565,7 +1577,8 @@
                 "name": "cathedral_top_start",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/mithalas_castle, $bind",
+                    "@Aquaria/mithalas_castle, $bind, opt_throne_off",
+                    "@Aquaria/mithalas_castle, cathedraldoor, opt_throne_on",
                     "@Aquaria/cathedral_top_end, $energyattack"
                 ],
                 "sections": [

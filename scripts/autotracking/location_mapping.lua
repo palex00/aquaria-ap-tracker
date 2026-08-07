@@ -92,6 +92,7 @@ LOCATION_MAPPING = {
 	[698133] = {"@Aquaria/mithalas_castle/Mithalas City Castle, urn in the bottom room"},
 	[698134] = {"@Aquaria/mithalas_castle/Mithalas City Castle, first urn on the entrance path"},
 	[698135] = {"@Aquaria/mithalas_castle/Mithalas City Castle, second urn on the entrance path"},
+	[698218] = {"@Aquaria/mithalas_castle/Mithalas City Castle, sitting on the sealed throne"},
 	[698208] = {"@Aquaria/mithalas_castle_tube/Mithalas City Castle, beating the Priests"},
 	[698183] = {"@Aquaria/mithalas_castle_sc/Mithalas City Castle, Trident Head"},
 	[698138] = {"@Aquaria/cathedral_top_start/Mithalas Cathedral, third urn in the top right room"},

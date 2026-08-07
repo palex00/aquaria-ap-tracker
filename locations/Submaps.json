@@ -83,6 +83,7 @@
 ,{"name": "Mithalas City Castle​​​​​​​", "sections": [{"name": "Mithalas City Castle, second urn on the entrance path", "ref": "Aquaria/mithalas_castle/Mithalas City Castle, second urn on the entrance path"}], "map_locations": [{"map": "mithalascitycastle", "x": 195, "y": 451}]}
 ,{"name": "Mithalas City Castle​​​​​​​​", "sections": [{"name": "Mithalas City Castle, beating the Priests", "ref": "Aquaria/mithalas_castle_tube/Mithalas City Castle, beating the Priests"}, {"name": "Defeat Mithala Priests (Event)", "ref": "Aquaria/mithalas_castle_tube/Defeat Mithala Priests (Event)"}], "map_locations": [{"map": "mithalascitycastle", "x": 547, "y": 78}]}
 ,{"name": "Mithalas City Castle​​​​​​​​​", "sections": [{"name": "Mithalas City Castle, Trident Head", "ref": "Aquaria/mithalas_castle_sc/Mithalas City Castle, Trident Head"}], "map_locations": [{"map": "mithalascitycastle", "x": 559, "y": 224}]}
+,{"name": "Mithalas City Castle​​​​​​​​​​", "sections": [{"name": "Mithalas City Castle, sitting on the sealed throne", "ref": "Aquaria/mithalas_castle/Mithalas City Castle, sitting on the sealed throne"}], "map_locations": [{"map": "mithalascitycastle", "x": 710, "y": 424}]}
 
 // Arnassi Ruins
 ,{"name": "Arnassi Ruins", "sections": [{"name": "Arnassi Ruins, bulb in the right part", "ref": "Aquaria/arnassi/Arnassi Ruins, bulb in the right part"}], "map_locations": [{"map": "arnassiruins", "x": 416, "y": 315}]}

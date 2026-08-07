@@ -42,4 +42,7 @@ ITEM_MAPPING = {
 	[698107] = {"LeafPoultice", "toggle"}, -- Leaf Poultice x3
 	[698085] = {"SpicyRoll", "toggle"},
 	[698037] = {"ZuunasPerogi", "toggle"},
+
+	-- Doors
+	[698134] = {"cathedraldoor", "toggle"},
 }

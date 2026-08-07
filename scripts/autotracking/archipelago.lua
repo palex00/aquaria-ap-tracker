@@ -53,7 +53,7 @@ function onClear(slot_data)
 	local reset_codes = {
 		"opt_goal", "opt_turtle", "opt_light", "opt_bindsong",
 		"opt_confined", "opt_excluded", "opt_miniboss", "opt_bigboss",
-		"opt_bodytongue"
+		"opt_bodytongue", "opt_throne"
 	}
 	
 	for _, code in ipairs(reset_codes) do

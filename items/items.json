@@ -196,5 +196,11 @@
         "type": "toggle",
         "img": "/images/items/zuunasperogi.png",
         "codes": "ZuunasPerogi"
+    },
+    {
+        "name": "Cathedral Door",
+        "type": "toggle",
+        "img": "/images/placeholder.png",
+        "codes": "cathedraldoor"
     }
 ]
