@@ -95,6 +95,30 @@ function get_slot_options(slot_data)
 		print("\nWARNING: You're using an apworld without open_body_tongue in the slot data!\nUse a beta apworld for better poptracking.\nPlease fill this option manually in the Settings popout.\n")
 	end
 
+    -- Per-region "no progression" options
+    local no_progression_map = {
+		no_progression_simon_says    = "opt_excluded_simon",
+		no_progression_kelp_forest   = "opt_excluded_forest",
+		no_progression_veil          = "opt_excluded_veil",
+		no_progression_mithalas      = "opt_excluded_mithalas",
+		no_progression_energy_temple = "opt_excluded_energytemple",
+		no_progression_arnassi_ruins = "opt_excluded_arnassi",
+		no_progression_frozen_veil   = "opt_excluded_frozenveil",
+		no_progression_abyss         = "opt_excluded_abyss",
+		no_progression_sunken_city   = "opt_excluded_sunkencity",
+		no_progression_body          = "opt_excluded_body",
+	}
+	for key, code in pairs(no_progression_map) do
+		if slot_data[key] ~= nil then
+			local obj = Tracker:FindObjectForCode(code)
+			if slot_data[key] == true then
+				obj.CurrentStage = 1
+			else
+				obj.CurrentStage = 0
+			end
+		end
+	end
+
     if slot_data["turtle_randomizer"] ~= nil then
 		local obj = Tracker:FindObjectForCode('opt_turtle')
 		local stage = slot_data["turtle_randomizer"]

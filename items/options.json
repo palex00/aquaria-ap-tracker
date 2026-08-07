@@ -272,5 +272,205 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "No progression in Kelp Forest",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No progression in Kelp Forest - Off",
+                "img": "images/placeholder.png",
+                "img_mods": "@disabled",
+                "codes": "opt_excluded_forest, opt_excluded_forest_off"
+            },
+            {
+                "name": "No progression in Kelp Forest - On",
+                "img": "images/placeholder.png",
+                "codes": "opt_excluded_forest, opt_excluded_forest_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "No progression in the Veil",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No progression in the Veil - Off",
+                "img": "images/placeholder.png",
+                "img_mods": "@disabled",
+                "codes": "opt_excluded_veil, opt_excluded_veil_off"
+            },
+            {
+                "name": "No progression in the Veil - On",
+                "img": "images/placeholder.png",
+                "codes": "opt_excluded_veil, opt_excluded_veil_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "No progression in Mithalas",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No progression in Mithalas - Off",
+                "img": "images/placeholder.png",
+                "img_mods": "@disabled",
+                "codes": "opt_excluded_mithalas, opt_excluded_mithalas_off"
+            },
+            {
+                "name": "No progression in Mithalas - On",
+                "img": "images/placeholder.png",
+                "codes": "opt_excluded_mithalas, opt_excluded_mithalas_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "No progression in the Energy Temple",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No progression in the Energy Temple - Off",
+                "img": "images/placeholder.png",
+                "img_mods": "@disabled",
+                "codes": "opt_excluded_energytemple, opt_excluded_energytemple_off"
+            },
+            {
+                "name": "No progression in the Energy Temple - On",
+                "img": "images/placeholder.png",
+                "codes": "opt_excluded_energytemple, opt_excluded_energytemple_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "No progression in Arnassi Ruins",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No progression in Arnassi Ruins - Off",
+                "img": "images/placeholder.png",
+                "img_mods": "@disabled",
+                "codes": "opt_excluded_arnassi, opt_excluded_arnassi_off"
+            },
+            {
+                "name": "No progression in Arnassi Ruins - On",
+                "img": "images/placeholder.png",
+                "codes": "opt_excluded_arnassi, opt_excluded_arnassi_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "No progression in the Frozen Veil",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No progression in the Frozen Veil - Off",
+                "img": "images/placeholder.png",
+                "img_mods": "@disabled",
+                "codes": "opt_excluded_frozenveil, opt_excluded_frozenveil_off"
+            },
+            {
+                "name": "No progression in the Frozen Veil - On",
+                "img": "images/placeholder.png",
+                "codes": "opt_excluded_frozenveil, opt_excluded_frozenveil_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "No progression in the Abyss",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No progression in the Abyss - Off",
+                "img": "images/placeholder.png",
+                "img_mods": "@disabled",
+                "codes": "opt_excluded_abyss, opt_excluded_abyss_off"
+            },
+            {
+                "name": "No progression in the Abyss - On",
+                "img": "images/placeholder.png",
+                "codes": "opt_excluded_abyss, opt_excluded_abyss_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "No progression in the Sunken City",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No progression in the Sunken City - Off",
+                "img": "images/placeholder.png",
+                "img_mods": "@disabled",
+                "codes": "opt_excluded_sunkencity, opt_excluded_sunkencity_off"
+            },
+            {
+                "name": "No progression in the Sunken City - On",
+                "img": "images/placeholder.png",
+                "codes": "opt_excluded_sunkencity, opt_excluded_sunkencity_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "No progression in the Body",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No progression in the Body - Off",
+                "img": "images/placeholder.png",
+                "img_mods": "@disabled",
+                "codes": "opt_excluded_body, opt_excluded_body_off"
+            },
+            {
+                "name": "No progression in the Body - On",
+                "img": "images/placeholder.png",
+                "codes": "opt_excluded_body, opt_excluded_body_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "No progression in Simon Says",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No progression in Simon Says - Off",
+                "img": "images/placeholder.png",
+                "img_mods": "@disabled",
+                "codes": "opt_excluded_simon, opt_excluded_simon_off"
+            },
+            {
+                "name": "No progression in Simon Says - On",
+                "img": "images/placeholder.png",
+                "codes": "opt_excluded_simon, opt_excluded_simon_on",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

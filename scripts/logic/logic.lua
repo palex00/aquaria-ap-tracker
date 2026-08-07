@@ -202,6 +202,53 @@ function excluded()
 	end
 end
 
+function is_four_gods()
+	local s = Tracker:FindObjectForCode("opt_goal").CurrentStage
+	return s == 2 or s == 3
+end
+
+-- Returns false (hide) when the given per-region no-progression option is on
+-- and the "hide excluded locations" toggle is on. True (show) otherwise.
+function excluded_region(code)
+	if Tracker:FindObjectForCode(code).CurrentStage == 1 and Tracker:FindObjectForCode("opt_excludedvisibility").CurrentStage == 1 then
+		return false
+	else
+		return true
+	end
+end
+
+-- Abyss, Sunken City, Body and Frozen Veil no-progression have no effect when
+-- the objective is a four gods goal, so never hide those regions in that case.
+function excluded_region_nofourgods(code)
+	if is_four_gods() then
+		return true
+	end
+	return excluded_region(code)
+end
+
+function excluded_forest()       return excluded_region("opt_excluded_forest") end
+function excluded_veil()         return excluded_region("opt_excluded_veil") end
+function excluded_mithalas()     return excluded_region("opt_excluded_mithalas") end
+function excluded_energytemple() return excluded_region("opt_excluded_energytemple") end
+function excluded_arnassi()      return excluded_region("opt_excluded_arnassi") end
+function excluded_frozenveil()   return excluded_region_nofourgods("opt_excluded_frozenveil") end
+function excluded_abyss()        return excluded_region_nofourgods("opt_excluded_abyss") end
+function excluded_sunkencity()   return excluded_region_nofourgods("opt_excluded_sunkencity") end
+function excluded_body()         return excluded_region_nofourgods("opt_excluded_body") end
+
+-- Simon Says is excluded by its own option, or by the Arnassi Ruins option when
+-- the turtles are not randomized (matching the apworld's behaviour).
+function excluded_simon()
+	if Tracker:FindObjectForCode("opt_excludedvisibility").CurrentStage == 1 and (
+		Tracker:FindObjectForCode("opt_excluded_simon").CurrentStage == 1 or
+		(Tracker:FindObjectForCode("opt_excluded_arnassi").CurrentStage == 1 and Tracker:FindObjectForCode("opt_turtle").CurrentStage == 0)
+	) then
+		return false
+	else
+		return true
+	end
+end
+
 function show_miniboss()
     if minibosses() == true then
         return false

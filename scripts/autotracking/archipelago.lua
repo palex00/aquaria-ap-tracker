@@ -53,7 +53,11 @@ function onClear(slot_data)
 	local reset_codes = {
 		"opt_goal", "opt_turtle", "opt_light", "opt_bindsong",
 		"opt_confined", "opt_excluded", "opt_miniboss", "opt_bigboss",
-		"opt_bodytongue", "opt_throne"
+		"opt_bodytongue", "opt_throne",
+		"opt_excluded_simon", "opt_excluded_forest", "opt_excluded_veil",
+		"opt_excluded_mithalas", "opt_excluded_energytemple", "opt_excluded_arnassi",
+		"opt_excluded_frozenveil", "opt_excluded_abyss", "opt_excluded_sunkencity",
+		"opt_excluded_body"
 	}
 	
 	for _, code in ipairs(reset_codes) do
