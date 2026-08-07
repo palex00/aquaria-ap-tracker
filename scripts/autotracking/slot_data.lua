@@ -43,8 +43,6 @@ function get_slot_options(slot_data)
 		else
 			obj.CurrentStage = 0
 		end
-	else
-		print("\nWARNING: You're using an apworld without bind_song_needed_to_get_under_rock_bulb in the slot data!\nUse a beta apworld for better poptracking.\nPlease fill this option manually in the Settings popout.\n")
 	end
 	
     if slot_data["no_progression_hard_or_hidden_locations"] ~= nil then
@@ -55,8 +53,6 @@ function get_slot_options(slot_data)
 		else
 			obj.CurrentStage = 0
 		end
-	else
-		print("\nWARNING: You're using an apworld without no_progression_hard_or_hidden_locations in the slot data!\nUse a beta apworld for better poptracking.\nPlease fill this option manually in the Settings popout.\n")
 	end
 
     if slot_data["light_needed_to_get_to_dark_places"] ~= nil then
@@ -67,8 +63,6 @@ function get_slot_options(slot_data)
 		else
 			obj.CurrentStage = 0
 		end
-	else
-		print("\nWARNING: You're using an apworld without light_needed_to_get_to_dark_places in the slot data!\nUse a beta apworld for better poptracking.\nPlease fill this option manually in the Settings popout.\n")
 	end
 	
     if slot_data["throne_as_location"] ~= nil then
@@ -79,8 +73,6 @@ function get_slot_options(slot_data)
 		else
 			obj.CurrentStage = 0
 		end
-	else
-		print("\nWARNING: You're using an apworld without throne_as_location in the slot data!\nUse a beta apworld for better poptracking.\nPlease fill this option manually in the Settings popout.\n")
 	end
 
     if slot_data["open_body_tongue"] ~= nil then
@@ -91,8 +83,6 @@ function get_slot_options(slot_data)
 		else
 			obj.CurrentStage = 0
 		end
-	else
-		print("\nWARNING: You're using an apworld without open_body_tongue in the slot data!\nUse a beta apworld for better poptracking.\nPlease fill this option manually in the Settings popout.\n")
 	end
 
     -- Per-region "no progression" options
@@ -130,8 +120,6 @@ function get_slot_options(slot_data)
 			obj.CurrentStage = stage
 		end
 		
-	else
-		print("\nWARNING: You're using an apworld without turtle_randomizer in the slot data!\nUse a beta apworld for better poptracking.\nPlease fill this option manually in the Settings popout.\n")
 	end
 
 ----------------------
