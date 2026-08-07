@@ -1,9 +1,9 @@
 function get_slot_options(slot_data)
 
-    if slot_data["secret_needed"] ~= nil and slot_data["blind_goal"] ~= true then
+    if slot_data["goal"] ~= nil and slot_data["blind_goal"] ~= true then
 		local obj = Tracker:FindObjectForCode('opt_goal')
-		local setting = slot_data["secret_needed"]
-		if setting == true then
+		local setting = slot_data["goal"]
+		if setting == 1 then
 			obj.CurrentStage = 1
 		else
 			obj.CurrentStage = 0
