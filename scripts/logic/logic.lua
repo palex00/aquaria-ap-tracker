@@ -125,7 +125,7 @@ function bigbosses()
 end
 
 function secrets()
-	return Tracker:FindObjectForCode("opt_goal").CurrentStage == 0 or
+	return Tracker:FindObjectForCode("opt_goal").CurrentStage ~= 1 or
 	(has("secret01")
 	and has("secret02")
 	and has("secret03"))

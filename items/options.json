@@ -15,6 +15,18 @@
                 "img": "images/settings/opt_goal_secrets.png",
                 "codes": "opt_goal, opt_goal_secrets",
                 "inherit_codes": false
+            },
+            {
+                "name": "Goal: Four Gods",
+                "img": "images/placeholder.png",
+                "codes": "opt_goal, opt_goal_fourgods",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal: Gods + Creator",
+                "img": "images/placeholder.png",
+                "codes": "opt_goal, opt_goal_godscreator",
+                "inherit_codes": false
             }
         ]
     },

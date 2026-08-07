@@ -1,13 +1,7 @@
 function get_slot_options(slot_data)
 
     if slot_data["goal"] ~= nil and slot_data["blind_goal"] ~= true then
-		local obj = Tracker:FindObjectForCode('opt_goal')
-		local setting = slot_data["goal"]
-		if setting == 1 then
-			obj.CurrentStage = 1
-		else
-			obj.CurrentStage = 0
-		end
+		Tracker:FindObjectForCode('opt_goal').CurrentStage = slot_data["goal"]
 	elseif slot_data["blind_goal"] == true then
 		print("Sorry, the YAML setting hides this from you!")
 	end
