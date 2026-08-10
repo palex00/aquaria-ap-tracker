@@ -152,7 +152,7 @@
     {
         "name": "Urchin Costume",
         "type": "toggle",
-        "img": "/images/placeholder.png",
+        "img": "/images/items/urchin_costume.png",
         "codes": "Urchincostume"
     },
     {
@@ -204,7 +204,7 @@
         "codes": "ZuunasPerogi"
     },
     {
-        "name": "Cathedral Door",
+        "name": "Door to the Cathedral opened",
         "type": "toggle",
         "img": "/images/placeholder.png",
         "codes": "cathedraldoor"

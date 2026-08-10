@@ -261,13 +261,13 @@
         "stages": [
             {
                 "name": "Throne as a location - Off",
-                "img": "images/placeholder.png",
+                "img": "images/settings/throne.png",
                 "img_mods": "@disabled",
                 "codes": "opt_throne, opt_throne_off"
             },
             {
                 "name": "Throne as a location - On",
-                "img": "images/placeholder.png",
+                "img": "images/settings/throne.png",
                 "codes": "opt_throne, opt_throne_on",
                 "inherit_codes": false
             }
@@ -281,12 +281,12 @@
         "stages": [
             {
                 "name": "Kelp Forest can contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/kelp_forest.png",
                 "codes": "opt_excluded_forest, opt_excluded_forest_off"
             },
             {
                 "name": "Kelp Forest can NOT contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/kelp_forest.png",
                 "img_mods": "@disabled",
                 "codes": "opt_excluded_forest, opt_excluded_forest_on",
                 "inherit_codes": false
@@ -301,12 +301,12 @@
         "stages": [
             {
                 "name": "The Veil can contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/veil.png",
                 "codes": "opt_excluded_veil, opt_excluded_veil_off"
             },
             {
                 "name": "The Veil can NOT contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/veil.png",
                 "img_mods": "@disabled",
                 "codes": "opt_excluded_veil, opt_excluded_veil_on",
                 "inherit_codes": false
@@ -314,19 +314,19 @@
         ]
     },
     {
-        "name": "Mithalas progression",
+        "name": "Mithalas City progression",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Mithalas can contain progression",
-                "img": "images/placeholder.png",
+                "name": "Mithalas City can contain progression",
+                "img": "images/settings/exclusions/mithalas_city.png",
                 "codes": "opt_excluded_mithalas, opt_excluded_mithalas_off"
             },
             {
-                "name": "Mithalas can NOT contain progression",
-                "img": "images/placeholder.png",
+                "name": "Mithalas City can NOT contain progression",
+                "img": "images/settings/exclusions/mithalas_city.png",
                 "img_mods": "@disabled",
                 "codes": "opt_excluded_mithalas, opt_excluded_mithalas_on",
                 "inherit_codes": false
@@ -361,12 +361,12 @@
         "stages": [
             {
                 "name": "Arnassi Ruins can contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/arnassi_ruins.png",
                 "codes": "opt_excluded_arnassi, opt_excluded_arnassi_off"
             },
             {
                 "name": "Arnassi Ruins can NOT contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/arnassi_ruins.png",
                 "img_mods": "@disabled",
                 "codes": "opt_excluded_arnassi, opt_excluded_arnassi_on",
                 "inherit_codes": false
@@ -381,12 +381,12 @@
         "stages": [
             {
                 "name": "The Frozen Veil can contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/frozen_veil.png",
                 "codes": "opt_excluded_frozenveil, opt_excluded_frozenveil_off"
             },
             {
                 "name": "The Frozen Veil can NOT contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/frozen_veil.png",
                 "img_mods": "@disabled",
                 "codes": "opt_excluded_frozenveil, opt_excluded_frozenveil_on",
                 "inherit_codes": false
@@ -401,12 +401,12 @@
         "stages": [
             {
                 "name": "The Abyss can contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/abyss.png",
                 "codes": "opt_excluded_abyss, opt_excluded_abyss_off"
             },
             {
                 "name": "The Abyss can NOT contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/abyss.png",
                 "img_mods": "@disabled",
                 "codes": "opt_excluded_abyss, opt_excluded_abyss_on",
                 "inherit_codes": false
@@ -421,12 +421,12 @@
         "stages": [
             {
                 "name": "The Sunken City can contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/sunken_city.png",
                 "codes": "opt_excluded_sunkencity, opt_excluded_sunkencity_off"
             },
             {
                 "name": "The Sunken City can NOT contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/sunken_city.png",
                 "img_mods": "@disabled",
                 "codes": "opt_excluded_sunkencity, opt_excluded_sunkencity_on",
                 "inherit_codes": false
