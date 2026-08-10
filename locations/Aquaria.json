@@ -3406,7 +3406,8 @@
                 "name": "bubble_cave",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Aquaria/ice_cavern, $beast, $soup",
+                    "@Aquaria/ice_cavern, $beast",
+                    "@Aquaria/ice_cavern, $soup",
                     "@Aquaria/bubble_cave_boss, $nature, $bind"
                 ],
                 "sections": [
