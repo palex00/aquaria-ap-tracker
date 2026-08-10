@@ -18,13 +18,13 @@
             },
             {
                 "name": "Goal: Four Gods",
-                "img": "images/placeholder.png",
+                "img": "images/settings/opt_goal_fourgods.png",
                 "codes": "opt_goal, opt_goal_fourgods",
                 "inherit_codes": false
             },
             {
                 "name": "Goal: Gods + Creator",
-                "img": "images/placeholder.png",
+                "img": "images/settings/opt_goal_creator_fourgods.png",
                 "codes": "opt_goal, opt_goal_godscreator",
                 "inherit_codes": false
             }
@@ -461,12 +461,12 @@
         "stages": [
             {
                 "name": "Simon Says can contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/simon_says.png",
                 "codes": "opt_excluded_simon, opt_excluded_simon_off"
             },
             {
                 "name": "Simon Says can NOT contain progression",
-                "img": "images/placeholder.png",
+                "img": "images/settings/exclusions/simon_says.png",
                 "img_mods": "@disabled",
                 "codes": "opt_excluded_simon, opt_excluded_simon_on",
                 "inherit_codes": false
