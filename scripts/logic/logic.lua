@@ -14,6 +14,7 @@ function damage()
 	or has("BabyNautilus")
 	or has("BabyPiranha")
 	or has("BabyBlaster")
+	or has("Urchincostume")
 end
 
 function damage_no_nature()
@@ -23,6 +24,7 @@ function damage_no_nature()
 	or has("BabyNautilus")
 	or has("BabyPiranha")
 	or has("BabyBlaster")
+	or has("Urchincostume")
 end
 
 function energyattack()

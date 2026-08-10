@@ -150,6 +150,12 @@
         "codes": "ArnassiArmor"
     },
     {
+        "name": "Urchin Costume",
+        "type": "toggle",
+        "img": "/images/placeholder.png",
+        "codes": "Urchincostume"
+    },
+    {
         "name": "Shield Song",
         "type": "toggle",
         "img": "/images/items/shieldsong.png",
