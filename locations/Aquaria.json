@@ -892,7 +892,7 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "$excluded_abyss"
+                            "$excluded_abyss_transturtle"
                         ]
                     }
                 ]
@@ -2756,7 +2756,7 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "$excluded_body"
+                            "$excluded_body_transturtle"
                         ]
                     }
                 ],
@@ -3874,7 +3874,7 @@
                             ""
                         ],
                         "visibility_rules": [
-                            ""
+                            "$not_four_gods"
                         ]
                     }
                 ],

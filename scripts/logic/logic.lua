@@ -220,9 +220,18 @@ function excluded_region(code)
 	end
 end
 
--- Abyss, Sunken City, Body and Frozen Veil no-progression have no effect when
--- the objective is a four gods goal, so never hide those regions in that case.
+function not_four_gods()
+	return not is_four_gods()
+end
+
 function excluded_region_nofourgods(code)
+	if is_four_gods() then
+		return false
+	end
+	return excluded_region(code)
+end
+
+function excluded_region_transturtle(code)
 	if is_four_gods() then
 		return true
 	end
@@ -238,9 +247,9 @@ function excluded_frozenveil()   return excluded_region_nofourgods("opt_excluded
 function excluded_abyss()        return excluded_region_nofourgods("opt_excluded_abyss") end
 function excluded_sunkencity()   return excluded_region_nofourgods("opt_excluded_sunkencity") end
 function excluded_body()         return excluded_region_nofourgods("opt_excluded_body") end
+function excluded_abyss_transturtle() return excluded_region_transturtle("opt_excluded_abyss") end
+function excluded_body_transturtle()  return excluded_region_transturtle("opt_excluded_body") end
 
--- Simon Says is excluded by its own option, or by the Arnassi Ruins option when
--- the turtles are not randomized (matching the apworld's behaviour).
 function excluded_simon()
 	if Tracker:FindObjectForCode("opt_excludedvisibility").CurrentStage == 1 and (
 		Tracker:FindObjectForCode("opt_excluded_simon").CurrentStage == 1 or
